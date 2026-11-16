@@ -1,0 +1,9 @@
+<Project>
+  <Target Name="FsAssayScan" AfterTargets="Build">
+    <Exec 
+        Command="dotnet run --project $(MSBuildThisFileDirectory)../FSharpAssay/FsAssay.Runner/FsAssay.Runner.fsproj -- --profile production -s $(MSBuildProjectDirectory)/obj/fsassay-scan.sarif $(MSBuildProjectDirectory)" 
+        WorkingDirectory="$(MSBuildThisFileDirectory)"
+        ContinueOnError="false" />
+    <Message Importance="high" Text="FsAssay: Scan complete. Check output/fsassay-scan.sarif" />
+  </Target>
+</Project>

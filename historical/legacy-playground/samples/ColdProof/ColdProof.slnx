@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ColdProof.App/ColdProof.App.fsproj" />
+  <Project Path="ColdProof.Tests/ColdProof.Tests.fsproj" />
+</Solution>

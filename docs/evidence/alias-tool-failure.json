@@ -1,0 +1,4566 @@
+{
+  "schemaVersion": "fsassay-authority-receipt/1.1.0",
+  "tool": "FsAssay",
+  "toolVersion": "1.0.4",
+  "candidate": {
+    "kind": "commit",
+    "commitSha": "44aff6cea2ac1fd5c5817b9b8d94416ead66789f",
+    "approvedHeadSha": "44aff6cea2ac1fd5c5817b9b8d94416ead66789f",
+    "treeSha": "e590e28e8ee43a7bff9d65853ba0064b0c51e71b",
+    "dirty": false,
+    "syntheticMergeSha": "not-applicable",
+    "packageSha256": "not-applicable",
+    "repositoryRelativeTarget": "FSharpAssay.Playground.slnx"
+  },
+  "policy": {
+    "status": "loaded",
+    "path": "fsassay-policy.lock.json",
+    "sha256": "19fa74393768ff98687239b93a3f1d04cec7cf2379c1131e581cbc7df4b20c36",
+    "snapshot": {
+      "policySchemaVersion": "fsassay-policy/1.1.0",
+      "evidenceSchemaVersion": "fsassay-authority-receipt/1.1.0",
+      "authorityContractVersion": "authority-contract/1.0.0",
+      "shapeContractVersion": "fsharp-shape/1.0.0",
+      "toolVersion": "1.0.4",
+      "evaluationDate": "2026-08-03",
+      "enabledProfiles": [
+        "core"
+      ],
+      "approvedBlockingRules": [],
+      "advisoryRules": [],
+      "experimentalRules": [
+        "FSA-AI01",
+        "FSA-AI12",
+        "FSA-AI13",
+        "FSA-AI14",
+        "FSA-AI15",
+        "FSA-AI16",
+        "FSA-AI17",
+        "FSA-AI18",
+        "FSA-AI19",
+        "FSA-ARCH01",
+        "FSA-ARCH02",
+        "FSA-C01",
+        "FSA-C02",
+        "FSA-C03",
+        "FSA-C05",
+        "FSA-C06",
+        "FSA-C08",
+        "FSA-C09",
+        "FSA-C10",
+        "FSA-P01",
+        "FSA-P02",
+        "FSA-P03",
+        "FSA-P04",
+        "FSA-P05",
+        "FSA-SEC08",
+        "FSA-SEC09",
+        "FSA-SEC11",
+        "FSA-SEC12",
+        "FSA-SEC13",
+        "FSA-TDD01",
+        "FSA-TDD02",
+        "FSA-TDD03",
+        "FSA-TDD04",
+        "FSA2017",
+        "FSA2022"
+      ],
+      "prototypeRules": [
+        "FSA-1301",
+        "FSA-1402",
+        "FSA-AI07",
+        "FSA-AI10",
+        "FSA-AI11",
+        "FSA-C04",
+        "FSA-C07",
+        "FSA-C14",
+        "FSA-C15",
+        "FSA-C16",
+        "FSA-F04",
+        "FSA-F08",
+        "FSA-LINT01",
+        "FSA-LINT02",
+        "FSA-LINT03",
+        "FSA-LINT04",
+        "FSA-LINT05",
+        "FSA-LINT06",
+        "FSA-LINT07",
+        "FSA-LINT08",
+        "FSA-LINT09",
+        "FSA-LINT10",
+        "FSA-LINT11",
+        "FSA-LINT12",
+        "FSA-LINT13",
+        "FSA-LINT14",
+        "FSA-LINT15",
+        "FSA-LINT16",
+        "FSA-LINT17",
+        "FSA-LINT18",
+        "FSA-LINT19",
+        "FSA-LINT20",
+        "FSA-S01",
+        "FSA-S02",
+        "FSA-S03",
+        "FSA-S05"
+      ],
+      "dummyRules": [
+        "FSA-B01",
+        "FSA-C11",
+        "FSA-C12",
+        "FSA-C13",
+        "FSA-E01",
+        "FSA-E02",
+        "FSA-E03",
+        "FSA-E04",
+        "FSA-F01",
+        "FSA-F02",
+        "FSA-F03",
+        "FSA-F05",
+        "FSA-F06",
+        "FSA-F07",
+        "FSA-M01",
+        "FSA-M03",
+        "FSA-M04",
+        "FSA-ML01",
+        "FSA-ML02",
+        "FSA-S04",
+        "FSA-SEC10",
+        "FSA2016"
+      ],
+      "deprecatedRules": [],
+      "removedRules": [],
+      "requiredProjectClasses": [
+        "other",
+        "test"
+      ],
+      "requiredTargetFrameworks": [
+        "net10.0"
+      ],
+      "requiredTests": [
+        {
+          "id": "enterprise-acceptance",
+          "project": "tests/Playground.Acceptance/Playground.Acceptance.fsproj",
+          "minimumPassed": 30
+        }
+      ],
+      "baseline": {
+        "identity": "none",
+        "reviewedBy": "",
+        "reviewedOn": "",
+        "records": []
+      },
+      "exceptions": []
+    },
+    "error": ""
+  },
+  "toolchain": {
+    "sdkVersion": "10.0.301",
+    "runtimeVersion": "10.0.9",
+    "fsharpCompilerServiceVersion": "43.12.201.0"
+  },
+  "outcome": "ToolFailure",
+  "authoritative": false,
+  "reasons": [
+    {
+      "code": "compiler-workspace-incomplete",
+      "detail": "1 file(s) lacked complete compiler/workspace evidence"
+    },
+    {
+      "code": "required-test-failed",
+      "detail": "required test \u0027enterprise-acceptance\u0027 failed (16)"
+    },
+    {
+      "code": "tool-failure",
+      "detail": "1 analyzer evaluation(s) failed"
+    }
+  ],
+  "counts": {
+    "projectsDiscovered": 25,
+    "projectsLoaded": 25,
+    "projectsWorkspaceLoaded": 25,
+    "projectsSupported": 25,
+    "projectsFailed": 0,
+    "projectsSkipped": 0,
+    "projectsUnsupported": 0,
+    "eligibleFiles": 45,
+    "analyzedFiles": 44,
+    "compilerIncompleteFiles": 1
+  },
+  "projects": [
+    {
+      "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/AirlineCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/airline_core.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/arangetram.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/BankingCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/BankingCore.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/GatepassCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/gatepass.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/HospitalCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/hospital_core.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Kutcheri.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/layam.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/migration-demo.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/MockDrill.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/sangam.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Api/FintechWallet.Api.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Domain/FintechWallet.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/TradingCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/trading_core.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/UrbanclubCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/urbanclub.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/WebuyCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/WebuyCore.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/WecarCore.Domain.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/wecar.Tests.fsproj",
+      "projectClass": "test",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    },
+    {
+      "path": "tests/Playground.Acceptance/Playground.Acceptance.fsproj",
+      "projectClass": "other",
+      "targetFrameworks": [
+        "net10.0"
+      ],
+      "supported": true,
+      "loaded": true,
+      "status": "loaded",
+      "reason": ""
+    }
+  ],
+  "sources": [
+    {
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/Library.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/obj/Debug/net10.0/AirlineCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/obj/Debug/net10.0/airline_core.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/obj/Debug/net10.0/arangetram.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/obj/Debug/net10.0/BankingCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Program.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/obj/Debug/net10.0/BankingCore.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/obj/Debug/net10.0/GatepassCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/DomainTests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/obj/Debug/net10.0/gatepass.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/obj/Debug/net10.0/HospitalCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/obj/Debug/net10.0/hospital_core.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/obj/Debug/net10.0/Kutcheri.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/obj/Debug/net10.0/layam.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/obj/Debug/net10.0/migration-demo.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/obj/Debug/net10.0/MockDrill.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/obj/Debug/net10.0/sangam.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Api/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Api/obj/Debug/net10.0/FintechWallet.Api.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Domain/Models.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/src/FintechWallet.Domain/obj/Debug/net10.0/FintechWallet.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/obj/Debug/net10.0/TradingCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/obj/Debug/net10.0/trading_core.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/obj/Debug/net10.0/UrbanclubCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/DomainTests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/obj/Debug/net10.0/urbanclub.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/Library.fs",
+      "disposition": "compiler-incomplete",
+      "reason": "compiler/workspace evidence was unavailable"
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/obj/Debug/net10.0/WebuyCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/PropertyTests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/obj/Debug/net10.0/WebuyCore.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/obj/Debug/net10.0/WecarCore.Domain.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/DomainTests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/Generators.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/Tests.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/obj/Debug/net10.0/wecar.Tests.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "disposition": "analyzed",
+      "reason": ""
+    },
+    {
+      "path": "tests/Playground.Acceptance/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "tests/Playground.Acceptance/obj/Debug/net10.0/MicrosoftTestingPlatformEntryPoint.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "tests/Playground.Acceptance/obj/Debug/net10.0/Playground.Acceptance.AssemblyInfo.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    },
+    {
+      "path": "tests/Playground.Acceptance/obj/Debug/net10.0/SelfRegisteredExtensions.fs",
+      "disposition": "policy-excluded",
+      "reason": "source matched the locked scan configuration"
+    }
+  ],
+  "tests": [
+    {
+      "id": "enterprise-acceptance",
+      "project": "tests/Playground.Acceptance/Playground.Acceptance.fsproj",
+      "status": "failed",
+      "passed": 14,
+      "failed": 16,
+      "skipped": 0
+    }
+  ],
+  "rules": [
+    {
+      "ruleId": "FSA-1301",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-1402",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI01",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI07",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 23
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 27
+    },
+    {
+      "ruleId": "FSA-AI12",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI13",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI14",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI15",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI16",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI17",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI18",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-AI19",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-ARCH01",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-ARCH02",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-B01",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C01",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 1
+    },
+    {
+      "ruleId": "FSA-C02",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C03",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C04",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C05",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 2
+    },
+    {
+      "ruleId": "FSA-C06",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 4
+    },
+    {
+      "ruleId": "FSA-C07",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C08",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C09",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 14
+    },
+    {
+      "ruleId": "FSA-C10",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C11",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C12",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C13",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C14",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C15",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-C16",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-E01",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-E02",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-E03",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-E04",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-F01",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-F02",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-F03",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-F04",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 14
+    },
+    {
+      "ruleId": "FSA-F05",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-F06",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-F07",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-F08",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT01",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT02",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT03",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT04",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT05",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT06",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT07",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT08",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT09",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT10",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT11",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT12",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT13",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT14",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT15",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT16",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT17",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT18",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT19",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-LINT20",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-M01",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-M03",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-M04",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-ML01",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-ML02",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-P01",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-P02",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 1
+    },
+    {
+      "ruleId": "FSA-P03",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-P04",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-P05",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-S01",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-S02",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-S03",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-S04",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-S05",
+      "authorityClass": "prototype",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-SEC08",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-SEC09",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-SEC10",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-SEC11",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-SEC12",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-SEC13",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 163
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 33
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 12
+    },
+    {
+      "ruleId": "FSA-TDD04",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA2016",
+      "authorityClass": "dummy",
+      "status": "unavailable",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA2017",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    },
+    {
+      "ruleId": "FSA2022",
+      "authorityClass": "experimental",
+      "status": "incomplete",
+      "evidenceAvailable": false,
+      "findingCount": 0
+    }
+  ],
+  "findings": [
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 23,
+      "column": 22,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "eca54c96b93c27793c486c9e312d2717e422c78383a7d295e34f25307dfb5884",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 14,
+      "column": 20,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "fe7fd3b398aae6298d277cedeeb8b72584d8eeca1d50ba4b5dd1866fb3e319df",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 16,
+      "column": 27,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "a3dece5b451a2a74e7130ee49a7717a21427448a43ef38e340cf67ab78c82e64",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 18,
+      "column": 24,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "b90d0c3d5873502a5c5d82ffaf76ebb484a454e44a951d2106de629e13b5b115",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 41,
+      "column": 26,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "4808a41a1fd2ee605454e1d400751ce1eac9a966158a372df83d429b941e491d",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 48,
+      "column": 26,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "822ef970e663772258ba7cfb1d4545f80aa1a285baa835ff75a21aa13e9cbffd",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 55,
+      "column": 27,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "e928a85e2118da93f9f4db0d8fc43075e0a2ef3575a820d935e660cf44d1a2fc",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 21,
+      "column": 28,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "94da5891de89b5dd13ecd516d125f3b2c9891f98f07f71568cb4ed4b214084db",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 48,
+      "column": 25,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "c9990d4d652b0aea6ee959956fc77aaa313b08e5bf78a92285aaadfac9643313",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 33,
+      "column": 31,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "88333dc3b98b5ec0ca367c9584f43900cb6975156bced7c83cef51d36044f601",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 92,
+      "column": 14,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "bff095b2361d2c6051eb526b986383f41a2d5fb8eaae3688b57a1b2e83c88e10",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 128,
+      "column": 14,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "0a1460b0769f20c2d5f7782fae0f28c5131061cfa964be19445be36cc33a76a9",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 40,
+      "column": 34,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "96bad363ffc7d9246d70d6bc2ca1dee61ee58baa5c9e6ff73a21f07c2162f9e9",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 40,
+      "column": 37,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "4e2cbf0921a1aa48cfc40a36f31b49be3ac5fa9e45a3efa074d7aa9060bc5bab",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 41,
+      "column": 35,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "ff8e99390b02ff38ced255d1ae22c66fafe25a0ebce43c6ed91b2dab3198e8fc",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 43,
+      "column": 25,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "854f5c6bbf5b5d8d3a3bb3b8b3367d28ad98f91e8c679c46cb0a06729cfa7b17",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 53,
+      "column": 36,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "3a5e3d9af51035576f0f52d919852652d2c23e6d98245e095c5c3ef7b0f1fd4f",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 53,
+      "column": 70,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "6124338a09143ff269b2026113b5e8e419402cdd9b29d986d9ec59202c657656",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 20,
+      "column": 28,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "f31b9d86e35117539ee9ec46c37cbb312bc7c90c53a58eef7b69005810b04080",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 21,
+      "column": 28,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "d0f0c0c9da6561ab11f872ff281aa63f3e39ab83da55abb6473e080ec3040630",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 22,
+      "column": 28,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "03b0725f45498c28960fb2cb68372a38d9155ad9fd74ec6595e3324978c61044",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 36,
+      "column": 28,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "25b875b6a80011a1e3b450c4dafd3416540c8d8fafef9336e1443e1b51dd3ad0",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI10",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 48,
+      "column": 28,
+      "message": "Magic numbers: numeric literals \u003E 1 in non-test code",
+      "fingerprint": "3b47ee5ea30177b144aeebc9126d24dec66dc232718ee54aa740b29601c19bb4",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 66,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "6a2f09646595697ec883da131d8da884cb4eb1d0d0aefb21f0e2bca2cf31f9da",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "6d908220cfa6600c25fe9d5a17d70c9f6858123058cfb9667158d849e9c4a091",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 37,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "77aa121f09428dae5454e0923c4965c1503e448d736d672448a51873cd001318",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 58,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "a9357273e950b5800b52d2d185f8d267dd940a3388d1dd3ec695e841bc6aaaf5",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 5,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "fdbcfe5ce4c18ef58e552b4709c255b843dcc25bcf0274df26d66f1779af2a98",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 16,
+      "column": 5,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "057dd4780402a83708c24515bfb8fed143f00babf052fa743b7f79b496937c17",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 18,
+      "column": 5,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "bd03fcc968b4ad970d90415c8fd84f1f8aed3c9d9d8fa1ebe92d5020df7eb409",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 19,
+      "column": 5,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "7696c3eb8228220c5e4bc6e0bc90cfed577481cf526447a669416293100c7efd",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 79,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "a6853735490470b070f1526cf559e0a9f7dd0d2f07cc0fe9db3b8eb266097681",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 85,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "079a9173fdd041757f2ac60709a55bf8582e1b5c08796a4f0d8afc5a876ebea5",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 118,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "dfa8b3616301e0b2eea7b8fb16b15132cd6e250ad6efe97bd4f8edc7a669b9ca",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 122,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "d9b5dff1d1f0e55b4a5942109bc3c41884db8787e03fcd2e8b245e884928cdba",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/src/FintechWallet.Domain/Models.fs",
+      "symbol": "file-scope",
+      "line": 6,
+      "column": 5,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "b9bfde49ed5a12c17fa56c5553db5677a5c218468c0433068a3bfb05781a13d7",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/src/FintechWallet.Domain/Models.fs",
+      "symbol": "file-scope",
+      "line": 13,
+      "column": 5,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "56e6597880df8e20488b2f0339363fde5d542a458d84e5d65380f88fd5a6ef7c",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 5,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "939718399f456ffef48b1781854666ecac860f3670cd7200cd2c0570c1f0a0ab",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 63,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "233a3ee8d5d9381cab2b1e733b59e4df69aa72320d4134df932d489d55edaafa",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "017d2e1873a62f19f594fe6d4da0d68361654b33c4df9b81bcad780acb4f2426",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 33,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "f90b0a3c73b686556dc5d6bc4d20f188d29119a064532ef68c41e73b8a65d77f",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 51,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "3a7e2e7e9f5fdc9e3f324eaf239a0573e95435e103328c2ea3be1959a599cec6",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 62,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "6a759e928026eb3ad5209bcea9f37137b6e5f93c0697d19cdffd4381146251e4",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 80,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "fb7addc86a273c776a5f05a519ff30cb4859cee000a987fff3a30ed6a51d9d43",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "0a0251adaa8ff527f0beaf45b10049e3ea175f23ddc245b57ec8991c342a62ac",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 26,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "517e4bcd708ac8242cee934b722488e8e467f70d3fa7c897bcafacda92372004",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 39,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "596b3f1ed2665e4c46808317c5e358cf445f1ca8bfa3a4e0bea88e387abfbaec",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 58,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "12dd33c3dec34c001147789575ba0288087cb8bf727df78e2621bf97962e02f8",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 72,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "453c61892515e18b8d8774c60ae54226f595a11f819ebf6433909def8eab23bf",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-AI11",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 79,
+      "column": 9,
+      "message": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum",
+      "fingerprint": "e4ea69d7e8cbd2175cbad65cd4181b864c659c8624f8855a98f2fd032040e9bf",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-C01",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 82,
+      "column": 118,
+      "message": "Unchecked.defaultof\u003C_\u003E in Non-Interop Code",
+      "fingerprint": "0fa55a69f5c0fdd2cf2158e7d545a913b58cc5c57a403dbce5d6ef2c75c39a1a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C05",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 92,
+      "column": 14,
+      "message": "Incomplete Pattern Match on DU",
+      "fingerprint": "834ecdb910012a8c21a604b00e1baa6d0f1546acfdb93e1bb778ae3cb1e0088a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C05",
+      "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 128,
+      "column": 14,
+      "message": "Incomplete Pattern Match on DU",
+      "fingerprint": "4e3d812b6dd8753da0f6a9171410c27e989518fa021e4eec59c560803adbd6e0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C06",
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 49,
+      "column": 84,
+      "message": "failwith / invalidArg / raise in Public API",
+      "fingerprint": "f97cf6ccad45ad4b61d04247a180fc5588072b8415ca4eca80ede9a16b1ad9d3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C06",
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 50,
+      "column": 79,
+      "message": "failwith / invalidArg / raise in Public API",
+      "fingerprint": "9d4b0e242c7676dd991c5aca67eb45d765f2065333931ff685b260c9f7cc3328",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C06",
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 34,
+      "column": 78,
+      "message": "failwith / invalidArg / raise in Public API",
+      "fingerprint": "597738916136ed2ba99953319337f9b7828cb3b3feedb9165965ac523e4a4660",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C06",
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 42,
+      "column": 85,
+      "message": "failwith / invalidArg / raise in Public API",
+      "fingerprint": "602c436c32b81fa6c378f370714fa696753b7071ecb18fee5e3726b8f2316594",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Program.fs",
+      "symbol": "file-scope",
+      "line": 54,
+      "column": 64,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "6349726d83018dea270119888f83b82d78537049b784598dd4cc55f6626edb9e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Program.fs",
+      "symbol": "file-scope",
+      "line": 55,
+      "column": 24,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "00e6bab9136b1806f95b5225844099a81e6a6c8e361e1c1ff18707cadf7e2edd",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 19,
+      "column": 15,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "632ddeee4017559006558f966d2ab61a7a8c38ba551de92203815d9c544833da",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 34,
+      "column": 15,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "f72143d513d64a3af80ce633ac2881c6fc91a631d16bf676ec59f6c48a185164",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 7,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "37fab10b2f6fd7bd52973ad787a73955118a615dfaddba204da421fd92567dc7",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 26,
+      "column": 7,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "ca7f692fe912291f9c38ff9094ea8d199615cee0a1f4b174ff5dfcd797347042",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 18,
+      "column": 15,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "203770d5955ed9a3618501d806c891229b0bcce108402bc0326960ca8706bd49",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 30,
+      "column": 15,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "c2359c34b75a401636717afbd858a221fad05fdd22993ad516259e4afa1154c2",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 25,
+      "column": 7,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "06149ae72f6e6b3355f3bcfde8fd601a92a25beba9def851d4a05e6f293cc7bc",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 20,
+      "column": 15,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "94b997044ae71f6e5743ab8259385d0508a697e7ead88e3719ecd5bf125e49a8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 34,
+      "column": 15,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "98745af10bf68b8eb307729f68c6388e0867807f6739d3a2aaef2984d56d6951",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+      "symbol": "file-scope",
+      "line": 47,
+      "column": 15,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "45fe573257b115f9a21138feaae92af84104d192d6d3cb82323d18125b7c9b18",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 17,
+      "column": 7,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "a365a104727e88d0972bfa7d19eeedadb7c717a01221615eb7687eb0b6e35b0c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-C09",
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/DomainTests.fs",
+      "symbol": "file-scope",
+      "line": 31,
+      "column": 7,
+      "message": "Null Checking (isNull / = null) Instead of Option",
+      "fingerprint": "9c8b09e1487020ec836dd9abc77b36e93e1a1979fe615339c3b1c1478528f3c6",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 53,
+      "column": 16,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "9c0b694b0a5a4cd46751725cb15d412be612098ac3d0b498224ee23ec3a07897",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 54,
+      "column": 16,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "36947b58c9347500392d0bd48a301e6b03cb166751bc77c9ae6e867b24488a56",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 74,
+      "column": 20,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "cfc91dac92bade6866e078ae0d23a6b93cf8eab38c45b82a5b7c04d89b46c246",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 81,
+      "column": 20,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "0653cf46bdf8d57452f2adaa9ffe4a710c9dc04bafff351f6c48d46e79ce06d2",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 96,
+      "column": 24,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "0c933b65f0a4614677e1175572ee965640dc70a7aa098e32d78c412f55a9d5c3",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 101,
+      "column": 24,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "f94ff7d75ab76e22b7f683b75cb494a43c99d7a19000056005165a31e8fa24ea",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 124,
+      "column": 8,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "4757d2da17cf784665eb832cd04e045e88ee42ca9909741fa91050886ea3ef0f",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+      "symbol": "file-scope",
+      "line": 129,
+      "column": 8,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "dcabc68339b9b27b812f0e127ea713f72f7f62235d7ad0e1a271ca359280312f",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "symbol": "file-scope",
+      "line": 66,
+      "column": 8,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "4f71fa07406979f655726177f110f5defca630b2bace6e4bc11a42c77301bd33",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "symbol": "file-scope",
+      "line": 67,
+      "column": 8,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "a90174b3766bbdf9c8eba1b3428242851dd086b33f20b00c4c90c3c597454324",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 40,
+      "column": 12,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "1b5359998c18894b2c7a6f38956c73d62654198767d4d9cd184931955a990c7c",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 58,
+      "column": 8,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "6eb1f61a0a2d5c133c47678e620327b11032cad6be7425b4a706647f680c2768",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 59,
+      "column": 8,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "24177a12168e1ccddfaabb53a8ab5b34d528be163ad3328d4d6812ae45e1bd38",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-F04",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 60,
+      "column": 8,
+      "message": "No Implicit Unit Sequences in Core",
+      "fingerprint": "05bd89534ef8fc63b73990a08093c13f578f1d6bb241cf45723fe355a7dd0d89",
+      "authorityClass": "prototype"
+    },
+    {
+      "ruleId": "FSA-P02",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 74,
+      "message": "Avoid boxing (box or upcasts to obj) in performance-critical code.",
+      "fingerprint": "ef3cde70cdd79fa20c278616bd75ae358dbb4f5683a11bd6b2f30384cf1fa275",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 5,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "95516b00d872a1edd6830f749d17fb66aa9f5de5dd2bbbd8cc70370cc0de30be",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 6,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e73d256628e5dfa592fd2d2bd7a9ea8bfbb42ee7eb786d2570e880cafa23ddb4",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 6,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "b263a3eeaa71d0d798c5bac25c785f7f30d60de37107b8a90d155855270d7c06",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 8,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "42bb98c4260b9f3720f5170acbe981ce06e0ea2de110807fb609c0a70e215a04",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 8,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "42bb98c4260b9f3720f5170acbe981ce06e0ea2de110807fb609c0a70e215a04",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 8,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "de8f6cfd569f2a3bc0642e497ea3ac03009e4a614f5d0bd6cbf187790a5736cb",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 8,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "de8f6cfd569f2a3bc0642e497ea3ac03009e4a614f5d0bd6cbf187790a5736cb",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 8,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "de8f6cfd569f2a3bc0642e497ea3ac03009e4a614f5d0bd6cbf187790a5736cb",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 8,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "8a0d7bb198cf6e87c6704a00949a4081889ef25ffaa69d56f65eedaa2da3963e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 9,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "b1bda333d704eee57e090452ad661a535a12166496f90ca2cf6b29e56c6d65ff",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 9,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "b1bda333d704eee57e090452ad661a535a12166496f90ca2cf6b29e56c6d65ff",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 9,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "b1bda333d704eee57e090452ad661a535a12166496f90ca2cf6b29e56c6d65ff",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "7228e204d49889e28f5912d5d00a10d40298515621560aa1028623e8248e78e5",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "7228e204d49889e28f5912d5d00a10d40298515621560aa1028623e8248e78e5",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "542bfcf8c49d34e50ec4f1638bc728bb6dee12df9d85b3c9d75a090ad0233d97",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "542bfcf8c49d34e50ec4f1638bc728bb6dee12df9d85b3c9d75a090ad0233d97",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 10,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "542bfcf8c49d34e50ec4f1638bc728bb6dee12df9d85b3c9d75a090ad0233d97",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 11,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "377a66b28c84e605d8f4ce6efb7d51442c5841323a078785dbd0ff4f9f555c41",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 11,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "377a66b28c84e605d8f4ce6efb7d51442c5841323a078785dbd0ff4f9f555c41",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 12,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "850553f81f6b637bb1976d48621ee719cd73e7ada0109e3570180eb408d18c58",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 12,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "efb4ddb30797502ed610bc83c71581bcbe43ef1d5b598e0a9b75055c940d8533",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 13,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d6f91d6bba40fd74f16fd2ba1b5d0de75f2289f25f922faa61b346a88b9f1da6",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 13,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d6f91d6bba40fd74f16fd2ba1b5d0de75f2289f25f922faa61b346a88b9f1da6",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 13,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d6f91d6bba40fd74f16fd2ba1b5d0de75f2289f25f922faa61b346a88b9f1da6",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 14,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "4f8a8d0594ca8c397eb62eeb196a46e7a9d048d685e74e304b79bf06b529d712",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 14,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "6110c1106babc1a84e51a83eafc2a2974b088d1f6308ff94cc0e2b1fbc7a353c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "5aecf0fcedce1fa141a4444aa901f2fa97769231040b57a738ae265beeb5dcce",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "5aecf0fcedce1fa141a4444aa901f2fa97769231040b57a738ae265beeb5dcce",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f10855d41a7e6c358568bb925aff26fb9db56fd31c68e41b6102786deb617213",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f10855d41a7e6c358568bb925aff26fb9db56fd31c68e41b6102786deb617213",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 15,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "58e1606051d3bb265110c04fd37d70ceb1fd93bbd186f5d12f14bd65f062ee19",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 16,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "4c3774ecfc108ca00c9843f286a3aa128cbb6533b735734016a624953449f40b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 16,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "170da45bb05007ac5dbfa006648fa763340cf3104d4f2498c4d877b2b361b527",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 16,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "170da45bb05007ac5dbfa006648fa763340cf3104d4f2498c4d877b2b361b527",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 17,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "483ee6b6e3bcded9b633812e64fae197c915af335d643738fda36bc6d7811ea3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 18,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "333500f48b3dd5f18bb8e771d80daf7b6c281d66939401f829ee6263a013ab00",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 18,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "333500f48b3dd5f18bb8e771d80daf7b6c281d66939401f829ee6263a013ab00",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 19,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "89e93a47de4c48d9f4a3d49c50bcaef383aa5f4ffb1e22b31e683f63c8bf7440",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 20,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f48fb9670a94f709e6bce230f37b33e7abc28ec713746d31dcea749a26529105",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 21,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "aee9dd06cddb80ffb0acaceaae5b9951adf917d52c89fbc134a189c2ad6ed841",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 22,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "728681703e0012eaba00756bc35090bdbb47eaa429d617914e3028745fd6e59d",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 22,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "5485cf8e7de83fd22c76610de0464c0585f6a60f3d134d930f2862b6bf540b8e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 23,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e6194d43619b957aa92be8c1c9d7b97f5bd8566b0470f63896e82abc450edaa9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 23,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9a86ba827e62cd770c489b42d315990462bdfa97e7c46fddb0c7fbcfa1d66667",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 24,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a849f0c34f7d1aa1eaf14677949a4c66e97ff164fd24d4940645519566628783",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 25,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "88f60df19d6d5c1510934eeeb81699e4a02525a25273245d7958345efade5473",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 25,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9d0a88631f3095bc2efcb6ab487efbe47e6c31f68c933f0a1293de2c425a180b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 26,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d077ecc3ba57b8e09cfe80f0d25ac671308aec95cccf930344f23778e5496237",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 26,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "0b882bad602a7c1b94388326f1d6156adf0a6c7473dd912dc5928ef6386cb81b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 26,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "0b882bad602a7c1b94388326f1d6156adf0a6c7473dd912dc5928ef6386cb81b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 27,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d1154d895c08796442ad74ac5139e27b5f11356404ab7017c9eae14d26a037f7",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 28,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "ad2f2ab2dd73dca50fab064b0896a2b8705c7dc1b6aa1ef8d6af2c425211cded",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 29,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "5ac7011eecaa3791ac266a286c467ec63873c83fab33183e6d6b8ca2d01c2146",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 30,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "05827e2b5ee3a821e96785d3022ef946ca711a09fcc48754e8772b302cceaae0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 30,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "05827e2b5ee3a821e96785d3022ef946ca711a09fcc48754e8772b302cceaae0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 30,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "071f42b7f58c0edd989eeed783c94f374e243d16b73167af410bc38ece024c9b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 31,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a8155c06a870974d74aa620778899f2efa36e5f474cb58864386619f353d5410",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 31,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "5e717e74e8797b8bd157e9f6ff5ddc9dcafd456d3d48cb7e83c340d3eefa4c59",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 31,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9340a1e6206669a4159d5a89ab37962504e8ba505d9fc4b4318b5b2941e1e318",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 32,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "806cf6edbc2a9954944d03b750dc907d35bc1cb0328a3f5752e8887481b16834",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 32,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d6964a538c779f5a624cf089e069fef6c158b79eafc92966cafed5116ebc4de9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 33,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "7f07839bb08cc3fa79b3f9347d70b333521bbe76c3f5e6c1d40775b290b60272",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 35,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "0aa2ec81836b08c3a330226c18768b3cc6eb1d553c0d44a6da021d5b6dadde0c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 37,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "cce62054680fa506440a7407adb5a201132ef4cad165d908ed1f907e1ba7e99b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 37,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "4240d44ec09128db2df3218ca6e5a9cd70fe0e294f07a8b61f51218fd05326c7",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 37,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "4240d44ec09128db2df3218ca6e5a9cd70fe0e294f07a8b61f51218fd05326c7",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 38,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "512588dff3bd2fe5100ca62aad00fd465027c6e9ac059113701d88c6fca68fbc",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 38,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "32c2fcdbaa638d52a3073eeb36c4f90ac9750b533dbd0e08be652a61ecabded5",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 38,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9a27946bf9ab78c91ecc69567906e0e438012fb44817d3b69806ab4d3a7b30b3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 39,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a48594ad6fa592c80eb4604f8a68c9c4f9047a6225d8f109bd319233bab9a74a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 39,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "4e3a98066ddbc35e685e2fd4f83509bf537665ad5982d8c945f1e9d6f5f8aa35",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 39,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "75ddc0da84dbd30c30c333be075dd3d83fbcc6ecdf1cd53cd873d2e1ba0a1eb0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 40,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "1f8e8dede0d8a391f9ba4ab54eb398a005ed274a8ce35e2f9f85ef0f947c7335",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 42,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "6db26a5ca2469ce84e29a6bb7cb39d527701b4f4e610a95afda7c2f522e10e17",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 43,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f57ccd09016fed0b621aa30985e3fb316c7d71b3a380140f159dcc5a225cc47e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 43,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "78bc60d9171a4325eb38897087f1e7100835a8a5ca121dd03ebd5f9943c703a4",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 44,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "c35514e9646de0f00516c3f595e250dd64fcb8f39745ef33b9409a38c4dd37ca",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 44,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9e7a2775075022dcda1a712b81f557d241a3f357005638cb46ad038ca0a5c153",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 45,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "1a2a4d5cd67df823dedac6ffe50db381576bffdd65a1e19f2080f004dc7d9d52",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 46,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a00d7b11c3f8cdd42fadedb661f67d71bd0a4233627e6a2e1e5ae5fb71562550",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 46,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "c88625c37ab0e419c14af7ab62d51ab882e53eb294277b6bdd1c497858cda170",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 46,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "56472b2326b633bbe034bf30b1ff490f6775eb03ae202fb4b7b35afb20db26a0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 47,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "3186b6a4f0856edffed6468e2f2b5b00f07f4b3d331ac114d513602ecc65d268",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 48,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f88243b830de06cb6af3ee3fb38b5d2b4011e9826233a1c24c72fe7f88193a23",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 48,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "fed260c6ef1bfd3adb47cc7661764d954c2da7f02b2c0c5b270e98f309f8c24a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 49,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f33ccc64ec0bb7041651dfeaa76cc6a1a864c7053e63ba89b0e3f4a0adca1e7b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 51,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "69351bce3654db210b5826d3bb345de5734bddc392484c2bf00d49d1ed7128a9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 51,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "69351bce3654db210b5826d3bb345de5734bddc392484c2bf00d49d1ed7128a9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 51,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9a1fccba24d43a7efb74f597cbf91ecd1931e428c104989d93f035c8335111b4",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 52,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9bc44a88befb6782c98984517534fb0f131ed1761a34462243c5a4f77e5928ba",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 53,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "1c4452298c076cd59ab8bd43745a196476b70ad9efe6caa942566400ebf2260a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 54,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f18bd401eda4152f5cf3532168f13fca8d591f5bca8e1d0b856431d521f83748",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 54,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "00ecbb59eedab58b1ad775fc43416561ffbc183173055b0703197704e8de9f4e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 54,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "00ecbb59eedab58b1ad775fc43416561ffbc183173055b0703197704e8de9f4e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 55,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a202e55d2ca18541bab7a7d8e1acb170c7043c598667db4c6f60572c990a3393",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 55,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a202e55d2ca18541bab7a7d8e1acb170c7043c598667db4c6f60572c990a3393",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 55,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a202e55d2ca18541bab7a7d8e1acb170c7043c598667db4c6f60572c990a3393",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 56,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "facc93308101e24e9b33da19e8ec7d9a1edd6922b5b4be65f5fb55c75cf8d3b0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 56,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "facc93308101e24e9b33da19e8ec7d9a1edd6922b5b4be65f5fb55c75cf8d3b0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 57,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d178093755602a8b3f3e90cd3c8574abab073a68483c753fbbcef56cf60289c3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 58,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "2cfb8b7a67c9721170e8ae66a270ea0d5b2faf439a5ccfd933d890ab7f98c88c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 58,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "2cfb8b7a67c9721170e8ae66a270ea0d5b2faf439a5ccfd933d890ab7f98c88c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 59,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "fb3ff25cc1caf44b335c4660ec544657766d09f3b64aa313e6eac8fccbd1848b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 59,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "609e925e9e50a6db0d84a668af0fc255fa38c845415f0f8eaa57bb939e4d0294",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 60,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d4622e0343dbda404dbe571fc304fc8a9575b803112b0f7675ad1d7876c30f41",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 60,
+      "column": 11,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "dd961ae0d4326732044487d152731417ea0e7f185996e5cf31855a079e7fed11",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 62,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e7c0720c145411473ffe10c412d2ab4df573d8889d3f979006f32dfa8fb76aa8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 62,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e7526ce961531797d2bb218406fdf8dc4c1efeb440e7bb2f3c5ff1d37bb1db12",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 63,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "c875cb569338cb2e6928095f003cda5fadf7a86cb5164ddd505006ffcb988d35",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 63,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "c875cb569338cb2e6928095f003cda5fadf7a86cb5164ddd505006ffcb988d35",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 64,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "3196290dbbaf0bd7b5972bf1bca9d3d3f1fb61c2077f11dbe61d3c104f4ac3f0",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 64,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "8b1f6fa62fd8e2fb1ef48daea0ebb785bb7be7c9d014e56d28a3afe746692e1b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 66,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e53113a082c67f2c1054b019a55dd3049966890b223164f668ba28e6bf7ef94d",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 66,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e53113a082c67f2c1054b019a55dd3049966890b223164f668ba28e6bf7ef94d",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 69,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "597df508360075818a6fc16d3e7f26e1c64fcc5c2d84867c0ead1e4de4f96440",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 69,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e0673720a4104e324774fb615601b67e1eb43f99ff70400d44d91475a22b1294",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 70,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "079cd1db78300ceb3be3c22023ace97d05a02b6ad44b9f4e13ac5b7b2cca257d",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 71,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "3a0b60dfb3e07a815ff204f23b8d887e6d1f9abde8b5dd439ddd621d525da6fc",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 72,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "33bd76a32c4e03136d86c498c15a6f7cb34f2d53d1714a907324f17cd6b86f8a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 72,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "329bfc4bb24968e02520476b897aa9942cdd2ae65b0932b3d7ec5f8e59f45bb4",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 73,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "b606ee54490657d39168b5a622b860ff028f3dd9d610941ad437d52b3f606c22",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 74,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e482f49889f2b5696e103f32e5a531c7228948ff8008ef3450849dba5004080d",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 75,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "41926497dca0a0408aee510fd2f6705bbc0fc84b5e2dd71bd2cd6085848619c2",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 76,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "076628873ce60367296ca98f3c4c266bcbd43121b38f6ca8cee85ad5d96dd5e7",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 76,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "93cdc3b4eaf765417d5e9e906f63be8f69177b9d0154b2fe96ed3731527839cf",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 77,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "2e49c5c05ba525bbfdca2138162d145b3e8e18b99c36f8fd1ba88523f053626a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 78,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "25ac033a64f58b3fd8abcc78e9067fc0249a5de2de4d765b183a5d9657c68118",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 78,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "ec02876058ea238d0a9705425418606607ee9c6ac9fe72bb3b0863d44caab873",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 79,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "8f4cf2c88a53766b6911f474ae9681563863c1b0486d17fb4354ab0617696894",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 79,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "04c8f6c5784803f95a6a30770acbb9fd5d23515acdddd3a9c06dbf22168379be",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 79,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "04c8f6c5784803f95a6a30770acbb9fd5d23515acdddd3a9c06dbf22168379be",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 79,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "10ed22cd9501a0dfd9f755565a98a43f713d2d1eba882b9e3e29a9e8cd0f9b5e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 80,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "5d4d8b4670cfee03876d0083c6f1b26f032d97b6a7f27568184bd89ab4d5735a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 80,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "6824a16f8de14e8943bafbc874af342843f236ea6ad6b0fa06cfc8c354178a5a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 81,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e45b0df4669ceac7bb56c8f44a4b5fb98e34d809844ebcdc24c57f81e6df78eb",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 82,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "835e42dfac92e784708f273870c0e384317ce7e550c35fcfb96be17392a68f4c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 83,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "cb4011a6c85c47d90c19e43609434f5aa4399fcac0e62dcf03db78c5f3dd97d4",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 84,
+      "column": 32,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "feabc3bffc1ad5911f672e89b6bbf7a85e5db741832184643b9a45883df8dfb9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 85,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "7e213b6ee99b4f406af9e9382045de106b0d189769e7c1972965a25f0cafd3b6",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 85,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "a55a6f2ac7c6dc960beeecb0f385b06dd2082b30e87bcd448d21add6c3b02867",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 89,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f419028e85b401d1cb004ce7cbb376ec0680e155101e06751acce31e2260a078",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 90,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "4a9fb6a82bb4bacc52d1a570a84efc126d7f6ab46abc52d88a870067ea7f2653",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 91,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "4c59064fedb3c0c23d85ba0007f41a41ed84d9fb372a28b061a2d7d4f696da6c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 92,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9d321d2dcc1a50d90fb5f06235c631faf62cc8ece16ab8154aa6420e7a1fcc27",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 93,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "1aa782a166786f3ad315159b7551f13544968ca32f9015aefac432804eb9e841",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 93,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "ce7f445ed29089488124aa733adb7455eb2c589916271284cfb3a0a25149a946",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 94,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "634eb61e13a65e3f7bbec482de4ecbb55de29ce5a128075f933376bfe1699d76",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 95,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d690446b8c0c0dda53d91d1d13c1e2a5a91fae6f08177d48b61b02147041fd28",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 96,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "0a47924665c0d11078408c63f8342d7b63c0e3a446e5655412ec5022560eaca3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 98,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "0f53b269a95016dedbc6fccfcfb7d43db864794c01a629ac94d33bb033c79078",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 106,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "b7c8eaa964bb350255341fa379376d50b22c546b2b87e7a57c4295d3a0a3d75b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 115,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "f7352e223a0d6c9d3d88a4206a8e7da9829a6d115772d785417fea940a101246",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 117,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "e97bb3bbf22d7d10d6bf2ac827be53c075ab227c44484e21c83d373bf188838a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 118,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "9f1deb3c473b0e44d2ea2a1aba24186717bd4bd5990f8b91dbcf39a7ee843485",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 122,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "dfd8e7fffde12c5c46398c9d3e350a9a487b947b244474d4027f808ebb8307a8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 122,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "2b3f74e8fb64b3bf3dd4194360e21faeabeb634e3b9f6e138c13a4df276063d9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 129,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "c1a48af15dc8308c38b9c93ee223d3814113685b8eb3bb2755d3bed7f328c164",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 141,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "b203db74bb517e9d875879c5de045fd4c081e2b3191689de5ea1eb48a31ca893",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 151,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "d8fffe5dbebb90668247fbabf69e8a1258a151bc56fe0dc4594f95b43757d1c8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 160,
+      "column": 5,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "73b3e31c73dd1790fb9a1a04e5355a35be6304895074adcff83bab1deed8eeb9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 173,
+      "column": 7,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "c2d7f256759952fcb43b9008ce40075b71d2c040de54c6a737b69fa65923e9e5",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 175,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "ed42f644e49a2e4232b3582f03cbc547d00098f54abb3f2053426bb98cf41237",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD01",
+      "path": "Architecture",
+      "symbol": "file-scope",
+      "line": 180,
+      "column": 9,
+      "message": "Domain file is missing a corresponding Test file.",
+      "fingerprint": "acd60abbe07cd01a49c7f7e6ee245b4f6f64a3a186f218cee414cfd89261225a",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "external/Microsoft.NET.Test.Sdk.Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a61c96bf0bf3702ed114caa8a438ceb9e03e760eb11cc08e851e30812a8c15f8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "9ebba89c2f392dc58ec2d9da08844d24ce5f16e6134299387cf8d117af3c0707",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "371eed882dae7ab823fbde449535ca1441cf46ebb645f068bb30de0f93f6a6f6",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "5d687a0f803943d51cd9cf819fa77cfdf2e1380c9c090ceb087621dcacdc596c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "f4e16f8986c739840f1eecb22a8f1c5ef6f960eb483a5d885130e706ff4d0cd3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "d28d1adc346c8e8d8cbc78a1e7d4d1902070a9058344f07c491b834e2472ca74",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "d34f3cc0c19073edc084a765288ae9df50d20cbfd0c945a3684be33fb2eb6e3c",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "0f5ea2dbd350aea6762b38aa9066c23e53e8cc193dac0a28d9ca50a2878e2005",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a542f7c0b915815661cc999a13c7cb2dfe8c5688d0e87d5ef836801f3a7c3d3e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "1a0db4faa2c46b49496a522201b5f0a10b61aa68a0f003ec7e80394ea66a7059",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "11d579340c82c9aad6c4edc15eb30ed2f85b9347e61f175c239abd445de860f7",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "180560510a2d952931424e106097d75eb1fb8a6f5fe51bfe56f82a691d3818a7",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "f141763c3b8e3cf2c6a3d4ba963c81bdad13354e82f4385615251f2265d24258",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "4aa8887937e689d9d7d10e5abb641d4cca300f56934565cd6060c9cd1cd8a7bd",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "a2b6e35c4e3eb38c37e633cf21dd01e5c36a02be831ff10d9de784a4f929d7b3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "5e230cc43912c1fede2839719acf552735f45d4ec8886ba3d19a8fe60031bd44",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "5464d7a47936d27bbcd3aade2e4d3dc3574e27af2625b627e05f9d71338055a3",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "57293080d4c564ad3a064ca4d37eac90ce4faa138bf2332170b33b32eaf484dc",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/Generators.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "49e69867c31b38b27f43d0be533bc1e5c83d3e455c4c128bda0a1a7e1313dccb",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "885b033a647f7cf93a5e258b9ef13b2331a9e905ea58e3f35d356824e964bf4f",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD02",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 1,
+      "column": 0,
+      "message": "Test file is missing Property-Based tests ([\u003CProperty\u003E]).",
+      "fingerprint": "350a0034eb4820c03fd3c1db70985d55d48d93c875882875776c97dd0c5097c8",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "symbol": "file-scope",
+      "line": 13,
+      "column": 8,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "a25714f626b3334c225cab67e4477d5c892f00e6e54e2e27d4094d3174b69744",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "symbol": "file-scope",
+      "line": 53,
+      "column": 8,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "034c93bc1f8dc3fb1a7b2a83606a6ec297598f77cfabcce40ec82aaf3953f90b",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "symbol": "file-scope",
+      "line": 73,
+      "column": 8,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "f35be5f7196eaf426eefc7147b0618b33a358754858c1ad297e9b4d754b866e6",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+      "symbol": "file-scope",
+      "line": 111,
+      "column": 8,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "1f2f35e42da3d74d5cebd0c7fb2fdbc78fe082cf58666def72009c28152ea127",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 8,
+      "column": 10,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "953c2fe0608fdca5d54ae2845179c4ba4580bd360ff18fdd75787824ca1fd523",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 14,
+      "column": 10,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "6a98cee9dbe9527cfa7090da80584069aa338390989fb45a7b8898aa6ce24e7e",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 20,
+      "column": 10,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "e18b5bdcbf6c2dfbaf07eb4a98943eb4f56c36e3e11ccee6b96da736dac418a9",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 26,
+      "column": 10,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "632b2075d5fc931cbc6ff42343f8cb895ea3419d392a78fbbaf77a2d7577f991",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 32,
+      "column": 10,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "443729a55e30350304e130a06fe7856f33648b98578f35dd2d73abe10125f199",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 38,
+      "column": 10,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "4cecb108f72ea3a96edb9c76b05c3a894668651a133febc51b94e07607dbf0ad",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+      "symbol": "file-scope",
+      "line": 44,
+      "column": 10,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "ed7b90360e6dc40f1d95a3dc9379aee41e72aa4927de9682bce9f76d089cb192",
+      "authorityClass": "experimental"
+    },
+    {
+      "ruleId": "FSA-TDD03",
+      "path": "tests/Playground.Acceptance/Program.fs",
+      "symbol": "file-scope",
+      "line": 37,
+      "column": 12,
+      "message": "Test contains multiple assertions. Keep it to a single logical assertion.",
+      "fingerprint": "092dcbd31d5fd4549580c6181be10a6a498af7a9150a828f5a150f1f5cd6f94c",
+      "authorityClass": "experimental"
+    }
+  ],
+  "appliedBaselineRecords": [],
+  "appliedSuppressions": [],
+  "policyErrors": [],
+  "evidenceErrors": [],
+  "missingEvidence": [],
+  "toolFailures": [
+    "1 analyzer evaluation(s) failed"
+  ]
+}

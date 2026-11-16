@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "parameters": "--vulnerable --include-transitive",
+  "sources": [
+    "https://api.nuget.org/v3/index.json"
+  ],
+  "projects": [
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/AirlineCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/airline-core/tests/airline_core.Tests/airline_core.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/arangetram.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/BankingCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/banking-core/tests/BankingCore.Tests/BankingCore.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/GatepassCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/gatepass-core/tests/gatepass.Tests/gatepass.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/HospitalCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/hospital-core/tests/hospital_core.Tests/hospital_core.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Kutcheri.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/layam-academy/layam/tests/layam.Tests/layam.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/migration-demo/tests/migration-demo.Tests/migration-demo.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/mock-drill/tests/MockDrill.Tests/MockDrill.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/sangam.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/src/FintechWallet.Api/FintechWallet.Api.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/src/FintechWallet.Domain/FintechWallet.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/TradingCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/trading-core/tests/trading_core.Tests/trading_core.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/UrbanclubCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/urbanclub.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/WebuyCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/WebuyCore.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/WecarCore.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/wecar-core/tests/wecar.Tests/wecar.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/20-functional-patterns/Patterns.Domain/Patterns.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/20-functional-patterns/Patterns.Shell/Patterns.Shell.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/40-wallet/Wallet.Adapter/Wallet.Adapter.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/40-wallet/Wallet.Api/Wallet.Api.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/40-wallet/Wallet.Domain/Wallet.Domain.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Patterns.Tests/Patterns.Tests.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Playground.Acceptance.fsproj"
+    },
+    {
+      "path": "/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Wallet.Tests/Wallet.Tests.fsproj"
+    }
+  ]
+}

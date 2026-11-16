@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="18069af5-8fd1-405a-a065-f7145e686fb7" name="@arun-iball 2026-11-16 11:01:52.8925340" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-16T11:01:52.6421098Z" queuing="2026-11-16T11:01:52.6421098Z" start="2026-11-16T11:01:52.6421098Z" finish="2026-11-16T11:01:52.8967383Z" />
+  <TestSettings name="default" id="497a16f6-9889-468c-b12e-d584c14cf16f">
+    <Deployment runDeploymentRoot="_arun-iball_2026-11-16_11_01_52.8925340" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="793a945e-8d6f-4822-8f46-3909c329708f" testId="92a0fcd0-e169-ca9b-71bb-d610b9f221ac" testName="Imported enterprise acceptance.coordinates reject nonfinite -infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840857+00:00" endTime="2026-11-16T11:01:52.8127787+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="793a945e-8d6f-4822-8f46-3909c329708f" />
+    <UnitTestResult executionId="cd986387-43b9-4145-a813-1dd01330f55f" testId="6eb7bcb7-d023-70c8-2578-1aa9dd0893c8" testName="Imported enterprise acceptance.discount rejects nonfinite infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840816+00:00" endTime="2026-11-16T11:01:52.8128031+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="cd986387-43b9-4145-a813-1dd01330f55f" />
+    <UnitTestResult executionId="2355f9e2-2d2e-459a-a74b-c75ebdfc9d4c" testId="8a273ab8-b972-4019-419f-a836ec0620c3" testName="Imported enterprise acceptance.radius rejects nonfinite -infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840951+00:00" endTime="2026-11-16T11:01:52.8128105+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="2355f9e2-2d2e-459a-a74b-c75ebdfc9d4c" />
+    <UnitTestResult executionId="2e7118ff-839b-475b-8c48-22364a7cb512" testId="9f4e9d67-37ec-bbee-5891-a4105164f08b" testName="Imported enterprise acceptance.distance rejects nonfinite -infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840885+00:00" endTime="2026-11-16T11:01:52.8128059+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="2e7118ff-839b-475b-8c48-22364a7cb512" />
+    <UnitTestResult executionId="1c300714-c16e-4971-83d6-a6661821512f" testId="13193660-2d97-4c8e-004f-38caa014cfb6" testName="Imported enterprise acceptance.distance rejects nonfinite infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840780+00:00" endTime="2026-11-16T11:01:52.8127721+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="1c300714-c16e-4971-83d6-a6661821512f" />
+    <UnitTestResult executionId="c7add01e-056a-4331-8011-ff7ace43f672" testId="bb60b28e-6a94-d2d8-233b-3e229ca06628" testName="Imported enterprise acceptance.discount rejects nonfinite -infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840916+00:00" endTime="2026-11-16T11:01:52.8127868+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="c7add01e-056a-4331-8011-ff7ace43f672" />
+    <UnitTestResult executionId="1d1dac2b-faf4-4c88-8715-5872496924bf" testId="ffeab866-ce7d-9812-4284-bc4bdfa97ac5" testName="Imported enterprise acceptance.coordinates reject nonfinite infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840740+00:00" endTime="2026-11-16T11:01:52.8127925+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="1d1dac2b-faf4-4c88-8715-5872496924bf" />
+    <UnitTestResult executionId="ce9fe84f-1e70-4358-8462-8773488f2cf6" testId="d50c24bb-bb95-3650-c6c0-f6af5a17020d" testName="Imported enterprise acceptance.radius rejects nonfinite infinity" computerName="arun-iball" duration="00:00:00.0030000" startTime="2026-11-16T11:01:52.7840359+00:00" endTime="2026-11-16T11:01:52.8127680+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="ce9fe84f-1e70-4358-8462-8773488f2cf6" />
+    <UnitTestResult executionId="19ce8bdb-89b2-49dd-a033-3ddda2bff2df" testId="9c1a124e-bed3-b0fa-70ab-88869030358f" testName="Imported enterprise acceptance.near partner can deliver" computerName="arun-iball" duration="00:00:00.0010000" startTime="2026-11-16T11:01:52.8088726+00:00" endTime="2026-11-16T11:01:52.8168399+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="19ce8bdb-89b2-49dd-a033-3ddda2bff2df" />
+    <UnitTestResult executionId="e516f301-0532-4b07-8691-8a330130c275" testId="204cdf3b-9ede-abff-3e18-d20b9545cc47" testName="Imported enterprise acceptance.discount rejects nonfinite nan" computerName="arun-iball" duration="00:00:00.0150000" startTime="2026-11-16T11:01:52.7840669+00:00" endTime="2026-11-16T11:01:52.8214320+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="e516f301-0532-4b07-8691-8a330130c275">
+      <Output>
+        <ErrorInfo>
+          <Message>
+discount must be finite. Expected Error, was Ok(DiscountPct nan).
+   at Playground.Acceptance.Program.tests@43-2.Invoke(Unit _arg3) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 43
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a3372a8-0d18-4233-9cc4-88237691c203" testId="b5b8c063-69bd-3f68-ac15-741b030b14a6" testName="Imported enterprise acceptance.coordinates reject nonfinite nan" computerName="arun-iball" duration="00:00:00.0170000" startTime="2026-11-16T11:01:52.7840303+00:00" endTime="2026-11-16T11:01:52.8214443+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="7a3372a8-0d18-4233-9cc4-88237691c203">
+      <Output>
+        <ErrorInfo>
+          <Message>
+latitude must be finite. Expected Error, was Ok(GeoCoord (nan, 0.0)).
+   at Playground.Acceptance.Program.tests@39.Invoke(Unit _arg1) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 40
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd730816-3059-4d7a-a8c4-55977ab4e799" testId="d84f5f59-d7e2-c4a4-4926-04df22a22317" testName="Imported enterprise acceptance.same location has zero distance" computerName="arun-iball" duration="00:00:00.0110000" startTime="2026-11-16T11:01:52.7840976+00:00" endTime="2026-11-16T11:01:52.8214090+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="cd730816-3059-4d7a-a8c4-55977ab4e799">
+      <Output>
+        <ErrorInfo>
+          <Message>
+same point. Expected difference to be less than 5.1000000000000001729e-09 for accuracy {absolute=1.0000000000000000364e-10; relative=9.9999999999999995475e-08}, but was 0.050000000000000002776. actual=0.050000000000000002776 expected=0
+   at Playground.Acceptance.Program.tests@45-4.Invoke(Unit _arg5) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 45
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2124730a-f3fd-457d-8242-cc2b2bac237e" testId="d91601d2-03c2-fc41-7838-56fd26bae2a3" testName="Imported enterprise acceptance.one degree is more than one hundred kilometres" computerName="arun-iball" duration="00:00:00.0110000" startTime="2026-11-16T11:01:52.7840301+00:00" endTime="2026-11-16T11:01:52.8214166+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="2124730a-f3fd-457d-8242-cc2b2bac237e">
+      <Output>
+        <ErrorInfo>
+          <Message>
+geofence cannot use a constant mock. Expected a (0.05) to be greater than b (100.0).
+   at Playground.Acceptance.Program.tests@46-5.Invoke(Unit _arg6) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 48
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7dfb6e7a-a941-47b8-bc5f-a4f9010c08ba" testId="e95882a8-24a9-e76d-e4fa-656006e25837" testName="Imported enterprise acceptance.radius rejects nonfinite nan" computerName="arun-iball" duration="00:00:00.0150000" startTime="2026-11-16T11:01:52.7840706+00:00" endTime="2026-11-16T11:01:52.8214402+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="7dfb6e7a-a941-47b8-bc5f-a4f9010c08ba">
+      <Output>
+        <ErrorInfo>
+          <Message>
+radius must be finite. Expected Error, was Ok(DeliveryRadius nan).
+   at Playground.Acceptance.Program.tests@44-3.Invoke(Unit _arg4) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 44
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="546ad73d-e76c-42cf-bb14-1aa37fe4c1f5" testId="594b42dd-2527-41b7-0032-dbc0c3181fd5" testName="Imported enterprise acceptance.distance rejects nonfinite nan" computerName="arun-iball" duration="00:00:00.0150000" startTime="2026-11-16T11:01:52.7840686+00:00" endTime="2026-11-16T11:01:52.8214243+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="546ad73d-e76c-42cf-bb14-1aa37fe4c1f5">
+      <Output>
+        <ErrorInfo>
+          <Message>
+distance must be finite. Expected Error, was Ok(Distance nan).
+   at Playground.Acceptance.Program.tests@42-1.Invoke(Unit _arg2) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 42
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a8fedf5b-6981-45c1-b406-be6b1c411bcf" testId="639954c9-d762-e616-0b19-d3bf9322c0f1" testName="Imported enterprise acceptance.created order cannot be delivered directly" computerName="arun-iball" duration="00:00:00.0000000" startTime="2026-11-16T11:01:52.8222629+00:00" endTime="2026-11-16T11:01:52.8231552+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="a8fedf5b-6981-45c1-b406-be6b1c411bcf" />
+    <UnitTestResult executionId="a1ec6c77-a1a2-4412-8adb-e9b27d29fd9c" testId="4227d542-cfe9-3091-11b8-cfd03e6fc26b" testName="Imported enterprise acceptance.wallet allows exact balance debit" computerName="arun-iball" duration="00:00:00.0000000" startTime="2026-11-16T11:01:52.8223189+00:00" endTime="2026-11-16T11:01:52.8232777+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="a1ec6c77-a1a2-4412-8adb-e9b27d29fd9c" />
+    <UnitTestResult executionId="4d5a33b5-d22e-4af1-9204-3878b37b5539" testId="2e089531-19bb-cd39-7826-63f2faa0b3f5" testName="Imported enterprise acceptance.wrong pickup OTP is rejected" computerName="arun-iball" duration="00:00:00.0000000" startTime="2026-11-16T11:01:52.8222606+00:00" endTime="2026-11-16T11:01:52.8232776+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="4d5a33b5-d22e-4af1-9204-3878b37b5539" />
+    <UnitTestResult executionId="33fb7ba9-cff4-40f6-87a6-d98aabfd473e" testId="8f3d9b45-fde8-7226-431f-ee074298b3a7" testName="Imported enterprise acceptance.banking positive amount rejects zero" computerName="arun-iball" duration="00:00:00.0010000" startTime="2026-11-16T11:01:52.8225423+00:00" endTime="2026-11-16T11:01:52.8237673+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="33fb7ba9-cff4-40f6-87a6-d98aabfd473e" />
+    <UnitTestResult executionId="36c422fe-345e-4d08-8392-14ebaf12140d" testId="ae50e5ba-a6f8-3cb2-bb3a-d23cb65561e4" testName="Imported enterprise acceptance.wallet rejects a negative debit" computerName="arun-iball" duration="00:00:00.0010000" startTime="2026-11-16T11:01:52.8223038+00:00" endTime="2026-11-16T11:01:52.8239308+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="36c422fe-345e-4d08-8392-14ebaf12140d">
+      <Output>
+        <ErrorInfo>
+          <Message>
+negative debit must not credit funds. Actual value was true but had expected it to be false.
+   at Playground.Acceptance.Program.tests@73-15.Invoke(Unit _arg16) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 75
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="17f5810a-e809-46b5-9250-cf36ced576d4" testId="72a9f2b4-749a-2f96-5a02-eeb3b4bb317c" testName="Imported enterprise acceptance.wallet rejects a zero debit" computerName="arun-iball" duration="00:00:00.0010000" startTime="2026-11-16T11:01:52.8223019+00:00" endTime="2026-11-16T11:01:52.8242345+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="17f5810a-e809-46b5-9250-cf36ced576d4">
+      <Output>
+        <ErrorInfo>
+          <Message>
+zero is not a debit. Actual value was true but had expected it to be false.
+   at Playground.Acceptance.Program.tests@76-16.Invoke(Unit _arg17) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 78
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="699dba85-3fe8-48b6-abd6-c69579b35a7f" testId="512adee4-08b1-0082-07d8-95c151b1c93e" testName="Imported enterprise acceptance.signature verification fails closed without a verifier" computerName="arun-iball" duration="00:00:00.0010000" startTime="2026-11-16T11:01:52.8222685+00:00" endTime="2026-11-16T11:01:52.8242460+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="699dba85-3fe8-48b6-abd6-c69579b35a7f">
+      <Output>
+        <ErrorInfo>
+          <Message>
+nonempty strings are not cryptographic evidence. Expected Error, was Ok(()).
+   at Playground.Acceptance.Program.tests@66-12.Invoke(Unit _arg13) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 67
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ffbd67f0-1350-46d3-8779-2b358c0f1544" testId="feb08b66-13e4-b626-7aa5-1ee3e7d46c4b" testName="Imported enterprise acceptance.airport null produces expected error" computerName="arun-iball" duration="00:00:00.0000000" startTime="2026-11-16T11:01:52.8223309+00:00" endTime="2026-11-16T11:01:52.8247933+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="ffbd67f0-1350-46d3-8779-2b358c0f1544">
+      <Output>
+        <ErrorInfo>
+          <Message>Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at AirlineCore.Domain.AirportCodeModule.create(String s) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/Library.fs:line 23
+   at Playground.Acceptance.Program.tests@82-18.Invoke(Unit _arg19) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 82
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="244273b6-5926-45f1-8f70-197c0c2f6dc1" testId="864592da-8bc7-a305-57f3-8aef06454384" testName="Imported enterprise acceptance.far partner cannot deliver an in-transit order" computerName="arun-iball" duration="00:00:00.0210000" startTime="2026-11-16T11:01:52.7840339+00:00" endTime="2026-11-16T11:01:52.8251856+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="244273b6-5926-45f1-8f70-197c0c2f6dc1">
+      <Output>
+        <ErrorInfo>
+          <Message>
+outside 100m. Expected Error, was Ok({ Id = 00000000-0000-0000-0000-000000000000
+  ONDC_txn_id = TransactionId 00000000-0000-0000-0000-000000000000
+  ONDC_message_id = MessageId 00000000-0000-0000-0000-000000000000
+  ConsumerId = 00000000-0000-0000-0000-000000000000
+  StoreId = 00000000-0000-0000-0000-000000000000
+  StoreLocation = GeoCoord (0.0, 0.0)
+  PartnerId = None
+  Items = []
+  SubTotal = Money 100M
+  DeliveryFee = Money 0M
+  SurgeFee = Money 0M
+  Discount = Money 0M
+  TotalFare = Money 100M
+  PaymentMethod = UPI
+  PaymentStatus = Initiated
+  Status = Delivered
+  OTP = OTP "1234"
+  DeliveryAddress = "fixture"
+  DeliveryLocation = GeoCoord (0.0, 0.0)
+  DeliveryETA = DeliveryETA 30
+  Distance = Distance 1.0
+  CreatedAt = 01/10/2026 12:00:00 +00:00
+  ConfirmedAt = None
+  PackedAt = None
+  PickedUpAt = None
+  InTransitAt = None
+  DeliveredAt = Some 01/10/2026 12:00:00 +00:00
+  CancelledAt = None
+  CancellationReason = None }).
+   at Playground.Acceptance.Program.tests@49-6.Invoke(Unit _arg7) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 51
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f7f6cd5a-6ee9-4796-81c4-be6e7f899483" testId="8043e7c5-89e8-b36a-335f-85d562d1177c" testName="Imported enterprise acceptance.hospital cannot register an existing patient" computerName="arun-iball" duration="00:00:00.0020000" startTime="2026-11-16T11:01:52.8225499+00:00" endTime="2026-11-16T11:01:52.8252048+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="f7f6cd5a-6ee9-4796-81c4-be6e7f899483">
+      <Output>
+        <ErrorInfo>
+          <Message>The match cases were incomplete</Message>
+          <StackTrace>   at HospitalCore.Domain.PatientBehavior.execute(Command cmd, FSharpOption`1 patient) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs:line 114
+   at Playground.Acceptance.Program.tests@84-20.Invoke(Unit _arg21) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 87
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a75f5fdd-c702-4f59-9efe-de9cf46129b9" testId="d6125e63-5983-c6bf-0399-778e295e4c4a" testName="Imported enterprise acceptance.expiry quarantines inventory without constructing invalid quantity" computerName="arun-iball" duration="00:00:00.0020000" startTime="2026-11-16T11:01:52.8217357+00:00" endTime="2026-11-16T11:01:52.8252094+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="a75f5fdd-c702-4f59-9efe-de9cf46129b9">
+      <Output>
+        <ErrorInfo>
+          <Message>The option value was None (Parameter 'option')</Message>
+          <StackTrace>   at Microsoft.FSharp.Core.OptionModule.GetValue[T](FSharpOption`1 option) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\option.fs:line 13
+   at WebuyCore.Domain.StateMachines.InventoryStateMachine.checkExpiry[a](InventoryItem item, DateTimeOffset today) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/Library.fs:line 551
+   at Playground.Acceptance.Program.tests@55-8.Invoke(Unit _arg9) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 57
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aafc37f0-f329-4864-97da-3ea53ccee850" testId="b030bfc7-ec5b-dbd0-5654-bf991738327a" testName="Imported enterprise acceptance.chat rejects read before send" computerName="arun-iball" duration="00:00:00.0020000" startTime="2026-11-16T11:01:52.8226661+00:00" endTime="2026-11-16T11:01:52.8252344+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="aafc37f0-f329-4864-97da-3ea53ccee850" />
+    <UnitTestResult executionId="44a30dd7-553e-461b-9657-05f33c977ecd" testId="42aaa060-d53b-ea06-b787-7bb332202754" testName="Imported enterprise acceptance.future cancellation is rejected" computerName="arun-iball" duration="00:00:00.0060000" startTime="2026-11-16T11:01:52.8222544+00:00" endTime="2026-11-16T11:01:52.8290797+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="44a30dd7-553e-461b-9657-05f33c977ecd">
+      <Output>
+        <ErrorInfo>
+          <Message>
+time cannot precede creation. Expected Error, was Ok({ Id = 00000000-0000-0000-0000-000000000000
+  ONDC_txn_id = TransactionId 00000000-0000-0000-0000-000000000000
+  ONDC_message_id = MessageId 00000000-0000-0000-0000-000000000000
+  ConsumerId = 00000000-0000-0000-0000-000000000000
+  StoreId = 00000000-0000-0000-0000-000000000000
+  StoreLocation = GeoCoord (0.0, 0.0)
+  PartnerId = None
+  Items = []
+  SubTotal = Money 100M
+  DeliveryFee = Money 0M
+  SurgeFee = Money 0M
+  Discount = Money 0M
+  TotalFare = Money 100M
+  PaymentMethod = UPI
+  PaymentStatus = Initiated
+  Status = Cancelled
+  OTP = OTP "1234"
+  DeliveryAddress = "fixture"
+  DeliveryLocation = GeoCoord (0.0, 0.0)
+  DeliveryETA = DeliveryETA 30
+  Distance = Distance 1.0
+  CreatedAt = 01/10/2026 12:00:00 +00:00
+  ConfirmedAt = None
+  PackedAt = None
+  PickedUpAt = None
+  InTransitAt = None
+  DeliveredAt = None
+  CancelledAt = Some 01/10/2026 11:59:59 +00:00
+  CancellationReason = None }).
+   at Playground.Acceptance.Program.tests@62-9.Invoke(Unit _arg10) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 63
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d0bd47b-9d09-4769-b7d8-c37762fbdf7b" testId="5b27e59b-1019-4c9e-b3b3-39587026b3f3" testName="Imported enterprise acceptance.JSON null is rejected at the typed boundary" computerName="arun-iball" duration="00:00:00.0200000" startTime="2026-11-16T11:01:52.8222852+00:00" endTime="2026-11-16T11:01:52.8433038+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="4d0bd47b-9d09-4769-b7d8-c37762fbdf7b">
+      <Output>
+        <ErrorInfo>
+          <Message>Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Microsoft.FSharp.Core.LanguagePrimitives.IntrinsicFunctions.UnboxGeneric[T](Object source) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\prim-types.fs:line 731
+   at Microsoft.FSharp.Core.PrintfImpl.GenericToString@975-3.Invoke(Object vobj) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\printf.fs:line 976
+   at Microsoft.FSharp.Core.PrintfImpl.TwoStepWithArg@524-1.Invoke(A arg1, B arg2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\printf.fs:line 529
+   at Expecto.Expect.isError[a,b](FSharpResult`2 x, String message)
+   at Playground.Acceptance.Program.tests@71-14.Invoke(Unit _arg15) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 72
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6f4995b-6f03-4a07-8457-8495e28dd9bd" testId="5c969794-366e-6eb0-f7ea-83ab29b9d59e" testName="Imported enterprise acceptance.NACK error text remains JSON data" computerName="arun-iball" duration="00:00:00.0440000" startTime="2026-11-16T11:01:52.8222776+00:00" endTime="2026-11-16T11:01:52.8676869+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Failed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="f6f4995b-6f03-4a07-8457-8495e28dd9bd">
+      <Output>
+        <ErrorInfo>
+          <Message>'a' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 0 | BytePositionInLine: 70.</Message>
+          <StackTrace>   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb&amp; database, StackRowStack&amp; stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter, Boolean allowDuplicateProperties)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at Playground.Acceptance.Program.tests@68-13.Invoke(Unit _arg14) in /home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/Program.fs:line 69
+   at Expecto.Impl.execTestAsync@579-1.Invoke(Unit unitVar)
+   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult](AsyncActivation`1 ctxt, TResult result1, FSharpFunc`2 part2) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 509
+   at Microsoft.FSharp.Control.Trampoline.Execute(FSharpFunc`2 firstAction) in D:\a\_work\1\s\src\fsharp\src\FSharp.Core\async.fs:line 112</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Imported enterprise acceptance.coordinates reject nonfinite -infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="92a0fcd0-e169-ca9b-71bb-d610b9f221ac">
+      <Execution id="793a945e-8d6f-4822-8f46-3909c329708f" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="coordinates reject nonfinite -infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.discount rejects nonfinite infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="6eb7bcb7-d023-70c8-2578-1aa9dd0893c8">
+      <Execution id="cd986387-43b9-4145-a813-1dd01330f55f" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="discount rejects nonfinite infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.radius rejects nonfinite -infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="8a273ab8-b972-4019-419f-a836ec0620c3">
+      <Execution id="2355f9e2-2d2e-459a-a74b-c75ebdfc9d4c" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="radius rejects nonfinite -infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.distance rejects nonfinite -infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="9f4e9d67-37ec-bbee-5891-a4105164f08b">
+      <Execution id="2e7118ff-839b-475b-8c48-22364a7cb512" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="distance rejects nonfinite -infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.distance rejects nonfinite infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="13193660-2d97-4c8e-004f-38caa014cfb6">
+      <Execution id="1c300714-c16e-4971-83d6-a6661821512f" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="distance rejects nonfinite infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.discount rejects nonfinite -infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="bb60b28e-6a94-d2d8-233b-3e229ca06628">
+      <Execution id="c7add01e-056a-4331-8011-ff7ace43f672" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="discount rejects nonfinite -infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.coordinates reject nonfinite infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="ffeab866-ce7d-9812-4284-bc4bdfa97ac5">
+      <Execution id="1d1dac2b-faf4-4c88-8715-5872496924bf" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="coordinates reject nonfinite infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.radius rejects nonfinite infinity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="d50c24bb-bb95-3650-c6c0-f6af5a17020d">
+      <Execution id="ce9fe84f-1e70-4358-8462-8773488f2cf6" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="radius rejects nonfinite infinity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.near partner can deliver" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="9c1a124e-bed3-b0fa-70ab-88869030358f">
+      <Execution id="19ce8bdb-89b2-49dd-a033-3ddda2bff2df" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="near partner can deliver" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.discount rejects nonfinite nan" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="204cdf3b-9ede-abff-3e18-d20b9545cc47">
+      <Execution id="e516f301-0532-4b07-8691-8a330130c275" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="discount rejects nonfinite nan" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.coordinates reject nonfinite nan" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="b5b8c063-69bd-3f68-ac15-741b030b14a6">
+      <Execution id="7a3372a8-0d18-4233-9cc4-88237691c203" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="coordinates reject nonfinite nan" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.same location has zero distance" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="d84f5f59-d7e2-c4a4-4926-04df22a22317">
+      <Execution id="cd730816-3059-4d7a-a8c4-55977ab4e799" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="same location has zero distance" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.one degree is more than one hundred kilometres" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="d91601d2-03c2-fc41-7838-56fd26bae2a3">
+      <Execution id="2124730a-f3fd-457d-8242-cc2b2bac237e" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="one degree is more than one hundred kilometres" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.radius rejects nonfinite nan" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="e95882a8-24a9-e76d-e4fa-656006e25837">
+      <Execution id="7dfb6e7a-a941-47b8-bc5f-a4f9010c08ba" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="radius rejects nonfinite nan" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.distance rejects nonfinite nan" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="594b42dd-2527-41b7-0032-dbc0c3181fd5">
+      <Execution id="546ad73d-e76c-42cf-bb14-1aa37fe4c1f5" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="distance rejects nonfinite nan" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.created order cannot be delivered directly" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="639954c9-d762-e616-0b19-d3bf9322c0f1">
+      <Execution id="a8fedf5b-6981-45c1-b406-be6b1c411bcf" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="created order cannot be delivered directly" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.wallet allows exact balance debit" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="4227d542-cfe9-3091-11b8-cfd03e6fc26b">
+      <Execution id="a1ec6c77-a1a2-4412-8adb-e9b27d29fd9c" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="wallet allows exact balance debit" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.wrong pickup OTP is rejected" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="2e089531-19bb-cd39-7826-63f2faa0b3f5">
+      <Execution id="4d5a33b5-d22e-4af1-9204-3878b37b5539" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="wrong pickup OTP is rejected" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.banking positive amount rejects zero" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="8f3d9b45-fde8-7226-431f-ee074298b3a7">
+      <Execution id="33fb7ba9-cff4-40f6-87a6-d98aabfd473e" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="banking positive amount rejects zero" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.wallet rejects a negative debit" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="ae50e5ba-a6f8-3cb2-bb3a-d23cb65561e4">
+      <Execution id="36c422fe-345e-4d08-8392-14ebaf12140d" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="wallet rejects a negative debit" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.wallet rejects a zero debit" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="72a9f2b4-749a-2f96-5a02-eeb3b4bb317c">
+      <Execution id="17f5810a-e809-46b5-9250-cf36ced576d4" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="wallet rejects a zero debit" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.signature verification fails closed without a verifier" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="512adee4-08b1-0082-07d8-95c151b1c93e">
+      <Execution id="699dba85-3fe8-48b6-abd6-c69579b35a7f" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="signature verification fails closed without a verifier" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.airport null produces expected error" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="feb08b66-13e4-b626-7aa5-1ee3e7d46c4b">
+      <Execution id="ffbd67f0-1350-46d3-8779-2b358c0f1544" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="airport null produces expected error" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.far partner cannot deliver an in-transit order" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="864592da-8bc7-a305-57f3-8aef06454384">
+      <Execution id="244273b6-5926-45f1-8f70-197c0c2f6dc1" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="far partner cannot deliver an in-transit order" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.hospital cannot register an existing patient" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="8043e7c5-89e8-b36a-335f-85d562d1177c">
+      <Execution id="f7f6cd5a-6ee9-4796-81c4-be6e7f899483" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="hospital cannot register an existing patient" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.expiry quarantines inventory without constructing invalid quantity" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="d6125e63-5983-c6bf-0399-778e295e4c4a">
+      <Execution id="a75f5fdd-c702-4f59-9efe-de9cf46129b9" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="expiry quarantines inventory without constructing invalid quantity" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.chat rejects read before send" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="b030bfc7-ec5b-dbd0-5654-bf991738327a">
+      <Execution id="aafc37f0-f329-4864-97da-3ea53ccee850" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="chat rejects read before send" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.future cancellation is rejected" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="42aaa060-d53b-ea06-b787-7bb332202754">
+      <Execution id="44a30dd7-553e-461b-9657-05f33c977ecd" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="future cancellation is rejected" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.JSON null is rejected at the typed boundary" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="5b27e59b-1019-4c9e-b3b3-39587026b3f3">
+      <Execution id="4d0bd47b-9d09-4769-b7d8-c37762fbdf7b" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="JSON null is rejected at the typed boundary" />
+    </UnitTest>
+    <UnitTest name="Imported enterprise acceptance.NACK error text remains JSON data" storage="/home/arun/developer/canonflow-assay/fsharpassay.playground/tests/playground.acceptance/bin/release/net10.0/playground.acceptance.dll" id="5c969794-366e-6eb0-f7ea-83ab29b9d59e">
+      <Execution id="f6f4995b-6f03-4a07-8457-8495e28dd9bd" />
+      <TestMethod codeBase="/home/arun/Developer/CanonFlow-Assay/FSharpAssay.Playground/tests/Playground.Acceptance/bin/Release/net10.0/Playground.Acceptance.dll" adapterTypeName="executor://ExpectoExtension/0.16.0+4285f389a3f76200ad1c6571921eb58a38736537" className="Imported enterprise acceptance" name="NACK error text remains JSON data" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="92a0fcd0-e169-ca9b-71bb-d610b9f221ac" executionId="793a945e-8d6f-4822-8f46-3909c329708f" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="6eb7bcb7-d023-70c8-2578-1aa9dd0893c8" executionId="cd986387-43b9-4145-a813-1dd01330f55f" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="8a273ab8-b972-4019-419f-a836ec0620c3" executionId="2355f9e2-2d2e-459a-a74b-c75ebdfc9d4c" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="9f4e9d67-37ec-bbee-5891-a4105164f08b" executionId="2e7118ff-839b-475b-8c48-22364a7cb512" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="13193660-2d97-4c8e-004f-38caa014cfb6" executionId="1c300714-c16e-4971-83d6-a6661821512f" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="bb60b28e-6a94-d2d8-233b-3e229ca06628" executionId="c7add01e-056a-4331-8011-ff7ace43f672" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="ffeab866-ce7d-9812-4284-bc4bdfa97ac5" executionId="1d1dac2b-faf4-4c88-8715-5872496924bf" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="d50c24bb-bb95-3650-c6c0-f6af5a17020d" executionId="ce9fe84f-1e70-4358-8462-8773488f2cf6" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="9c1a124e-bed3-b0fa-70ab-88869030358f" executionId="19ce8bdb-89b2-49dd-a033-3ddda2bff2df" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="204cdf3b-9ede-abff-3e18-d20b9545cc47" executionId="e516f301-0532-4b07-8691-8a330130c275" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="b5b8c063-69bd-3f68-ac15-741b030b14a6" executionId="7a3372a8-0d18-4233-9cc4-88237691c203" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="d84f5f59-d7e2-c4a4-4926-04df22a22317" executionId="cd730816-3059-4d7a-a8c4-55977ab4e799" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="d91601d2-03c2-fc41-7838-56fd26bae2a3" executionId="2124730a-f3fd-457d-8242-cc2b2bac237e" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="e95882a8-24a9-e76d-e4fa-656006e25837" executionId="7dfb6e7a-a941-47b8-bc5f-a4f9010c08ba" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="594b42dd-2527-41b7-0032-dbc0c3181fd5" executionId="546ad73d-e76c-42cf-bb14-1aa37fe4c1f5" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="639954c9-d762-e616-0b19-d3bf9322c0f1" executionId="a8fedf5b-6981-45c1-b406-be6b1c411bcf" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="4227d542-cfe9-3091-11b8-cfd03e6fc26b" executionId="a1ec6c77-a1a2-4412-8adb-e9b27d29fd9c" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="2e089531-19bb-cd39-7826-63f2faa0b3f5" executionId="4d5a33b5-d22e-4af1-9204-3878b37b5539" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="8f3d9b45-fde8-7226-431f-ee074298b3a7" executionId="33fb7ba9-cff4-40f6-87a6-d98aabfd473e" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="ae50e5ba-a6f8-3cb2-bb3a-d23cb65561e4" executionId="36c422fe-345e-4d08-8392-14ebaf12140d" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="72a9f2b4-749a-2f96-5a02-eeb3b4bb317c" executionId="17f5810a-e809-46b5-9250-cf36ced576d4" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="512adee4-08b1-0082-07d8-95c151b1c93e" executionId="699dba85-3fe8-48b6-abd6-c69579b35a7f" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="feb08b66-13e4-b626-7aa5-1ee3e7d46c4b" executionId="ffbd67f0-1350-46d3-8779-2b358c0f1544" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="864592da-8bc7-a305-57f3-8aef06454384" executionId="244273b6-5926-45f1-8f70-197c0c2f6dc1" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="8043e7c5-89e8-b36a-335f-85d562d1177c" executionId="f7f6cd5a-6ee9-4796-81c4-be6e7f899483" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="d6125e63-5983-c6bf-0399-778e295e4c4a" executionId="a75f5fdd-c702-4f59-9efe-de9cf46129b9" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="b030bfc7-ec5b-dbd0-5654-bf991738327a" executionId="aafc37f0-f329-4864-97da-3ea53ccee850" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="42aaa060-d53b-ea06-b787-7bb332202754" executionId="44a30dd7-553e-461b-9657-05f33c977ecd" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="5b27e59b-1019-4c9e-b3b3-39587026b3f3" executionId="4d0bd47b-9d09-4769-b7d8-c37762fbdf7b" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestEntry testId="5c969794-366e-6eb0-f7ea-83ab29b9d59e" executionId="f6f4995b-6f03-4a07-8457-8495e28dd9bd" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8C84FA94-04C1-424b-9868-57A2D4851A1D" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="30" executed="30" passed="14" failed="16" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="arun-iball" outcome="Error" timestamp="2026-11-16T11:01:52.9019967">
+        <Text>Exit code indicates failure: '2'. Please refer to https://aka.ms/testingplatform/exitcodes for more information.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

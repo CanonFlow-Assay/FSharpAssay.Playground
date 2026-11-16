@@ -1,0 +1,12 @@
+{
+  "scanAllFiles": true,
+  "failOnCritical": false,
+  "failOnMajor": false,
+  "profile": "production",
+  "exclude": [],
+  "output": {
+    "sarif": "output/fsassay-scan.sarif",
+    "json": "output/fsassay-scan.json",
+    "ratecard": "output/ratecard.md"
+  }
+}

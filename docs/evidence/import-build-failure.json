@@ -1,0 +1,12 @@
+{
+  "command": [
+    "dotnet",
+    "build",
+    "FSharpAssay.Playground.slnx",
+    "-c",
+    "Release"
+  ],
+  "exitCode": 1,
+  "logSha256": "839bd5cb635ba1e5b7d40fc5a71f2c181d1eccf220a4f7fb3c062260a973dc49",
+  "scope": "All 24 imported projects before repairs, with repository SDK/dependency isolation"
+}

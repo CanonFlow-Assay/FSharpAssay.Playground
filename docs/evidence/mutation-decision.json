@@ -1,0 +1,8 @@
+{
+  "basis": "executed unchanged tests; deterministic routing, no AI provider benchmark",
+  "blockingAdmissions": 0,
+  "killed": 4,
+  "survived": 1,
+  "invalid": 1,
+  "decision": "Keep error wording outside the registered contract; survivor remains disclosed. Compilation failure is not a killed test."
+}

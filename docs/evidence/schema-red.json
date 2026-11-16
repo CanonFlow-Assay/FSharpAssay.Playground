@@ -1,0 +1,83 @@
+{
+  "image": "postgres:18.7@sha256:2ea8630df176ad090ec92136dee850397c5af8781e4bcf2e4162593691c61bbc",
+  "schemas": [
+    {
+      "path": "samples/10-enterprise/airline-core/db/init/01-schema.sql",
+      "sha256": "f34dcf26be17d97b7a11fede7c15579d55711075079d34cfc21f250572e58be4",
+      "exitCode": 0,
+      "logSha256": "dc274a949f97cd70d3bc7553fc552e205d7d78c7d2d77e20adbc32387c45ba71"
+    },
+    {
+      "path": "samples/10-enterprise/banking-core/db/init/01-schema.sql",
+      "sha256": "6e143851fbe822d725bc08fe345d4b64113f9c2daf5eae10defef1e81847402d",
+      "exitCode": 0,
+      "logSha256": "e40ca70ab1aa8dcde825d6d2dd162fff02be52addc7a10689b1ada843fe296ad"
+    },
+    {
+      "path": "samples/10-enterprise/gatepass-core/db/init/01-schema.sql",
+      "sha256": "d3aac6cc5ef8f17ce66cce538d234fc2811b8dbaae518eb4fc8e682a69341de2",
+      "exitCode": 0,
+      "logSha256": "0b59cd687f00588b98b0bbe14a725cb74b1b19c88e7a604acbd6cd9edbf72d43"
+    },
+    {
+      "path": "samples/10-enterprise/hospital-core/db/init/01-schema.sql",
+      "sha256": "8998be5e6bcda65518106335d2e52cb2291a7aaf3228f07c0b8e8d4305915632",
+      "exitCode": 0,
+      "logSha256": "e3069a3afdff7b9780530043cb0c91998dbd1ec5193c5756a2c6950f327f682f"
+    },
+    {
+      "path": "samples/10-enterprise/kutcheri-season/kutcheri/db/init/01-schema.sql",
+      "sha256": "7e1ad1f81e6bf8a2837a62cd265d2e48ce464939b7197c3240089fcaa1e1a115",
+      "exitCode": 0,
+      "logSha256": "b93dd85f2fd00b3b6b1d17da00dd419bb5551b0f226c99c3fa59e6145980159d"
+    },
+    {
+      "path": "samples/10-enterprise/layam-academy/layam/db/init/01-schema.sql",
+      "sha256": "eacb7cca2d4a0d27810be41d0b31b06652b3d93d8fcdd1955cee64cddb9234d4",
+      "exitCode": 0,
+      "logSha256": "570fad434fdb4330e197f7a891ed62060fef2966a7bad52e9a2881bf11d0018b"
+    },
+    {
+      "path": "samples/10-enterprise/mock-drill/db/init/01-schema.sql",
+      "sha256": "347acc74497a2c37874d9c6430ce28ef9769a0e0d732f5e00dfe1e28d48bbad4",
+      "exitCode": 0,
+      "logSha256": "987030d0f79d891f0952b814fc9216ea70aaacfc78f41648ccfb4ee3237cf522"
+    },
+    {
+      "path": "samples/10-enterprise/sangam-credit/sangam/db/init/01-schema.sql",
+      "sha256": "d62cba14227a457cf2c26630aa9e83241d1fd0c74acac66ee537e27f7d9aebf1",
+      "exitCode": 0,
+      "logSha256": "cdee88f00d4910496fb59eb0490fedf0e03bfff913ae19987401827865338ca9"
+    },
+    {
+      "path": "samples/10-enterprise/trading-core/db/init/01-schema.sql",
+      "sha256": "1699e791ba5fc62c52d56947deed901ff1d853a2ffca8f1c5b6e9e0529d86cf3",
+      "exitCode": 0,
+      "logSha256": "1d5c000deebe7a68a73ad3e7e2f34e47c03155dfc9979d35e78697cd84ca047d"
+    },
+    {
+      "path": "samples/10-enterprise/urbanclub-core/db/init/01-schema.sql",
+      "sha256": "bcd47fe2efac347b9758b73d5dd6610fd40f616c0cce10df6b4c73c018221d75",
+      "exitCode": 0,
+      "logSha256": "fe39fa8c2e8b4b46fc8ccddb6971b597512df3f0446facdf29e70f8af3d63e0d"
+    },
+    {
+      "path": "samples/10-enterprise/webuy-core/db/init/01-schema.sql",
+      "sha256": "1ea02e65c4672e67b31adc2e007d4f01e574a108b5f440bafc031b0db0204ac9",
+      "exitCode": 3,
+      "logSha256": "6d895ae420f08af35ca06c46d41219da63abeeb1335fdcddd4fd6898459a5a9b"
+    },
+    {
+      "path": "samples/10-enterprise/wecar-core/db/init/01-schema.sql",
+      "sha256": "05bd88fef55ca6f94b12aa11251cb69304480e895f3e5475d98455b16a7a6df9",
+      "exitCode": 0,
+      "logSha256": "def0e2e80c9baa0c0e76a41099af566e88ac919600d04e56d3b4c3f4a2fbf956"
+    },
+    {
+      "path": "samples/10-enterprise/schema.sql",
+      "sha256": "313688efab0f43b09d2f5c4a8df780f6f7592aed2b6d8b5a91eb0f0efa2a5099",
+      "exitCode": 0,
+      "logSha256": "7d53ea98c878a7deee6bafb56af4a8f4e45164000b52e2b8b586f23da9095624"
+    }
+  ]
+}

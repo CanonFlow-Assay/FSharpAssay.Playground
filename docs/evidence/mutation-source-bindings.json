@@ -1,0 +1,6 @@
+{
+  "samples/40-wallet/Wallet.Adapter/Adapter.fs": "3d86929d3b884988000471b6b765a606581163843a3e96af97c9deca20bf8977",
+  "samples/40-wallet/Wallet.Api/Program.fs": "3c4cf3f985e1d2042626c40feb1bc7bce98e20c8443b1cf0dde6808c8c8e84f5",
+  "samples/40-wallet/Wallet.Domain/Domain.fs": "31517200abee96991065424c02cc5e0bf3dadaaf846cf54f38228b1b19a620ee",
+  "tests/Wallet.Tests/Program.fs": "93e539ca189c7bf4fda97d8c0ef36c67f5054af39ae93e2e092682d47353a214"
+}

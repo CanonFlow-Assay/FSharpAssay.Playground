@@ -1,0 +1,5 @@
+CREATE TABLE
+CREATE TABLE
+ERROR:  cannot use subquery in check constraint
+LINE 14:         (SELECT storage_temp FROM products WHERE id = produc...
+                 ^

@@ -1,0 +1,9 @@
+{
+  "count": 87648,
+  "dependencyFiles": 85899,
+  "buildFiles": 1749,
+  "originalExcludedInventorySha256": "ee449847f003bd6d55d234c962dfbfbb6620e8315baab7322fe254378046dafe",
+  "rule": "Omit node_modules, bin and obj path components; exact original paths remain recoverable from the pinned source commit.",
+  "buildPathsIncludingDependencySubtrees": 1977,
+  "counting": "dependencyFiles and buildFiles are disjoint; 228 build paths are inside dependency subtrees"
+}

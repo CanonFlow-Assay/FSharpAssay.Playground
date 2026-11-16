@@ -1,0 +1,2957 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 80,
+                  "endLine": 331,
+                  "startColumn": 79,
+                  "startLine": 331
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Magic numbers: numeric literals \u003E 1 in non-test code"
+          },
+          "ruleId": "FSA-AI10"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 117,
+                  "endLine": 331,
+                  "startColumn": 96,
+                  "startLine": 331
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Magic numbers: numeric literals \u003E 1 in non-test code"
+          },
+          "ruleId": "FSA-AI10"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 16,
+                  "endLine": 56,
+                  "startColumn": 6,
+                  "startLine": 56
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum"
+          },
+          "ruleId": "FSA-AI11"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 17,
+                  "endLine": 112,
+                  "startColumn": 6,
+                  "startLine": 112
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum"
+          },
+          "ruleId": "FSA-AI11"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 191,
+                  "startColumn": 6,
+                  "startLine": 191
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum"
+          },
+          "ruleId": "FSA-AI11"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 19,
+                  "endLine": 218,
+                  "startColumn": 6,
+                  "startLine": 218
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum"
+          },
+          "ruleId": "FSA-AI11"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 242,
+                  "startColumn": 6,
+                  "startLine": 242
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum"
+          },
+          "ruleId": "FSA-AI11"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 19,
+                  "endLine": 270,
+                  "startColumn": 6,
+                  "startLine": 270
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum"
+          },
+          "ruleId": "FSA-AI11"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 297,
+                  "startColumn": 6,
+                  "startLine": 297
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Missing [\u003CRequireQualifiedAccess\u003E] attribute on Discriminated Union or Enum"
+          },
+          "ruleId": "FSA-AI11"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 191,
+                  "startColumn": 6,
+                  "startLine": 191
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Lack of logging/observability for AI operations."
+          },
+          "ruleId": "FSA-AI17"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 19,
+                  "endLine": 270,
+                  "startColumn": 6,
+                  "startLine": 270
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Lack of logging/observability for AI operations."
+          },
+          "ruleId": "FSA-AI17"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Generated/Types.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 297,
+                  "startColumn": 6,
+                  "startLine": 297
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Lack of logging/observability for AI operations."
+          },
+          "ruleId": "FSA-AI17"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Domain/Models.fs"
+                },
+                "region": {
+                  "endColumn": 50,
+                  "endLine": 60,
+                  "startColumn": 35,
+                  "startLine": 60
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Lack of logging/observability for AI operations."
+          },
+          "ruleId": "FSA-AI17"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Domain/Models.fs"
+                },
+                "region": {
+                  "endColumn": 51,
+                  "endLine": 124,
+                  "startColumn": 36,
+                  "startLine": 124
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Lack of logging/observability for AI operations."
+          },
+          "ruleId": "FSA-AI17"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 29,
+                  "startColumn": 9,
+                  "startLine": 29
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 72,
+                  "endLine": 31,
+                  "startColumn": 9,
+                  "startLine": 31
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 62,
+                  "startColumn": 9,
+                  "startLine": 62
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 69,
+                  "endLine": 64,
+                  "startColumn": 9,
+                  "startLine": 64
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 77,
+                  "endLine": 77,
+                  "startColumn": 13,
+                  "startLine": 77
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 104,
+                  "startColumn": 9,
+                  "startLine": 104
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 81,
+                  "endLine": 116,
+                  "startColumn": 9,
+                  "startLine": 116
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 98,
+                  "endLine": 117,
+                  "startColumn": 9,
+                  "startLine": 117
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 96,
+                  "endLine": 118,
+                  "startColumn": 9,
+                  "startLine": 118
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 99,
+                  "endLine": 119,
+                  "startColumn": 9,
+                  "startLine": 119
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 102,
+                  "endLine": 120,
+                  "startColumn": 9,
+                  "startLine": 120
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 40,
+                  "endLine": 121,
+                  "startColumn": 9,
+                  "startLine": 121
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 84,
+                  "endLine": 124,
+                  "startColumn": 9,
+                  "startLine": 124
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 43,
+                  "endLine": 125,
+                  "startColumn": 9,
+                  "startLine": 125
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 12,
+                  "endLine": 127,
+                  "startColumn": 9,
+                  "startLine": 127
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 92,
+                  "endLine": 130,
+                  "startColumn": 13,
+                  "startLine": 130
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 95,
+                  "endLine": 131,
+                  "startColumn": 13,
+                  "startLine": 131
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 89,
+                  "endLine": 132,
+                  "startColumn": 13,
+                  "startLine": 132
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 98,
+                  "endLine": 133,
+                  "startColumn": 13,
+                  "startLine": 133
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 63,
+                  "endLine": 134,
+                  "startColumn": 13,
+                  "startLine": 134
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 137,
+                  "startColumn": 9,
+                  "startLine": 137
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 145,
+                  "startColumn": 9,
+                  "startLine": 145
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 84,
+                  "endLine": 154,
+                  "startColumn": 9,
+                  "startLine": 154
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 101,
+                  "endLine": 155,
+                  "startColumn": 9,
+                  "startLine": 155
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 99,
+                  "endLine": 156,
+                  "startColumn": 9,
+                  "startLine": 156
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 102,
+                  "endLine": 157,
+                  "startColumn": 9,
+                  "startLine": 157
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 87,
+                  "endLine": 158,
+                  "startColumn": 9,
+                  "startLine": 158
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 102,
+                  "endLine": 159,
+                  "startColumn": 9,
+                  "startLine": 159
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 76,
+                  "endLine": 160,
+                  "startColumn": 9,
+                  "startLine": 160
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 74,
+                  "endLine": 161,
+                  "startColumn": 9,
+                  "startLine": 161
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 86,
+                  "endLine": 162,
+                  "startColumn": 9,
+                  "startLine": 162
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 80,
+                  "endLine": 163,
+                  "startColumn": 9,
+                  "startLine": 163
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 82,
+                  "endLine": 164,
+                  "startColumn": 9,
+                  "startLine": 164
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 103,
+                  "endLine": 165,
+                  "startColumn": 9,
+                  "startLine": 165
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 63,
+                  "endLine": 166,
+                  "startColumn": 9,
+                  "startLine": 166
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 40,
+                  "endLine": 167,
+                  "startColumn": 9,
+                  "startLine": 167
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 12,
+                  "endLine": 169,
+                  "startColumn": 9,
+                  "startLine": 169
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 96,
+                  "endLine": 172,
+                  "startColumn": 13,
+                  "startLine": 172
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 95,
+                  "endLine": 173,
+                  "startColumn": 13,
+                  "startLine": 173
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 73,
+                  "endLine": 174,
+                  "startColumn": 13,
+                  "startLine": 174
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 75,
+                  "endLine": 175,
+                  "startColumn": 13,
+                  "startLine": 175
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 94,
+                  "endLine": 176,
+                  "startColumn": 13,
+                  "startLine": 176
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 99,
+                  "endLine": 177,
+                  "startColumn": 13,
+                  "startLine": 177
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 63,
+                  "endLine": 178,
+                  "startColumn": 13,
+                  "startLine": 178
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 181,
+                  "startColumn": 9,
+                  "startLine": 181
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 58,
+                  "endLine": 37,
+                  "startColumn": 57,
+                  "startLine": 37
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Magic numbers: numeric literals \u003E 1 in non-test code"
+          },
+          "ruleId": "FSA-AI10"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 37,
+                  "endLine": 39,
+                  "startColumn": 36,
+                  "startLine": 39
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Magic numbers: numeric literals \u003E 1 in non-test code"
+          },
+          "ruleId": "FSA-AI10"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 54,
+                  "endLine": 40,
+                  "startColumn": 53,
+                  "startLine": 40
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Magic numbers: numeric literals \u003E 1 in non-test code"
+          },
+          "ruleId": "FSA-AI10"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 56,
+                  "endLine": 41,
+                  "startColumn": 55,
+                  "startLine": 41
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Magic numbers: numeric literals \u003E 1 in non-test code"
+          },
+          "ruleId": "FSA-AI10"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 68,
+                  "endLine": 70,
+                  "startColumn": 67,
+                  "startLine": 70
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Magic numbers: numeric literals \u003E 1 in non-test code"
+          },
+          "ruleId": "FSA-AI10"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 19,
+                  "endLine": 15,
+                  "startColumn": 13,
+                  "startLine": 15
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 17,
+                  "endLine": 28,
+                  "startColumn": 13,
+                  "startLine": 28
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 16,
+                  "endLine": 30,
+                  "startColumn": 13,
+                  "startLine": 30
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 61,
+                  "endLine": 31,
+                  "startColumn": 43,
+                  "startLine": 31
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 17,
+                  "endLine": 61,
+                  "startColumn": 13,
+                  "startLine": 61
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 16,
+                  "endLine": 63,
+                  "startColumn": 13,
+                  "startLine": 63
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 58,
+                  "endLine": 64,
+                  "startColumn": 43,
+                  "startLine": 64
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 24,
+                  "endLine": 76,
+                  "startColumn": 17,
+                  "startLine": 76
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 66,
+                  "endLine": 77,
+                  "startColumn": 51,
+                  "startLine": 77
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 27,
+                  "endLine": 78,
+                  "startColumn": 17,
+                  "startLine": 78
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 17,
+                  "endLine": 103,
+                  "startColumn": 13,
+                  "startLine": 103
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 15,
+                  "endLine": 105,
+                  "startColumn": 13,
+                  "startLine": 105
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 16,
+                  "endLine": 107,
+                  "startColumn": 13,
+                  "startLine": 107
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 70,
+                  "endLine": 116,
+                  "startColumn": 43,
+                  "startLine": 116
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 87,
+                  "endLine": 117,
+                  "startColumn": 46,
+                  "startLine": 117
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 85,
+                  "endLine": 118,
+                  "startColumn": 47,
+                  "startLine": 118
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 88,
+                  "endLine": 119,
+                  "startColumn": 49,
+                  "startLine": 119
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 91,
+                  "endLine": 120,
+                  "startColumn": 50,
+                  "startLine": 120
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 19,
+                  "endLine": 123,
+                  "startColumn": 13,
+                  "startLine": 123
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 73,
+                  "endLine": 124,
+                  "startColumn": 46,
+                  "startLine": 124
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 47,
+                  "endLine": 135,
+                  "startColumn": 9,
+                  "startLine": 127
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 23,
+                  "endLine": 129,
+                  "startColumn": 17,
+                  "startLine": 129
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 81,
+                  "endLine": 130,
+                  "startColumn": 54,
+                  "startLine": 130
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 84,
+                  "endLine": 131,
+                  "startColumn": 54,
+                  "startLine": 131
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 78,
+                  "endLine": 132,
+                  "startColumn": 51,
+                  "startLine": 132
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 87,
+                  "endLine": 133,
+                  "startColumn": 53,
+                  "startLine": 133
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 52,
+                  "endLine": 134,
+                  "startColumn": 50,
+                  "startLine": 134
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 17,
+                  "endLine": 144,
+                  "startColumn": 13,
+                  "startLine": 144
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 15,
+                  "endLine": 146,
+                  "startColumn": 13,
+                  "startLine": 146
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 77,
+                  "endLine": 148,
+                  "startColumn": 23,
+                  "startLine": 148
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 16,
+                  "endLine": 150,
+                  "startColumn": 13,
+                  "startLine": 150
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 73,
+                  "endLine": 154,
+                  "startColumn": 43,
+                  "startLine": 154
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 90,
+                  "endLine": 155,
+                  "startColumn": 46,
+                  "startLine": 155
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 88,
+                  "endLine": 156,
+                  "startColumn": 47,
+                  "startLine": 156
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 91,
+                  "endLine": 157,
+                  "startColumn": 49,
+                  "startLine": 157
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 76,
+                  "endLine": 158,
+                  "startColumn": 44,
+                  "startLine": 158
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 91,
+                  "endLine": 159,
+                  "startColumn": 45,
+                  "startLine": 159
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 65,
+                  "endLine": 160,
+                  "startColumn": 45,
+                  "startLine": 160
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 63,
+                  "endLine": 161,
+                  "startColumn": 46,
+                  "startLine": 161
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 75,
+                  "endLine": 162,
+                  "startColumn": 48,
+                  "startLine": 162
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 69,
+                  "endLine": 163,
+                  "startColumn": 45,
+                  "startLine": 163
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 71,
+                  "endLine": 164,
+                  "startColumn": 46,
+                  "startLine": 164
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 92,
+                  "endLine": 165,
+                  "startColumn": 44,
+                  "startLine": 165
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 47,
+                  "endLine": 179,
+                  "startColumn": 9,
+                  "startLine": 169
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 23,
+                  "endLine": 171,
+                  "startColumn": 17,
+                  "startLine": 171
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 85,
+                  "endLine": 172,
+                  "startColumn": 55,
+                  "startLine": 172
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 84,
+                  "endLine": 173,
+                  "startColumn": 54,
+                  "startLine": 173
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 62,
+                  "endLine": 174,
+                  "startColumn": 51,
+                  "startLine": 174
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 64,
+                  "endLine": 175,
+                  "startColumn": 52,
+                  "startLine": 175
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 83,
+                  "endLine": 176,
+                  "startColumn": 51,
+                  "startLine": 176
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 88,
+                  "endLine": 177,
+                  "startColumn": 53,
+                  "startLine": 177
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Infrastructure/DataAccess.fs"
+                },
+                "region": {
+                  "endColumn": 52,
+                  "endLine": 178,
+                  "startColumn": 50,
+                  "startLine": 178
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Avoid boxing (box or upcasts to obj) in performance-critical code."
+          },
+          "ruleId": "FSA-P02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Program.fs"
+                },
+                "region": {
+                  "endColumn": 19,
+                  "endLine": 27,
+                  "startColumn": 9,
+                  "startLine": 20
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "No Implicit Unit Sequences in Core"
+          },
+          "ruleId": "FSA-F04"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://E:/github/CanonFlowFoundation/FSharpAssay.Playground/samples/retail-store-sample-app/src/Program.fs"
+                },
+                "region": {
+                  "endColumn": 10,
+                  "endLine": 19,
+                  "startColumn": 9,
+                  "startLine": 19
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Lack of logging/observability for AI operations."
+          },
+          "ruleId": "FSA-AI17"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 11,
+                  "endLine": 1,
+                  "startColumn": 8,
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Dependencies must flow downwards"
+          },
+          "ruleId": "FSA-ARCH02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 1,
+                  "startColumn": 12,
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Dependencies must flow downwards"
+          },
+          "ruleId": "FSA-ARCH02"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 14,
+                  "endLine": 1,
+                  "startColumn": 8,
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 21,
+                  "endLine": 1,
+                  "startColumn": 15,
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 10,
+                  "endLine": 29,
+                  "startColumn": 6,
+                  "startLine": 29
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 14,
+                  "endLine": 23,
+                  "startColumn": 6,
+                  "startLine": 23
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 12,
+                  "endLine": 38,
+                  "startColumn": 8,
+                  "startLine": 38
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 14,
+                  "endLine": 7,
+                  "startColumn": 6,
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 14,
+                  "endLine": 69,
+                  "startColumn": 6,
+                  "startLine": 69
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 11,
+                  "endLine": 82,
+                  "startColumn": 6,
+                  "startLine": 82
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 15,
+                  "endLine": 76,
+                  "startColumn": 6,
+                  "startLine": 76
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 13,
+                  "endLine": 99,
+                  "startColumn": 8,
+                  "startLine": 99
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 13,
+                  "endLine": 141,
+                  "startColumn": 6,
+                  "startLine": 141
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 13,
+                  "endLine": 12,
+                  "startColumn": 6,
+                  "startLine": 12
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 14,
+                  "endLine": 150,
+                  "startColumn": 6,
+                  "startLine": 150
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 28,
+                  "endLine": 1,
+                  "startColumn": 15,
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 17,
+                  "endLine": 11,
+                  "startColumn": 8,
+                  "startLine": 11
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 21,
+                  "endLine": 19,
+                  "startColumn": 8,
+                  "startLine": 19
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 18,
+                  "endLine": 27,
+                  "startColumn": 8,
+                  "startLine": 27
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 47,
+                  "startColumn": 8,
+                  "startLine": 47
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 21,
+                  "endLine": 61,
+                  "startColumn": 8,
+                  "startLine": 61
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://Architecture"
+                },
+                "region": {
+                  "endColumn": 23,
+                  "endLine": 7,
+                  "startColumn": 6,
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Domain file is missing a corresponding Test file."
+          },
+          "ruleId": "FSA-TDD01"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "informationUri": "https://github.com/CanonFlowFoundation/FSharpAssay",
+          "name": "FsAssay",
+          "version": "1.0.0"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

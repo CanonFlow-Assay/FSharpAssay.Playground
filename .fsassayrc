@@ -1,0 +1,44 @@
+{
+  "profile": "core",
+  "exclude": [
+    "**/obj/**",
+    "**/bin/**",
+    "**/node_modules/**"
+  ],
+  "coreProjects": [
+    "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/AirlineCore.Domain.fsproj",
+    "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/BankingCore.Domain.fsproj",
+    "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/GatepassCore.Domain.fsproj",
+    "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/HospitalCore.Domain.fsproj",
+    "samples/10-enterprise/src/FintechWallet.Domain/FintechWallet.Domain.fsproj",
+    "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/TradingCore.Domain.fsproj",
+    "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/UrbanclubCore.Domain.fsproj",
+    "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/WebuyCore.Domain.fsproj",
+    "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/WecarCore.Domain.fsproj",
+    "samples/20-functional-patterns/Patterns.Domain/Patterns.Domain.fsproj",
+    "samples/40-wallet/Wallet.Domain/Wallet.Domain.fsproj"
+  ],
+  "shellProjects": [
+    "samples/10-enterprise/airline-core/tests/airline_core.Tests/airline_core.Tests.fsproj",
+    "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/arangetram.Tests.fsproj",
+    "samples/10-enterprise/banking-core/tests/BankingCore.Tests/BankingCore.Tests.fsproj",
+    "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/gatepass.Tests.fsproj",
+    "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/hospital_core.Tests.fsproj",
+    "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Kutcheri.Tests.fsproj",
+    "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/layam.Tests.fsproj",
+    "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/migration-demo.Tests.fsproj",
+    "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/MockDrill.Tests.fsproj",
+    "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/sangam.Tests.fsproj",
+    "samples/10-enterprise/src/FintechWallet.Api/FintechWallet.Api.fsproj",
+    "samples/10-enterprise/trading-core/tests/trading_core.Tests/trading_core.Tests.fsproj",
+    "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/urbanclub.Tests.fsproj",
+    "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/WebuyCore.Tests.fsproj",
+    "samples/10-enterprise/wecar-core/tests/wecar.Tests/wecar.Tests.fsproj",
+    "samples/20-functional-patterns/Patterns.Shell/Patterns.Shell.fsproj",
+    "samples/40-wallet/Wallet.Adapter/Wallet.Adapter.fsproj",
+    "samples/40-wallet/Wallet.Api/Wallet.Api.fsproj",
+    "tests/Patterns.Tests/Patterns.Tests.fsproj",
+    "tests/Playground.Acceptance/Playground.Acceptance.fsproj",
+    "tests/Wallet.Tests/Wallet.Tests.fsproj"
+  ]
+}

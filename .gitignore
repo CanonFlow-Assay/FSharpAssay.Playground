@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/node_modules/
+artifacts/
+.packages/
+.tools/
+__pycache__/
+*.pyc
+.producer/
+TestResults/

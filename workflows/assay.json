@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/CanonFlow-Assay/FSharpAssay",
+  "revision": "eae0114a9e658a63a88dd370bc8a24c6bb8ad909",
+  "package": "FsAssay.Cli",
+  "version": "1.0.4",
+  "sdk": "10.0.301",
+  "blockingAdmissions": 0,
+  "advisoryAdmissions": 0
+}

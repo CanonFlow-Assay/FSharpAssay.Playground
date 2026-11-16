@@ -1,0 +1,3554 @@
+[
+  {
+    "path": "samples/10-enterprise/.github/workflows/canonflow-drift-check.yml",
+    "originalSha256": "ffe89dd1e176ffd24228550bb9f422373b4a1efad1481de350dcb186eeda1e2d",
+    "currentSha256": "ffe89dd1e176ffd24228550bb9f422373b4a1efad1481de350dcb186eeda1e2d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/.gitignore",
+    "originalSha256": "2671ffa9e5e30af1e3fa0fba34eb7423941c21d047124224c3188f54a8d81167",
+    "currentSha256": "2671ffa9e5e30af1e3fa0fba34eb7423941c21d047124224c3188f54a8d81167",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/Canonflow.Samples.slnx",
+    "originalSha256": "c4f4564cc208ecb83dd300dacfc70ca746134728564af10a7e4795fb8996ee8d",
+    "currentSha256": "c4f4564cc208ecb83dd300dacfc70ca746134728564af10a7e4795fb8996ee8d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/PROOF.md",
+    "originalSha256": "1b8dee208227f83fbfee5b6562b6a23078d1ed2d30c10ef7aa29b156dfe08884",
+    "currentSha256": "1b8dee208227f83fbfee5b6562b6a23078d1ed2d30c10ef7aa29b156dfe08884",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/README.md",
+    "originalSha256": "c28a12ebfe7501bc14f3a678260621834c9ca1b90833f42529fb31f7d400e9bd",
+    "currentSha256": "c28a12ebfe7501bc14f3a678260621834c9ca1b90833f42529fb31f7d400e9bd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/Urbanclub.md",
+    "originalSha256": "d7a0d817861b726241422d38a52fc492577f86920662726e2c86b8e92afd8069",
+    "currentSha256": "d7a0d817861b726241422d38a52fc492577f86920662726e2c86b8e92afd8069",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/Webuy.md",
+    "originalSha256": "6c0fff5e8949043f87d6a7425c5d9bf329af3ed004384620b230e581033a8bb0",
+    "currentSha256": "6c0fff5e8949043f87d6a7425c5d9bf329af3ed004384620b230e581033a8bb0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/README.md",
+    "originalSha256": "b260a5fa8f25d5c939db9db209c5c1e8f5a01708bb49245257a907c030ece75b",
+    "currentSha256": "b260a5fa8f25d5c939db9db209c5c1e8f5a01708bb49245257a907c030ece75b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/client/src/validators.test.ts",
+    "originalSha256": "81bdac295d732d02cf22bccf59940eeb37261b835779c838762c0b0fb812f756",
+    "currentSha256": "81bdac295d732d02cf22bccf59940eeb37261b835779c838762c0b0fb812f756",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/client/src/validators.ts",
+    "originalSha256": "b2bf5701e6185009ea9744cbc6622b7894fbe7ae8c195bf2c5371e05455e6ecc",
+    "currentSha256": "b2bf5701e6185009ea9744cbc6622b7894fbe7ae8c195bf2c5371e05455e6ecc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/db/init/01-schema.sql",
+    "originalSha256": "f34dcf26be17d97b7a11fede7c15579d55711075079d34cfc21f250572e58be4",
+    "currentSha256": "f34dcf26be17d97b7a11fede7c15579d55711075079d34cfc21f250572e58be4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/docker-compose.yml",
+    "originalSha256": "66d29b5ed48f0862d208d65eb3403fc32282cd93bab7701aea23ca0ffba85150",
+    "currentSha256": "66d29b5ed48f0862d208d65eb3403fc32282cd93bab7701aea23ca0ffba85150",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/PROOF.md",
+    "originalSha256": "b36266a5ba5a85d126bc6c50b8743f6289010bebe499643262821a4caa20f0a2",
+    "currentSha256": "b36266a5ba5a85d126bc6c50b8743f6289010bebe499643262821a4caa20f0a2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/agent-context.json",
+    "originalSha256": "21ce92d825e53f9957fe93d45a9da1e5ce4f6d5e7057a86e5f9a560579fc3ff2",
+    "currentSha256": "21ce92d825e53f9957fe93d45a9da1e5ce4f6d5e7057a86e5f9a560579fc3ff2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_aircraft.md",
+    "originalSha256": "a01f1e80205d043ab8d2587ef77b06bf5110eab46a4e7a0420035b905ef8c7ca",
+    "currentSha256": "a01f1e80205d043ab8d2587ef77b06bf5110eab46a4e7a0420035b905ef8c7ca",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_booking.md",
+    "originalSha256": "521241bd830241ab96b14ab89b7d802ebc0ebc1f20a79645665410db24361cd5",
+    "currentSha256": "521241bd830241ab96b14ab89b7d802ebc0ebc1f20a79645665410db24361cd5",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_crew.md",
+    "originalSha256": "04682b67f080ecf82c73f64f280b912e278f5f695ba32d2e1a9d7d538d1ad700",
+    "currentSha256": "04682b67f080ecf82c73f64f280b912e278f5f695ba32d2e1a9d7d538d1ad700",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_flight.md",
+    "originalSha256": "4fc5d883f0ceb3ba269b3ab96a12bc4848cf83fe365a73836a082c4ccd97fb70",
+    "currentSha256": "4fc5d883f0ceb3ba269b3ab96a12bc4848cf83fe365a73836a082c4ccd97fb70",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_flight_crew.md",
+    "originalSha256": "eaa3e2dbc4c2b5e07e18ad10c9e5feb953faef3b02b10d406e66b7d1d5995977",
+    "currentSha256": "eaa3e2dbc4c2b5e07e18ad10c9e5feb953faef3b02b10d406e66b7d1d5995977",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_loyalty.md",
+    "originalSha256": "98c9b2701adbf5af245b9c760414d2d5b8da6372d44395768e503415e9589ede",
+    "currentSha256": "98c9b2701adbf5af245b9c760414d2d5b8da6372d44395768e503415e9589ede",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_passenger.md",
+    "originalSha256": "5ffaebc8460b2e7296df7e09e14c9f06342931e9f5bd9bd7a0f728ac718d63a3",
+    "currentSha256": "5ffaebc8460b2e7296df7e09e14c9f06342931e9f5bd9bd7a0f728ac718d63a3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_payment.md",
+    "originalSha256": "23170bf90b0315a9efbb20d56a480286fdc22b7f65030360f91c6162cd14bf12",
+    "currentSha256": "23170bf90b0315a9efbb20d56a480286fdc22b7f65030360f91c6162cd14bf12",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_seat.md",
+    "originalSha256": "2135c6f60924c04411b221727c33e3e44d510805309ff73aefa15b19922cd24c",
+    "currentSha256": "2135c6f60924c04411b221727c33e3e44d510805309ff73aefa15b19922cd24c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/catalog_ticket.md",
+    "originalSha256": "f5f438c79be2a79d961848075efac928f4d580cf7443f814c553df08e4b2b82e",
+    "currentSha256": "f5f438c79be2a79d961848075efac928f4d580cf7443f814c553df08e4b2b82e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/layer-map.md",
+    "originalSha256": "488e663d25b9cc41c23a70b81de07e7d97349ac2eac46298df0f3e9d616ac19e",
+    "currentSha256": "488e663d25b9cc41c23a70b81de07e7d97349ac2eac46298df0f3e9d616ac19e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/aircraft.json",
+    "originalSha256": "876088d3a6d7a635ee35a6808fcc4c25f5a344d132bc28d48acd26681e0a9b24",
+    "currentSha256": "876088d3a6d7a635ee35a6808fcc4c25f5a344d132bc28d48acd26681e0a9b24",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/booking.json",
+    "originalSha256": "139dfd1ceb92053c1a58f3deacec215c08fdaa30e3c805498e95ba0884eb3290",
+    "currentSha256": "139dfd1ceb92053c1a58f3deacec215c08fdaa30e3c805498e95ba0884eb3290",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/crew.json",
+    "originalSha256": "9c852061aa5b567bb3273e5efd0e245db4c944894ff4ce6001d38e71827c1b14",
+    "currentSha256": "9c852061aa5b567bb3273e5efd0e245db4c944894ff4ce6001d38e71827c1b14",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/flight.json",
+    "originalSha256": "c516b652c3fba04e2540385fb7744d6e834d8e9ce6f6a0a75c90104a68128121",
+    "currentSha256": "c516b652c3fba04e2540385fb7744d6e834d8e9ce6f6a0a75c90104a68128121",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/flight_crew.json",
+    "originalSha256": "019cf1fda31b04efe4cc52e08056e3a6e2043d083918c0f7a513a56289ed4844",
+    "currentSha256": "019cf1fda31b04efe4cc52e08056e3a6e2043d083918c0f7a513a56289ed4844",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/loyalty.json",
+    "originalSha256": "7131876fbd91fc663a821394bd88057afa88efb26f9ebba638dbe73e78cd5459",
+    "currentSha256": "7131876fbd91fc663a821394bd88057afa88efb26f9ebba638dbe73e78cd5459",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/passenger.json",
+    "originalSha256": "c03c718ed335ef0ebcbf1be4a5ab6e27ca326d8c23387505404bb9bd88531374",
+    "currentSha256": "c03c718ed335ef0ebcbf1be4a5ab6e27ca326d8c23387505404bb9bd88531374",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/payment.json",
+    "originalSha256": "cfb738a0340ccf1516649d9cb766a9f67d6941cfcc18e07f5334c5b4662c3b2a",
+    "currentSha256": "cfb738a0340ccf1516649d9cb766a9f67d6941cfcc18e07f5334c5b4662c3b2a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/seat.json",
+    "originalSha256": "c721a927fb84bb05bb9a3ac7df1d50ff86dbb0a352103b9fac15de88845c751e",
+    "currentSha256": "c721a927fb84bb05bb9a3ac7df1d50ff86dbb0a352103b9fac15de88845c751e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/openmetadata/ticket.json",
+    "originalSha256": "1b3ca58fcf1b002de20d4deef3a5fc612fbd9221c0e80f8c5245904a8fc7e496",
+    "currentSha256": "1b3ca58fcf1b002de20d4deef3a5fc612fbd9221c0e80f8c5245904a8fc7e496",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/output/tests/Generators.fs",
+    "originalSha256": "7e31f7eebbc4bc011199216fe3969586f9b0f63da8e0124436edeecba3eaecdb",
+    "currentSha256": "7e31f7eebbc4bc011199216fe3969586f9b0f63da8e0124436edeecba3eaecdb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/scripts/dogfood.sh",
+    "originalSha256": "cb9d86d78ec502791edeb6db1e0c09923ca0ea0be6db9bf7374836a5679a103e",
+    "currentSha256": "cb9d86d78ec502791edeb6db1e0c09923ca0ea0be6db9bf7374836a5679a103e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/server/src/Api.fs",
+    "originalSha256": "9d5f229390f1ee09c5e9357a722cb7ea7789dbf4453827d37b291d99ef449add",
+    "currentSha256": "9d5f229390f1ee09c5e9357a722cb7ea7789dbf4453827d37b291d99ef449add",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/AirlineCore.Domain.fsproj",
+    "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/Library.fs",
+    "originalSha256": "f7283d507bde87edd9149890963d6f9e71923439cc2fe5c32e6e111aee73b13c",
+    "currentSha256": "bc185a0f292bf786b6c861168f4e630c5e1b98b4e3cacf47b6f3653c06bbd482",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/Generators.fs",
+    "originalSha256": "7e31f7eebbc4bc011199216fe3969586f9b0f63da8e0124436edeecba3eaecdb",
+    "currentSha256": "7e31f7eebbc4bc011199216fe3969586f9b0f63da8e0124436edeecba3eaecdb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/Tests.fs",
+    "originalSha256": "f2442c1873f0c93932017c9d943b31039b972b13a318af9184826e618ac4e41d",
+    "currentSha256": "f2442c1873f0c93932017c9d943b31039b972b13a318af9184826e618ac4e41d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/airline_core.Tests.fsproj",
+    "originalSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
+    "currentSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries.zip",
+    "originalSha256": "a69f20998a824db88260b5d144bb15d310556d334630110a165b3dcf2024f9f4",
+    "currentSha256": "a69f20998a824db88260b5d144bb15d310556d334630110a165b3dcf2024f9f4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/README.md",
+    "originalSha256": "e326ecf3da82df80bd4fee7a9f13e5bd49bc3682a7aaa6887017f70d810dfcd8",
+    "currentSha256": "e326ecf3da82df80bd4fee7a9f13e5bd49bc3682a7aaa6887017f70d810dfcd8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/client/src/validators.test.ts",
+    "originalSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "currentSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/db/init/hostile.sql",
+    "originalSha256": "3b95328310ee13988bb4354aed926b83f9b066f91d4d318f2cfb26cecc299c21",
+    "currentSha256": "3b95328310ee13988bb4354aed926b83f9b066f91d4d318f2cfb26cecc299c21",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/docker-compose.yml",
+    "originalSha256": "28c2c2cb98e67ccadf9d14b8cf04641c93a6a288c649f579bc271beef107fb60",
+    "currentSha256": "28c2c2cb98e67ccadf9d14b8cf04641c93a6a288c649f579bc271beef107fb60",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/dogfood.sh",
+    "originalSha256": "78cd7ee8e7c6eb330e338024882193134992dd3bb3c5c0d614a570c5ff92b462",
+    "currentSha256": "78cd7ee8e7c6eb330e338024882193134992dd3bb3c5c0d614a570c5ff92b462",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/Tests.fs",
+    "originalSha256": "555231fb2da01de7a3609410df38578ea9502eca83eab77a40267936d58787bc",
+    "currentSha256": "4618575290a5e6ee78c66eec3573633a36f7aa18dcd36b9e3609edcc9502c7f1",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/arangetram.Tests.fsproj",
+    "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "currentSha256": "77680c8c9526965e7deec3b809d840f156ba19cb0fcce5d803e8e9d2e4f4e2f7",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier0-gates/SPEC.md",
+    "originalSha256": "b2a73c18d9e0b88362764cc8836553b1248ae478283247b17331a0919bd5a8a2",
+    "currentSha256": "b2a73c18d9e0b88362764cc8836553b1248ae478283247b17331a0919bd5a8a2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier1-A1-emit-determinism/SPEC.md",
+    "originalSha256": "c643c822e4e834a18d7b9e7d413ecae400e455dfb1e7f6190192d4a333b1a80a",
+    "currentSha256": "c643c822e4e834a18d7b9e7d413ecae400e455dfb1e7f6190192d4a333b1a80a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier1-A2-hostile-schema/SPEC.md",
+    "originalSha256": "fcd130c52f2b3b6c6c6ada750fd9ccb188e996e427fd4a8d12197e35d36da4d1",
+    "currentSha256": "fcd130c52f2b3b6c6c6ada750fd9ccb188e996e427fd4a8d12197e35d36da4d1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier1-A2-hostile-schema/db/init/hostile.sql",
+    "originalSha256": "3b95328310ee13988bb4354aed926b83f9b066f91d4d318f2cfb26cecc299c21",
+    "currentSha256": "3b95328310ee13988bb4354aed926b83f9b066f91d4d318f2cfb26cecc299c21",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier1-A3-emit-roundtrip/Domain.fs",
+    "originalSha256": "7474b4f28f4fe7e7f355a259c5d3751782ec6e6b377a1fc0f8cf0919d220d432",
+    "currentSha256": "7474b4f28f4fe7e7f355a259c5d3751782ec6e6b377a1fc0f8cf0919d220d432",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier1-A3-emit-roundtrip/SPEC.md",
+    "originalSha256": "8ee981de42a8195b5f28c0d75d030c186630b170d33ead1ceabaac2103adcbb9",
+    "currentSha256": "8ee981de42a8195b5f28c0d75d030c186630b170d33ead1ceabaac2103adcbb9",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier2-A4-collation/SPEC.md",
+    "originalSha256": "0eaac2c4b0b3d8db1f7d5d6fc72f5bab84a97968e42d8417c4672e7c7fb2e94a",
+    "currentSha256": "0eaac2c4b0b3d8db1f7d5d6fc72f5bab84a97968e42d8417c4672e7c7fb2e94a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier2-A5-pg-version-skew/SPEC.md",
+    "originalSha256": "32cb04c3c741d436867b04511dce7e697a6efeb3dbc034dcb2dee6a7fcad93e6",
+    "currentSha256": "32cb04c3c741d436867b04511dce7e697a6efeb3dbc034dcb2dee6a7fcad93e6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier2-A6-scale/SPEC.md",
+    "originalSha256": "7d986cc041801281d07187cd9eeabd7e0404de3ac0caaca73e8adbf87478ddfc",
+    "currentSha256": "7d986cc041801281d07187cd9eeabd7e0404de3ac0caaca73e8adbf87478ddfc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier3-A7-human-gauntlet/SPEC.md",
+    "originalSha256": "524dce92ab914fdd7afebc0f23b7c866acd06af4a123617fe8afb2a845db491a",
+    "currentSha256": "524dce92ab914fdd7afebc0f23b7c866acd06af4a123617fe8afb2a845db491a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier3-A8-banyan-bench/SPEC.md",
+    "originalSha256": "f3dcb8dfe71453a37dc84c5ad8cb25006987b9969191b31b7f67e57889a1ba94",
+    "currentSha256": "f3dcb8dfe71453a37dc84c5ad8cb25006987b9969191b31b7f67e57889a1ba94",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier3-A9-silent-schema/SPEC.md",
+    "originalSha256": "c59f19bcc85d0cfa84d0e9242f3296b0da87f573abf55862e49cda2b59590cfe",
+    "currentSha256": "c59f19bcc85d0cfa84d0e9242f3296b0da87f573abf55862e49cda2b59590cfe",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tier3-A9-silent-schema/db/init/silent.sql",
+    "originalSha256": "1283b62b2868c079010be7651d24c814a78e09fc3a0f081253e76522004c9838",
+    "currentSha256": "1283b62b2868c079010be7651d24c814a78e09fc3a0f081253e76522004c9838",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/automate_nested.sh",
+    "originalSha256": "a2a4077ee202c0c480b23730f7ee203a57f44249b0b5072fb40b6d0bc5311ce0",
+    "currentSha256": "a2a4077ee202c0c480b23730f7ee203a57f44249b0b5072fb40b6d0bc5311ce0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/BankingCore.slnx",
+    "originalSha256": "69e47b3fdcfe13d5de858cc05610c0e405d91492f24479779c22ec083520c787",
+    "currentSha256": "69e47b3fdcfe13d5de858cc05610c0e405d91492f24479779c22ec083520c787",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/README.md",
+    "originalSha256": "505464182d66f9eaf2e1cbebb77e8e4fbfcc2980645ae394963f574c84e0c980",
+    "currentSha256": "505464182d66f9eaf2e1cbebb77e8e4fbfcc2980645ae394963f574c84e0c980",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/client/.gitignore",
+    "originalSha256": "cad602556ba84274e1cdb300f6dc9cac722ae94b09e0727c40c99f67df343dc4",
+    "currentSha256": "cad602556ba84274e1cdb300f6dc9cac722ae94b09e0727c40c99f67df343dc4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/client/src/validators.test.ts",
+    "originalSha256": "b89a6bcd66d19415850846330c3b38e98faadab7ace427926512ee9d83da6652",
+    "currentSha256": "b89a6bcd66d19415850846330c3b38e98faadab7ace427926512ee9d83da6652",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/client/src/validators.ts",
+    "originalSha256": "3f9dfd96ca1bfded224224a96b104e9ff2118437c94645c646107e030013df71",
+    "currentSha256": "3f9dfd96ca1bfded224224a96b104e9ff2118437c94645c646107e030013df71",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/db/init/01-schema.sql",
+    "originalSha256": "6e143851fbe822d725bc08fe345d4b64113f9c2daf5eae10defef1e81847402d",
+    "currentSha256": "6e143851fbe822d725bc08fe345d4b64113f9c2daf5eae10defef1e81847402d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/docker-compose.yml",
+    "originalSha256": "b74de209c9def0894ecd6b90cb9b4017084a08c31d2c2453d903d54ddc61f65c",
+    "currentSha256": "b74de209c9def0894ecd6b90cb9b4017084a08c31d2c2453d903d54ddc61f65c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/nuget.config",
+    "originalSha256": "b42f48fd63692a833310f624d7f3ee28a07af4ccaeaf7976e7d395efc50f0813",
+    "currentSha256": "67a140ddc03cc2a16fbb8e1111655f1b47a6b24281858424bbed5b268109ac65",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/PROOF.md",
+    "originalSha256": "b9a8c0942ab403eef8d3026d80e6adb71a45019efe016bbdeb638da4feed5f5e",
+    "currentSha256": "b9a8c0942ab403eef8d3026d80e6adb71a45019efe016bbdeb638da4feed5f5e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/agent-context.json",
+    "originalSha256": "b9acef4ba34a2dc9afcf91631ec41e451bfb1b8ee17aa1af84a0b32d2eccfba6",
+    "currentSha256": "b9acef4ba34a2dc9afcf91631ec41e451bfb1b8ee17aa1af84a0b32d2eccfba6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_account.md",
+    "originalSha256": "3d682b42fa37b2e457a15806c999fdf0ca963d9545366a5d3011b138b4617ac7",
+    "currentSha256": "3d682b42fa37b2e457a15806c999fdf0ca963d9545366a5d3011b138b4617ac7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_aml.md",
+    "originalSha256": "f2f2a45766b56d77676ed2dcab7247f5335746985fc95e5d53b17fa2c6dc8428",
+    "currentSha256": "f2f2a45766b56d77676ed2dcab7247f5335746985fc95e5d53b17fa2c6dc8428",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_audit.md",
+    "originalSha256": "a33426c5d2eb3f6335008c8b4cd12b9f2f4582ea10148e63413a2b6458df6475",
+    "currentSha256": "a33426c5d2eb3f6335008c8b4cd12b9f2f4582ea10148e63413a2b6458df6475",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_branch.md",
+    "originalSha256": "29dd53f170994cb847a7f67cd1f8be0ca919b262c7df410b23e327dc8d38feb3",
+    "currentSha256": "29dd53f170994cb847a7f67cd1f8be0ca919b262c7df410b23e327dc8d38feb3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_card.md",
+    "originalSha256": "cea07d0d0a07af27dd552cbbcf5fe954458ad47642db62bc0088884924d628a4",
+    "currentSha256": "cea07d0d0a07af27dd552cbbcf5fe954458ad47642db62bc0088884924d628a4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_charges.md",
+    "originalSha256": "8e341b6ab37d1ff7b257b560bb79d7f43926dda1f531781252f762e683ee5c82",
+    "currentSha256": "8e341b6ab37d1ff7b257b560bb79d7f43926dda1f531781252f762e683ee5c82",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_currency.md",
+    "originalSha256": "9d45944a8a1fb80c61fc32a2bd63617e4f0f749fbeb9af9edcae4dc6b0ee0e6a",
+    "currentSha256": "9d45944a8a1fb80c61fc32a2bd63617e4f0f749fbeb9af9edcae4dc6b0ee0e6a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_customer.md",
+    "originalSha256": "58c692067200e47b7046bacda320d259f01db0b8ae86fdb8d2433b99b9569fce",
+    "currentSha256": "58c692067200e47b7046bacda320d259f01db0b8ae86fdb8d2433b99b9569fce",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_employee.md",
+    "originalSha256": "43a226752844575147df990f5a0bcf194dd739ff5a4d96487444078811355b04",
+    "currentSha256": "43a226752844575147df990f5a0bcf194dd739ff5a4d96487444078811355b04",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_exchange_rate.md",
+    "originalSha256": "9a9095145367aaefd435a2d564597662883e276ce1536f957cd6d0e92f332125",
+    "currentSha256": "9a9095145367aaefd435a2d564597662883e276ce1536f957cd6d0e92f332125",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_fixed_deposit.md",
+    "originalSha256": "2dc03cb3fb70921ffd966f3536766c2d9f2af9018490bfe3ef09091dc81aaf63",
+    "currentSha256": "2dc03cb3fb70921ffd966f3536766c2d9f2af9018490bfe3ef09091dc81aaf63",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_interest_rate.md",
+    "originalSha256": "6b992ed44018667c822badfb0cbc04e13bcc4454c6a50a4b68c9d87632fc20a5",
+    "currentSha256": "6b992ed44018667c822badfb0cbc04e13bcc4454c6a50a4b68c9d87632fc20a5",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_kyc.md",
+    "originalSha256": "b49a80cee9cde04063479da6b76d6f854b07dad1fca80cce649a6c85d61d0b5b",
+    "currentSha256": "b49a80cee9cde04063479da6b76d6f854b07dad1fca80cce649a6c85d61d0b5b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_ledger.md",
+    "originalSha256": "c9ba0bf0d488d30a275d795faaa715a78572f3fc82f8e3e1bff3c1fc2618fdf3",
+    "currentSha256": "c9ba0bf0d488d30a275d795faaa715a78572f3fc82f8e3e1bff3c1fc2618fdf3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_limits.md",
+    "originalSha256": "3a56bcb13b4e227e850063a35191e6fbf8c6ddf7100ddf50ecd20f688a208ac3",
+    "currentSha256": "3a56bcb13b4e227e850063a35191e6fbf8c6ddf7100ddf50ecd20f688a208ac3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_loan.md",
+    "originalSha256": "521746af85f90bccfae618af28da123ea5a78e6113d3e66b4931bb90506f13e7",
+    "currentSha256": "521746af85f90bccfae618af28da123ea5a78e6113d3e66b4931bb90506f13e7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_nominee.md",
+    "originalSha256": "c9fc1a72e2587701c45e8d49a57885d32648121e68428b194ea3bbdd887bcf72",
+    "currentSha256": "c9fc1a72e2587701c45e8d49a57885d32648121e68428b194ea3bbdd887bcf72",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_notifications.md",
+    "originalSha256": "e47c538de7024905834a3347e7b87b29ebd633d898ed0bc0312619eacb1f321c",
+    "currentSha256": "e47c538de7024905834a3347e7b87b29ebd633d898ed0bc0312619eacb1f321c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_statement.md",
+    "originalSha256": "7b67f3243639f74cc64e0ca13c69082e3dfceae72dad223aee0090abc104ab67",
+    "currentSha256": "7b67f3243639f74cc64e0ca13c69082e3dfceae72dad223aee0090abc104ab67",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/catalog_transaction.md",
+    "originalSha256": "50ade65583c57038c2e6968f3755666d1b46500bbf7b11f8e815d2afd5bfefd8",
+    "currentSha256": "50ade65583c57038c2e6968f3755666d1b46500bbf7b11f8e815d2afd5bfefd8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/layer-map.md",
+    "originalSha256": "65f4c3e748ea40e3936fe117f0d79cc770f464ab39561e3dd26225599b4b4de9",
+    "currentSha256": "65f4c3e748ea40e3936fe117f0d79cc770f464ab39561e3dd26225599b4b4de9",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/account.json",
+    "originalSha256": "6e2ee2022b05f9e3d56af5149189eec44687d5453e605a028ccfd65f15e0f45e",
+    "currentSha256": "6e2ee2022b05f9e3d56af5149189eec44687d5453e605a028ccfd65f15e0f45e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/aml.json",
+    "originalSha256": "8aa54271d2aeff8f81ade5e0af57ebc4cdd5ca59781003ca418fb7df5df84398",
+    "currentSha256": "8aa54271d2aeff8f81ade5e0af57ebc4cdd5ca59781003ca418fb7df5df84398",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/audit.json",
+    "originalSha256": "520ba9cdb8b1420d5594056e62634e340a4ed133850de7134a7f1e73c433dbf0",
+    "currentSha256": "520ba9cdb8b1420d5594056e62634e340a4ed133850de7134a7f1e73c433dbf0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/branch.json",
+    "originalSha256": "cf4f19a9238c0e11fc3590d5ddcb2f2b9b80df8d792248ff4c21fd5471ce0e21",
+    "currentSha256": "cf4f19a9238c0e11fc3590d5ddcb2f2b9b80df8d792248ff4c21fd5471ce0e21",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/card.json",
+    "originalSha256": "115a38a794dfaeec746c3bd71f7e5b9fc13acab43785ca31c8ca5c2ce7e4ef47",
+    "currentSha256": "115a38a794dfaeec746c3bd71f7e5b9fc13acab43785ca31c8ca5c2ce7e4ef47",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/charges.json",
+    "originalSha256": "bdb5b523e306e8fef9012605cf14febcd400d11d5472f2080ddc44d9fcdcfcda",
+    "currentSha256": "bdb5b523e306e8fef9012605cf14febcd400d11d5472f2080ddc44d9fcdcfcda",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/currency.json",
+    "originalSha256": "c506c133e587a2c40d1ff50141f2493f1f05d5d48d40739a36d50e2daed77307",
+    "currentSha256": "c506c133e587a2c40d1ff50141f2493f1f05d5d48d40739a36d50e2daed77307",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/customer.json",
+    "originalSha256": "752b9c1b4cd6387e1d4c967b00346fb876e2a39de2f05ed93914c1a1af414b80",
+    "currentSha256": "752b9c1b4cd6387e1d4c967b00346fb876e2a39de2f05ed93914c1a1af414b80",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/employee.json",
+    "originalSha256": "aae41021d171b35583df33b5a4d8dbbb03eb7b17737f6c1043152c2e7830b964",
+    "currentSha256": "aae41021d171b35583df33b5a4d8dbbb03eb7b17737f6c1043152c2e7830b964",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/exchange_rate.json",
+    "originalSha256": "148ab555edc66d0074ce9527f0e98a88ce6e74008b728db2dda3d9c8594336b8",
+    "currentSha256": "148ab555edc66d0074ce9527f0e98a88ce6e74008b728db2dda3d9c8594336b8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/fixed_deposit.json",
+    "originalSha256": "efdefbade5cd00ed111b84faa02db0693d47c388a8d2f5c9cbb825d21c417a07",
+    "currentSha256": "efdefbade5cd00ed111b84faa02db0693d47c388a8d2f5c9cbb825d21c417a07",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/interest_rate.json",
+    "originalSha256": "a64b888d074ff815da5958d86f369b9854604dc76bfe039d465acc48dcdc766e",
+    "currentSha256": "a64b888d074ff815da5958d86f369b9854604dc76bfe039d465acc48dcdc766e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/kyc.json",
+    "originalSha256": "d364e2aeeeeb3b19a3c79a233c41b2ddf6dbe2009e0d13a94887149dbb90eb20",
+    "currentSha256": "d364e2aeeeeb3b19a3c79a233c41b2ddf6dbe2009e0d13a94887149dbb90eb20",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/ledger.json",
+    "originalSha256": "52df9655e24b42873598c616252de1e4c565df67aaf91adebbe5215e9d473cae",
+    "currentSha256": "52df9655e24b42873598c616252de1e4c565df67aaf91adebbe5215e9d473cae",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/limits.json",
+    "originalSha256": "6ee4ac3dce90bc5a67e4420700ffb5a2397de0acbb85c4b29918ef72d201400e",
+    "currentSha256": "6ee4ac3dce90bc5a67e4420700ffb5a2397de0acbb85c4b29918ef72d201400e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/loan.json",
+    "originalSha256": "131742ed6761957271a633553444b7b266d9cc62fe9fe1d17f27019a29cddc68",
+    "currentSha256": "131742ed6761957271a633553444b7b266d9cc62fe9fe1d17f27019a29cddc68",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/nominee.json",
+    "originalSha256": "82fed5f6e04cde6341137f3cc65a020fe1877068553af21a78cc41b35382a689",
+    "currentSha256": "82fed5f6e04cde6341137f3cc65a020fe1877068553af21a78cc41b35382a689",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/notifications.json",
+    "originalSha256": "66c1ea51388ab2ab352e6f482e241c695e85b620a831713c7c2dfa775bb98330",
+    "currentSha256": "66c1ea51388ab2ab352e6f482e241c695e85b620a831713c7c2dfa775bb98330",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/statement.json",
+    "originalSha256": "f06a5156dfe5c259272b045b3b5b94399b1d50828a50328053c5c00e3bbbb9e8",
+    "currentSha256": "f06a5156dfe5c259272b045b3b5b94399b1d50828a50328053c5c00e3bbbb9e8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/openmetadata/transaction.json",
+    "originalSha256": "15cdac854ee718c2b8939bd8625ecb5b46e2da553fc449aae0735e67d0fcf051",
+    "currentSha256": "15cdac854ee718c2b8939bd8625ecb5b46e2da553fc449aae0735e67d0fcf051",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/output/tests/Generators.fs",
+    "originalSha256": "9f8baecb963b9fbbfa2f763703810a9a70b4463043b06d8792285b816f94353c",
+    "currentSha256": "9f8baecb963b9fbbfa2f763703810a9a70b4463043b06d8792285b816f94353c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/scripts/dogfood.sh",
+    "originalSha256": "07c663d3b5e585fc4b2394b034cba1f16061c489045b54f2709a3a4807878435",
+    "currentSha256": "07c663d3b5e585fc4b2394b034cba1f16061c489045b54f2709a3a4807878435",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/BankingCore.Domain.fsproj",
+    "originalSha256": "5adda1fc1b6f250dc784b1fdd94a0056cafed3dea77e2ca1fc8c07c48f821ff8",
+    "currentSha256": "e826f34fbbd21cdaa943c802427fff92dd0794c64715a7396321cf27be812a91",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/Library.fs",
+    "originalSha256": "d00cdb7009ad34b4cedad92d02d6d984a33edbddfc3ba1c2de2ee679687279e1",
+    "currentSha256": "d00cdb7009ad34b4cedad92d02d6d984a33edbddfc3ba1c2de2ee679687279e1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/BankingCore.Tests.fsproj",
+    "originalSha256": "8710441807fc86756b170d667b9d00715559c3372c120763c52eb56443823d95",
+    "currentSha256": "8710441807fc86756b170d667b9d00715559c3372c120763c52eb56443823d95",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Generators.fs",
+    "originalSha256": "7618a1f0fb95d598e10ff9f385dc6748f245eb2159355091e2827659dc078d5b",
+    "currentSha256": "7618a1f0fb95d598e10ff9f385dc6748f245eb2159355091e2827659dc078d5b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Program.fs",
+    "originalSha256": "67c30f4245fc2f36a81d296c2ff4b8996a8215b4502e9fc4f87ae3b09ffd4744",
+    "currentSha256": "67c30f4245fc2f36a81d296c2ff4b8996a8215b4502e9fc4f87ae3b09ffd4744",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Tests.fs",
+    "originalSha256": "bb6f3f286cd868f1bda0a93e6240168d996665d81ab1bababdc267136af7b7a8",
+    "currentSha256": "bb6f3f286cd868f1bda0a93e6240168d996665d81ab1bababdc267136af7b7a8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/catalog_bookings.md",
+    "originalSha256": "c85a40f74690840ae218743684650fd61b4592386e745787833989533d2490f0",
+    "currentSha256": "c85a40f74690840ae218743684650fd61b4592386e745787833989533d2490f0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/catalog_ledger_transactions.md",
+    "originalSha256": "7734f8c2b2f48779c7aeeba8577c29fbe882961ee4ed3c1e3f0ca9feac4b4a45",
+    "currentSha256": "7734f8c2b2f48779c7aeeba8577c29fbe882961ee4ed3c1e3f0ca9feac4b4a45",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/catalog_resources.md",
+    "originalSha256": "b7a31a29ecc55381d63e3fe132f608ec4df8036a16669849cb53addf249ef734",
+    "currentSha256": "b7a31a29ecc55381d63e3fe132f608ec4df8036a16669849cb53addf249ef734",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/catalog_wallet_balances.md",
+    "originalSha256": "5f1f3c304e3035761602db92b386ef92565ae6b225d9ff342da74eac7b565d9d",
+    "currentSha256": "5f1f3c304e3035761602db92b386ef92565ae6b225d9ff342da74eac7b565d9d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/catalog_wallets.md",
+    "originalSha256": "3b5a85205049f862a52c91e67dc77a8d83fd01eebf03df9c61461d64096b513e",
+    "currentSha256": "3b5a85205049f862a52c91e67dc77a8d83fd01eebf03df9c61461d64096b513e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/catalog_workspaces.md",
+    "originalSha256": "3eb8a964ced588730bcc0d724e4fa8a35c43ae67b7f92d475e8b2477369554e0",
+    "currentSha256": "3eb8a964ced588730bcc0d724e4fa8a35c43ae67b7f92d475e8b2477369554e0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/android/compose/Ledger_transactionsForm.kt",
+    "originalSha256": "e307e53c6bc1f5c43b65ce448dc2b3d36aac462c8b9d79228c9d5db785a9c5a8",
+    "currentSha256": "e307e53c6bc1f5c43b65ce448dc2b3d36aac462c8b9d79228c9d5db785a9c5a8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/android/compose/Wallet_balancesForm.kt",
+    "originalSha256": "cbbdd140f9d775e3f6e384d7c3dc7ec61933acebc972345e7023e639e62c0528",
+    "currentSha256": "cbbdd140f9d775e3f6e384d7c3dc7ec61933acebc972345e7023e639e62c0528",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/android/compose/WalletsForm.kt",
+    "originalSha256": "7d86a8e4e9d0af6552bf90f44f53b34e62b28220b3d40200fce462a22669ecff",
+    "currentSha256": "7d86a8e4e9d0af6552bf90f44f53b34e62b28220b3d40200fce462a22669ecff",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/android/validators/Validators.kt",
+    "originalSha256": "08d02216cbee332faa3e127d7d43b550c6636b24a215d7297da72755576125d3",
+    "currentSha256": "08d02216cbee332faa3e127d7d43b550c6636b24a215d7297da72755576125d3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/ios/validators/Validators.swift",
+    "originalSha256": "f971583dbaa6af4b6609513798385e396f1748466a1dddcd61275f9953c4ba20",
+    "currentSha256": "f971583dbaa6af4b6609513798385e396f1748466a1dddcd61275f9953c4ba20",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/src/forms/Ledger_transactionsForm.tsx",
+    "originalSha256": "c4a890f3748c40184b81d05f2c1dcdbb43424db13d9d696978034ce3def995a1",
+    "currentSha256": "c4a890f3748c40184b81d05f2c1dcdbb43424db13d9d696978034ce3def995a1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/src/forms/Wallet_balancesForm.tsx",
+    "originalSha256": "fd33c1bd7f146e570d24962a4f3435321bbff11ce77c57095335d5e7060c56bf",
+    "currentSha256": "fd33c1bd7f146e570d24962a4f3435321bbff11ce77c57095335d5e7060c56bf",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/src/forms/WalletsForm.tsx",
+    "originalSha256": "c99a73a301480be264b36ad503e514b471aeeee90fec11d1d3d6fb8d3d8f1601",
+    "currentSha256": "c99a73a301480be264b36ad503e514b471aeeee90fec11d1d3d6fb8d3d8f1601",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/client/src/validators.ts",
+    "originalSha256": "74863ead7f14346627268916000fe06472e74dfc74a1e3e4d5144cfd67542803",
+    "currentSha256": "74863ead7f14346627268916000fe06472e74dfc74a1e3e4d5144cfd67542803",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/.eslintrc.json",
+    "originalSha256": "8d4a8d81dab1c22bcb28635249606f2e59fa816e8e58c56eecf6d2430949847a",
+    "currentSha256": "8d4a8d81dab1c22bcb28635249606f2e59fa816e8e58c56eecf6d2430949847a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/.gitignore",
+    "originalSha256": "f37e7e1b90353a16ba7bec8979585311ee6d00311209391e5ab47162df4ca922",
+    "currentSha256": "f37e7e1b90353a16ba7bec8979585311ee6d00311209391e5ab47162df4ca922",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/README.md",
+    "originalSha256": "60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f",
+    "currentSha256": "60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/next.config.mjs",
+    "originalSha256": "1e3206cb200e264fdddb4dbb2e4772daebc839fdbc94b78316d74892a0de6fa2",
+    "currentSha256": "1e3206cb200e264fdddb4dbb2e4772daebc839fdbc94b78316d74892a0de6fa2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/package-lock.json",
+    "originalSha256": "755b5603f71b015c4318a8b3c5d61290dfa045db46c58d6f26515b7769c5b69d",
+    "currentSha256": "755b5603f71b015c4318a8b3c5d61290dfa045db46c58d6f26515b7769c5b69d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/package.json",
+    "originalSha256": "9e6c44dd2dee948876c28009bd9bce30d93fc763a5bc04c079b124abc8eb4c36",
+    "currentSha256": "9e6c44dd2dee948876c28009bd9bce30d93fc763a5bc04c079b124abc8eb4c36",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/postcss.config.mjs",
+    "originalSha256": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646",
+    "currentSha256": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/src/app/favicon.ico",
+    "originalSha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+    "currentSha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/src/app/fonts/GeistMonoVF.woff",
+    "originalSha256": "e8b65928f551b17e3d67c3f709721b952c39842d14b00701f9232057fde73608",
+    "currentSha256": "e8b65928f551b17e3d67c3f709721b952c39842d14b00701f9232057fde73608",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/src/app/fonts/GeistVF.woff",
+    "originalSha256": "296fafafd41304f7c992079054b8af914dbbd865f32de97c66d0f613b55755d6",
+    "currentSha256": "296fafafd41304f7c992079054b8af914dbbd865f32de97c66d0f613b55755d6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/src/app/globals.css",
+    "originalSha256": "829a1a933cadb4ade17c52f3940c7ce30420c90037e299e842d1b9327d73c277",
+    "currentSha256": "829a1a933cadb4ade17c52f3940c7ce30420c90037e299e842d1b9327d73c277",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/src/app/layout.tsx",
+    "originalSha256": "c21ba97aa692418557c5c529fd8add83918cab60e8b2ea3bc134af2202376c69",
+    "currentSha256": "c21ba97aa692418557c5c529fd8add83918cab60e8b2ea3bc134af2202376c69",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/src/app/page.tsx",
+    "originalSha256": "ece0bcbd96c9a53df492c754008b5e5b0910a69f09612b8d1fe3635e5b51e252",
+    "currentSha256": "ece0bcbd96c9a53df492c754008b5e5b0910a69f09612b8d1fe3635e5b51e252",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/tailwind.config.ts",
+    "originalSha256": "8880e4796c3e98b43dc5ff31b58960cf23324c0c46fba345f985c98f34dc126d",
+    "currentSha256": "8880e4796c3e98b43dc5ff31b58960cf23324c0c46fba345f985c98f34dc126d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/frontend/tsconfig.json",
+    "originalSha256": "53f96418e60724de8c624de8d7d1b549f64a6c34a5f40f07a7596af4380c92f6",
+    "currentSha256": "53f96418e60724de8c624de8d7d1b549f64a6c34a5f40f07a7596af4380c92f6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/README.md",
+    "originalSha256": "c29027fd7bc460b4e020531bee2b6962625675af1560b9f66b7001ed3cf76c2c",
+    "currentSha256": "c29027fd7bc460b4e020531bee2b6962625675af1560b9f66b7001ed3cf76c2c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/client/src/validators.test.ts",
+    "originalSha256": "eb449b46137ff32302d830429d5b8743d4ca7f6c618a384cb5dcacaff2ca708e",
+    "currentSha256": "eb449b46137ff32302d830429d5b8743d4ca7f6c618a384cb5dcacaff2ca708e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/client/src/validators.ts",
+    "originalSha256": "de32ba21733cd260f1b65dee0a1c3b5a508b8a70ade5c4e51957703773cbc15d",
+    "currentSha256": "de32ba21733cd260f1b65dee0a1c3b5a508b8a70ade5c4e51957703773cbc15d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/db/init/01-schema.sql",
+    "originalSha256": "d3aac6cc5ef8f17ce66cce538d234fc2811b8dbaae518eb4fc8e682a69341de2",
+    "currentSha256": "d3aac6cc5ef8f17ce66cce538d234fc2811b8dbaae518eb4fc8e682a69341de2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/docker-compose.yml",
+    "originalSha256": "bd96e8b43c3022af1220e7db9eeb9166a07dfbb8f01acd94735108b0e0b2b7cf",
+    "currentSha256": "bd96e8b43c3022af1220e7db9eeb9166a07dfbb8f01acd94735108b0e0b2b7cf",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/PROOF.md",
+    "originalSha256": "42a9c644a8ef8a96af3fa9b464578b1b047ff54d59ba2d5a8ebfcd09e13a85c6",
+    "currentSha256": "42a9c644a8ef8a96af3fa9b464578b1b047ff54d59ba2d5a8ebfcd09e13a85c6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/agent-context.json",
+    "originalSha256": "7ced13b5a2b1619d37458093d053160e6c3ccf2b31722e7ff5fd462a1a65228f",
+    "currentSha256": "7ced13b5a2b1619d37458093d053160e6c3ccf2b31722e7ff5fd462a1a65228f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/catalog_gatepasses.md",
+    "originalSha256": "d363965f5581fefad26a99ff5ebb9fa9c0b63cfb896138b6f3d103cd295da602",
+    "currentSha256": "d363965f5581fefad26a99ff5ebb9fa9c0b63cfb896138b6f3d103cd295da602",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/catalog_residents.md",
+    "originalSha256": "2501a17c1b0a2024d2fc5acb52447bfbd7af95496e3d6408b016167bb06c85d0",
+    "currentSha256": "2501a17c1b0a2024d2fc5acb52447bfbd7af95496e3d6408b016167bb06c85d0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/catalog_visitors.md",
+    "originalSha256": "6a31eab1eaa2fec0ccbe096d2d703ff0c5ee4ee07dd354d9ac6eb0e5552be708",
+    "currentSha256": "6a31eab1eaa2fec0ccbe096d2d703ff0c5ee4ee07dd354d9ac6eb0e5552be708",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/layer-map.md",
+    "originalSha256": "ab2a9d892a918773badca77a654b61cc859a32fa41c694277a85471f2eaaab72",
+    "currentSha256": "ab2a9d892a918773badca77a654b61cc859a32fa41c694277a85471f2eaaab72",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/openmetadata/gatepasses.json",
+    "originalSha256": "e0041daea74677d1a195c690f61e38cddc8a9003d68a5315d2b454fa44dc9b83",
+    "currentSha256": "e0041daea74677d1a195c690f61e38cddc8a9003d68a5315d2b454fa44dc9b83",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/openmetadata/residents.json",
+    "originalSha256": "8f3dee2168ce0874a8f180257adc078f6c91ea0b064458eabc3deab750fb421e",
+    "currentSha256": "8f3dee2168ce0874a8f180257adc078f6c91ea0b064458eabc3deab750fb421e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/openmetadata/visitors.json",
+    "originalSha256": "6b7e3372e62eaa1513e89e0ff4138a7467ca81f3698e335831e672f5e23f4314",
+    "currentSha256": "6b7e3372e62eaa1513e89e0ff4138a7467ca81f3698e335831e672f5e23f4314",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/output/tests/Generators.fs",
+    "originalSha256": "57013a408d7eb78d91df6b6f4c819657aceb14900e37e559be6bda80d64019da",
+    "currentSha256": "57013a408d7eb78d91df6b6f4c819657aceb14900e37e559be6bda80d64019da",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/scripts/dogfood.sh",
+    "originalSha256": "d76b5aab8df76c62c1384dac2e1656707b8f1d2532732cbcbafcf3fb3e4b9a0e",
+    "currentSha256": "d76b5aab8df76c62c1384dac2e1656707b8f1d2532732cbcbafcf3fb3e4b9a0e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/scripts/test.sh",
+    "originalSha256": "fccd0fab607c4cd1fa790014e720ec3a05fa90ae062ae58a75c6668a3fbabb0b",
+    "currentSha256": "fccd0fab607c4cd1fa790014e720ec3a05fa90ae062ae58a75c6668a3fbabb0b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/GatepassCore.Domain.fsproj",
+    "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
+    "originalSha256": "67eb40af33843172cef7a74895e89c009af5b55375d8269c41c5cdbb728b8efc",
+    "currentSha256": "67eb40af33843172cef7a74895e89c009af5b55375d8269c41c5cdbb728b8efc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/DomainTests.fs",
+    "originalSha256": "708ebb9574c18d314fd53956303287439588f0aee1c3f4b084adeb2f1bd2726b",
+    "currentSha256": "708ebb9574c18d314fd53956303287439588f0aee1c3f4b084adeb2f1bd2726b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/Generators.fs",
+    "originalSha256": "57013a408d7eb78d91df6b6f4c819657aceb14900e37e559be6bda80d64019da",
+    "currentSha256": "57013a408d7eb78d91df6b6f4c819657aceb14900e37e559be6bda80d64019da",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/Tests.fs",
+    "originalSha256": "832db9e3c0e22b04595a766597e11f00ccb35fd8d328d6cb10a9fd7a73f5c3a1",
+    "currentSha256": "832db9e3c0e22b04595a766597e11f00ccb35fd8d328d6cb10a9fd7a73f5c3a1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/gatepass.Tests.fsproj",
+    "originalSha256": "e648d392c19bcd315796f1288019a56da4043a9fb6fada891adbd3905c604a78",
+    "currentSha256": "e648d392c19bcd315796f1288019a56da4043a9fb6fada891adbd3905c604a78",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/README.md",
+    "originalSha256": "5585169aec867d23675f78ef6577f929be68975465306d94a99c96187081b2d3",
+    "currentSha256": "5585169aec867d23675f78ef6577f929be68975465306d94a99c96187081b2d3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/client/src/validators.test.ts",
+    "originalSha256": "f6b70131998ec0417fafb0e3bfbe8db2851d07e3a630159d8a3ff459ff3ebaa7",
+    "currentSha256": "f6b70131998ec0417fafb0e3bfbe8db2851d07e3a630159d8a3ff459ff3ebaa7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/client/src/validators.ts",
+    "originalSha256": "e38480d5cb08ce8d1fcc717793220d7d4b31a9d3fcf0407772d556bee94217ba",
+    "currentSha256": "e38480d5cb08ce8d1fcc717793220d7d4b31a9d3fcf0407772d556bee94217ba",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/db/init/01-schema.sql",
+    "originalSha256": "8998be5e6bcda65518106335d2e52cb2291a7aaf3228f07c0b8e8d4305915632",
+    "currentSha256": "8998be5e6bcda65518106335d2e52cb2291a7aaf3228f07c0b8e8d4305915632",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/docker-compose.yml",
+    "originalSha256": "92f5e08001f363281bdfc65b561a543837c34e9cd0109b0b930fc9bc4d7e112a",
+    "currentSha256": "92f5e08001f363281bdfc65b561a543837c34e9cd0109b0b930fc9bc4d7e112a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/PROOF.md",
+    "originalSha256": "a25a94e06cdad679ca4a12c78e39a64179e62a58b586da1228873d6db88881ec",
+    "currentSha256": "a25a94e06cdad679ca4a12c78e39a64179e62a58b586da1228873d6db88881ec",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/agent-context.json",
+    "originalSha256": "ba65bec52e3a604d2af4ddd73a77e9701a282988626e346b663015f362c33f05",
+    "currentSha256": "ba65bec52e3a604d2af4ddd73a77e9701a282988626e346b663015f362c33f05",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_billing.md",
+    "originalSha256": "1990430be06add6a1a55288e01b6b24cf3c1cfa8e4d1677aa48a049a51063b8f",
+    "currentSha256": "1990430be06add6a1a55288e01b6b24cf3c1cfa8e4d1677aa48a049a51063b8f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_claims.md",
+    "originalSha256": "7aa6de0af2f0c269e85ba0cfff28490071546c5d5cdad9dbee1b21976861f000",
+    "currentSha256": "7aa6de0af2f0c269e85ba0cfff28490071546c5d5cdad9dbee1b21976861f000",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_doctor.md",
+    "originalSha256": "f8b99ca4cf0653ff098bc45ca44e0fc415d6711a2a1c25da0d1edd5ff9991225",
+    "currentSha256": "f8b99ca4cf0653ff098bc45ca44e0fc415d6711a2a1c25da0d1edd5ff9991225",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_insurance.md",
+    "originalSha256": "dbc60371c73d788c6c4a4f679dcbc00237991dfdc6b578778abb67bad3b8aff4",
+    "currentSha256": "dbc60371c73d788c6c4a4f679dcbc00237991dfdc6b578778abb67bad3b8aff4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_lab.md",
+    "originalSha256": "eb7506a3ae4660138f623c477d493d283a83c37c763a3c9b926457c14d7af18c",
+    "currentSha256": "eb7506a3ae4660138f623c477d493d283a83c37c763a3c9b926457c14d7af18c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_patient.md",
+    "originalSha256": "b7613ccc7103240ab96ee9298e982123894fd363750a3fc5566fed21f645c415",
+    "currentSha256": "b7613ccc7103240ab96ee9298e982123894fd363750a3fc5566fed21f645c415",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_pharmacy.md",
+    "originalSha256": "4dd181e25126cf2a0de1e5d37cba34eadabbb090f690f88a06653476a507e0ac",
+    "currentSha256": "4dd181e25126cf2a0de1e5d37cba34eadabbb090f690f88a06653476a507e0ac",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_prescription.md",
+    "originalSha256": "d46f2eff677f8c788d25cdc7a90a4110196d5d03431da84930e51e2e4703c20a",
+    "currentSha256": "d46f2eff677f8c788d25cdc7a90a4110196d5d03431da84930e51e2e4703c20a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/catalog_visit.md",
+    "originalSha256": "064c6291bcaf41e51853d9dd916befcc0858de42e2f262c80ae0f18a350fa8b7",
+    "currentSha256": "064c6291bcaf41e51853d9dd916befcc0858de42e2f262c80ae0f18a350fa8b7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/layer-map.md",
+    "originalSha256": "e6610e36d32250fe062c78a4cafd92f7fccd16fad71ff435eeadcd811152ee64",
+    "currentSha256": "e6610e36d32250fe062c78a4cafd92f7fccd16fad71ff435eeadcd811152ee64",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/billing.json",
+    "originalSha256": "232447beab28713958f1752e50c4b8ed6411e5921edee3d9510ddc3a47b026c0",
+    "currentSha256": "232447beab28713958f1752e50c4b8ed6411e5921edee3d9510ddc3a47b026c0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/claims.json",
+    "originalSha256": "3e4bcbb99d758b99e72e8ce9ec8d9350e7cc42fa2def0bf135ad804217eba38b",
+    "currentSha256": "3e4bcbb99d758b99e72e8ce9ec8d9350e7cc42fa2def0bf135ad804217eba38b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/doctor.json",
+    "originalSha256": "f8c83aafe4ab13583c8b8c63d8ff1fd657a865a538ca3e1b15aab9a93438e09c",
+    "currentSha256": "f8c83aafe4ab13583c8b8c63d8ff1fd657a865a538ca3e1b15aab9a93438e09c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/insurance.json",
+    "originalSha256": "7c16a02d1499195b714b4266309439f0e6653e39f2af685be81d6a3e827594e8",
+    "currentSha256": "7c16a02d1499195b714b4266309439f0e6653e39f2af685be81d6a3e827594e8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/lab.json",
+    "originalSha256": "6c8df812d65b5ad422f7afd37154befa29eae14a9ddcadef4bf66dc77e7bbb17",
+    "currentSha256": "6c8df812d65b5ad422f7afd37154befa29eae14a9ddcadef4bf66dc77e7bbb17",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/patient.json",
+    "originalSha256": "72febe876f6983ba488e0b3aa8ee96ededcf2d208dda22ee5c89193713b6eb96",
+    "currentSha256": "72febe876f6983ba488e0b3aa8ee96ededcf2d208dda22ee5c89193713b6eb96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/pharmacy.json",
+    "originalSha256": "b4df57c566ef56762a7534a500580aff770dacff6a89e25f1ff74d3bf4bc7a7b",
+    "currentSha256": "b4df57c566ef56762a7534a500580aff770dacff6a89e25f1ff74d3bf4bc7a7b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/prescription.json",
+    "originalSha256": "b1707e33d0f76b619cf62a0936039965a3237812f65a194a6821ebbb7661be43",
+    "currentSha256": "b1707e33d0f76b619cf62a0936039965a3237812f65a194a6821ebbb7661be43",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/openmetadata/visit.json",
+    "originalSha256": "797c3a8c2aa68c8ab939cbb0ec93115bb7af677a15e4a93bb58113c4c228dc7f",
+    "currentSha256": "797c3a8c2aa68c8ab939cbb0ec93115bb7af677a15e4a93bb58113c4c228dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/output/tests/Generators.fs",
+    "originalSha256": "c7687f52edb16c211dfdbc47060390b70cbf834f91e1009d8c43dbdfb1c14711",
+    "currentSha256": "c7687f52edb16c211dfdbc47060390b70cbf834f91e1009d8c43dbdfb1c14711",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/scripts/dogfood.sh",
+    "originalSha256": "f5587ac55ae69c18c0e7361753204a0cef3d449f280dc56d27587a7f0e6f1203",
+    "currentSha256": "f5587ac55ae69c18c0e7361753204a0cef3d449f280dc56d27587a7f0e6f1203",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/HospitalCore.Domain.fsproj",
+    "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
+    "originalSha256": "4efeccd9a36edfa81f7a4c16e9cbd79539469568ddb3ebc2b333340fb4ac53a5",
+    "currentSha256": "9b7a34f0bed9fd3fd966ef92084c80eba00fe89750f58c2cddbb40ba3d66f01e",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/Generators.fs",
+    "originalSha256": "c7687f52edb16c211dfdbc47060390b70cbf834f91e1009d8c43dbdfb1c14711",
+    "currentSha256": "c7687f52edb16c211dfdbc47060390b70cbf834f91e1009d8c43dbdfb1c14711",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/Tests.fs",
+    "originalSha256": "f2442c1873f0c93932017c9d943b31039b972b13a318af9184826e618ac4e41d",
+    "currentSha256": "f2442c1873f0c93932017c9d943b31039b972b13a318af9184826e618ac4e41d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/hospital_core.Tests.fsproj",
+    "originalSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
+    "currentSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/README.md",
+    "originalSha256": "8c7f87ad014d035af9de4deb4b0d8737e5a8375274c636d2c092ad89b9f59646",
+    "currentSha256": "8c7f87ad014d035af9de4deb4b0d8737e5a8375274c636d2c092ad89b9f59646",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/client/.gitignore",
+    "originalSha256": "cad602556ba84274e1cdb300f6dc9cac722ae94b09e0727c40c99f67df343dc4",
+    "currentSha256": "cad602556ba84274e1cdb300f6dc9cac722ae94b09e0727c40c99f67df343dc4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/client/src/validators.test.ts",
+    "originalSha256": "17d1abd8fe6012388143bc05c480b7576cd82fcc240ef7a3fe915378edb123f7",
+    "currentSha256": "17d1abd8fe6012388143bc05c480b7576cd82fcc240ef7a3fe915378edb123f7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/client/src/validators.ts",
+    "originalSha256": "2391010e244c5ee5eca8889135eb93335be885e65e7d7d6a24d1f5fbdafd9cef",
+    "currentSha256": "2391010e244c5ee5eca8889135eb93335be885e65e7d7d6a24d1f5fbdafd9cef",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/db/init/01-schema.sql",
+    "originalSha256": "7e1ad1f81e6bf8a2837a62cd265d2e48ce464939b7197c3240089fcaa1e1a115",
+    "currentSha256": "7e1ad1f81e6bf8a2837a62cd265d2e48ce464939b7197c3240089fcaa1e1a115",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/docker-compose.yml",
+    "originalSha256": "5e0ba0f81822c6ed1e57a129b719b94a217ac86578fedc42b6ad65564cbf0ae3",
+    "currentSha256": "5e0ba0f81822c6ed1e57a129b719b94a217ac86578fedc42b6ad65564cbf0ae3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/PROOF.md",
+    "originalSha256": "c95d37cfe001f4b53737e8905b3e8b7c12fe328f14a72e6c71edaa53e3798b35",
+    "currentSha256": "c95d37cfe001f4b53737e8905b3e8b7c12fe328f14a72e6c71edaa53e3798b35",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/agent-context.json",
+    "originalSha256": "9444ebc6e5e3e5cbd1e78c8698481298efb66a1aa246baa3cc6f155bc07fa196",
+    "currentSha256": "9444ebc6e5e3e5cbd1e78c8698481298efb66a1aa246baa3cc6f155bc07fa196",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/catalog_artists.md",
+    "originalSha256": "bc99e9195562bd3d3a95899900be56d70f7f6d62d74c1e1dc20af3f621b830c9",
+    "currentSha256": "bc99e9195562bd3d3a95899900be56d70f7f6d62d74c1e1dc20af3f621b830c9",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/catalog_bookings.md",
+    "originalSha256": "78cba9f855209a7e9006cb2b8d4fe149e3059a353c0376a92d9f775de0a16241",
+    "currentSha256": "78cba9f855209a7e9006cb2b8d4fe149e3059a353c0376a92d9f775de0a16241",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/catalog_kutcheris.md",
+    "originalSha256": "ea1fb7d90aa4c118fc96212af47bb862b3253013b1257c2a8730c3ec56c66416",
+    "currentSha256": "ea1fb7d90aa4c118fc96212af47bb862b3253013b1257c2a8730c3ec56c66416",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/catalog_ticket_tiers.md",
+    "originalSha256": "4492b0750de5daefad0e16c4a5c52beb31957f960521b5f94f943821b5440291",
+    "currentSha256": "4492b0750de5daefad0e16c4a5c52beb31957f960521b5f94f943821b5440291",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/catalog_venues.md",
+    "originalSha256": "367bba8f3c4e2a641090c19fdf0272912e010dedee70cf728571a8e2c6676f6c",
+    "currentSha256": "367bba8f3c4e2a641090c19fdf0272912e010dedee70cf728571a8e2c6676f6c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/layer-map.md",
+    "originalSha256": "ab90531917ab9a6a37251b9e9a1a355aeb27b282346936477b5de9c826c80764",
+    "currentSha256": "ab90531917ab9a6a37251b9e9a1a355aeb27b282346936477b5de9c826c80764",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/openmetadata/artists.json",
+    "originalSha256": "45b2d83b72e57a1386e87ce617a8a52b294a1fd8f32f9e6ef4376348aaa4659a",
+    "currentSha256": "45b2d83b72e57a1386e87ce617a8a52b294a1fd8f32f9e6ef4376348aaa4659a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/openmetadata/bookings.json",
+    "originalSha256": "70954ed5fa1035bf18812e11baae8c7b7771e0be3b5003a58cec9ef4155e76d6",
+    "currentSha256": "70954ed5fa1035bf18812e11baae8c7b7771e0be3b5003a58cec9ef4155e76d6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/openmetadata/kutcheris.json",
+    "originalSha256": "436dd15bda8670a258a3fe5e47046d3560067076f620555fece11f574321ecf8",
+    "currentSha256": "436dd15bda8670a258a3fe5e47046d3560067076f620555fece11f574321ecf8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/openmetadata/ticket_tiers.json",
+    "originalSha256": "ff1601c6513fc9e0eee150d1ba45a04eacb96c379a3337562f092c62085715c4",
+    "currentSha256": "ff1601c6513fc9e0eee150d1ba45a04eacb96c379a3337562f092c62085715c4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/openmetadata/venues.json",
+    "originalSha256": "7875d1e9467086d54d39625662176c9a4a92738d4afadeb8f2b394f168abaefa",
+    "currentSha256": "7875d1e9467086d54d39625662176c9a4a92738d4afadeb8f2b394f168abaefa",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/output/tests/Generators.fs",
+    "originalSha256": "5f8144ff16c39fa2538adddc1e1f930e88587c678d218735111f189768a9d511",
+    "currentSha256": "5f8144ff16c39fa2538adddc1e1f930e88587c678d218735111f189768a9d511",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/scripts/dogfood.sh",
+    "originalSha256": "9b12deb73ac2f567d120855a16d3eb8c89c66b60d6cfcf04da329e4e040b540c",
+    "currentSha256": "9b12deb73ac2f567d120855a16d3eb8c89c66b60d6cfcf04da329e4e040b540c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Generators.fs",
+    "originalSha256": "5f8144ff16c39fa2538adddc1e1f930e88587c678d218735111f189768a9d511",
+    "currentSha256": "5f8144ff16c39fa2538adddc1e1f930e88587c678d218735111f189768a9d511",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Kutcheri.Tests.fsproj",
+    "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Tests.fs",
+    "originalSha256": "c1edecc8726e2d6f9dd71f94f20c626568b73a4acd16061cd1d18dd2b458bea8",
+    "currentSha256": "c1edecc8726e2d6f9dd71f94f20c626568b73a4acd16061cd1d18dd2b458bea8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/client/src/validators.ts",
+    "originalSha256": "e4b5da64a2ba5fd47b00df7a7265cf960be4c0e0dcc2d5e584c59f889c3a6be2",
+    "currentSha256": "e4b5da64a2ba5fd47b00df7a7265cf960be4c0e0dcc2d5e584c59f889c3a6be2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/README.md",
+    "originalSha256": "9434b34bffabc530e72e6f608f10405a38f54cd3a651aa17729483e945532615",
+    "currentSha256": "9434b34bffabc530e72e6f608f10405a38f54cd3a651aa17729483e945532615",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/client/src/validators.test.ts",
+    "originalSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "currentSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/client/src/validators.ts",
+    "originalSha256": "5bd1a8a2ee4fe82920837358051c1e3d6aecf51b4b1bcd46e6b1b0e5f27b377a",
+    "currentSha256": "5bd1a8a2ee4fe82920837358051c1e3d6aecf51b4b1bcd46e6b1b0e5f27b377a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/db/init/01-schema.sql",
+    "originalSha256": "eacb7cca2d4a0d27810be41d0b31b06652b3d93d8fcdd1955cee64cddb9234d4",
+    "currentSha256": "eacb7cca2d4a0d27810be41d0b31b06652b3d93d8fcdd1955cee64cddb9234d4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/db/init/02-seed.sql",
+    "originalSha256": "277139d5ae033ed244974e2528341de69e072ba6a7ecf75e9eb66abdafe1e2c4",
+    "currentSha256": "277139d5ae033ed244974e2528341de69e072ba6a7ecf75e9eb66abdafe1e2c4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/db/init/03-drift.sql",
+    "originalSha256": "bb002c3c42580a838727521dcbc58331de97e79a4f872a859b876e399994884d",
+    "currentSha256": "bb002c3c42580a838727521dcbc58331de97e79a4f872a859b876e399994884d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/docker-compose.yml",
+    "originalSha256": "37924f00c14f42f447e86617e187bc1a70077ca343570d0b105c0b060ade4777",
+    "currentSha256": "37924f00c14f42f447e86617e187bc1a70077ca343570d0b105c0b060ade4777",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/PROOF.md",
+    "originalSha256": "465f7e75e5f2581d2cce9f1b96c7fa18cf0b39a06048ab92fc134781aa1ef031",
+    "currentSha256": "465f7e75e5f2581d2cce9f1b96c7fa18cf0b39a06048ab92fc134781aa1ef031",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/agent-context.json",
+    "originalSha256": "9d8a56e1a79cb2e72ea15f745b135f20ee73e9dd6bb7b414272663d2e7b25fcc",
+    "currentSha256": "9d8a56e1a79cb2e72ea15f745b135f20ee73e9dd6bb7b414272663d2e7b25fcc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/catalog_batches.md",
+    "originalSha256": "ac29e1c6ea5f0d9f0ce75445cde0ebb17d2d57368161a1960e305e60adb12712",
+    "currentSha256": "ac29e1c6ea5f0d9f0ce75445cde0ebb17d2d57368161a1960e305e60adb12712",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/catalog_enrollments.md",
+    "originalSha256": "5ac8d228ef73a6c3c74eb3aa781682d4d8542a410e4628fccacadfd3f9add6d2",
+    "currentSha256": "5ac8d228ef73a6c3c74eb3aa781682d4d8542a410e4628fccacadfd3f9add6d2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/catalog_exams.md",
+    "originalSha256": "f103e131aa9ea5ff88d8c4751909a633e37c06a0ae8dcc9d690ec9e72e36f0e6",
+    "currentSha256": "f103e131aa9ea5ff88d8c4751909a633e37c06a0ae8dcc9d690ec9e72e36f0e6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/catalog_gurus.md",
+    "originalSha256": "3ca0bb1ca701defc50bde4ce45a7419abe3cb2e06522a492744adbdd00075865",
+    "currentSha256": "3ca0bb1ca701defc50bde4ce45a7419abe3cb2e06522a492744adbdd00075865",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/catalog_payments.md",
+    "originalSha256": "95ca2dcbcacb31f9d131d700f8f97adad752ecd45d0c255cb84e7b87c8ced2cf",
+    "currentSha256": "95ca2dcbcacb31f9d131d700f8f97adad752ecd45d0c255cb84e7b87c8ced2cf",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/catalog_scholarships.md",
+    "originalSha256": "a9781b31deef3f75afe8bb1c50102737937ab6567fe3036495903c709236bcca",
+    "currentSha256": "a9781b31deef3f75afe8bb1c50102737937ab6567fe3036495903c709236bcca",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/catalog_students.md",
+    "originalSha256": "4bc77df7fbb0defa87e36a4ed570b30c85617586ae593f3b15177b77794dcbf0",
+    "currentSha256": "4bc77df7fbb0defa87e36a4ed570b30c85617586ae593f3b15177b77794dcbf0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/layer-map.md",
+    "originalSha256": "9dc4d91051d8e4e64fd8cb033da32fe67df9d12ce8facb614c0cfcee6bedba61",
+    "currentSha256": "9dc4d91051d8e4e64fd8cb033da32fe67df9d12ce8facb614c0cfcee6bedba61",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/openmetadata/batches.json",
+    "originalSha256": "f03577b9afb6118d92e57fb048c4c97529349a9bfb0de121582a038463cd1c4c",
+    "currentSha256": "f03577b9afb6118d92e57fb048c4c97529349a9bfb0de121582a038463cd1c4c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/openmetadata/enrollments.json",
+    "originalSha256": "8d3e22ad3d8d9c4b7b50876905dd6f81d477d7835a927967ccc7f69d88b8c6c0",
+    "currentSha256": "8d3e22ad3d8d9c4b7b50876905dd6f81d477d7835a927967ccc7f69d88b8c6c0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/openmetadata/exams.json",
+    "originalSha256": "13cdf265984a734b6195acbbc3ff1660cba0ac9110f9fd8dc2725d41c44f6d20",
+    "currentSha256": "13cdf265984a734b6195acbbc3ff1660cba0ac9110f9fd8dc2725d41c44f6d20",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/openmetadata/gurus.json",
+    "originalSha256": "528f44de3f2ad45c3a56b05dd56fad0350951247a0143a5a28a23bfc5df41d67",
+    "currentSha256": "528f44de3f2ad45c3a56b05dd56fad0350951247a0143a5a28a23bfc5df41d67",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/openmetadata/payments.json",
+    "originalSha256": "86b0a01ca94c9312711b28978c3d0620d6ddf1b08a710586460b9d7ce844fd1f",
+    "currentSha256": "86b0a01ca94c9312711b28978c3d0620d6ddf1b08a710586460b9d7ce844fd1f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/openmetadata/scholarships.json",
+    "originalSha256": "21f4182b1a0790494669d0104c00ecf31a19eb33a2a9e5ea65fb94c399aa8fd6",
+    "currentSha256": "21f4182b1a0790494669d0104c00ecf31a19eb33a2a9e5ea65fb94c399aa8fd6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/openmetadata/students.json",
+    "originalSha256": "7b8ad77e2825c1725065dfac3df92e5d358d9e12ed132abda20c7095e940dc6b",
+    "currentSha256": "7b8ad77e2825c1725065dfac3df92e5d358d9e12ed132abda20c7095e940dc6b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/output/tests/Generators.fs",
+    "originalSha256": "f8361020d7717642d24be88e196ab964be6c375eeffab1084263370b4311e366",
+    "currentSha256": "f8361020d7717642d24be88e196ab964be6c375eeffab1084263370b4311e366",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/scripts/agreement-spot.js",
+    "originalSha256": "e51cdfee2743711832961fcdd342899b4f7805f134eba09e71190f60065b7b6a",
+    "currentSha256": "e51cdfee2743711832961fcdd342899b4f7805f134eba09e71190f60065b7b6a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/scripts/dogfood.sh",
+    "originalSha256": "c289d3b86f01ce1d6e4f1b2a07f110b0eb4d4d43e21b5cd39772f1b5685b5487",
+    "currentSha256": "c289d3b86f01ce1d6e4f1b2a07f110b0eb4d4d43e21b5cd39772f1b5685b5487",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/Generators.fs",
+    "originalSha256": "f8361020d7717642d24be88e196ab964be6c375eeffab1084263370b4311e366",
+    "currentSha256": "f8361020d7717642d24be88e196ab964be6c375eeffab1084263370b4311e366",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/Tests.fs",
+    "originalSha256": "555231fb2da01de7a3609410df38578ea9502eca83eab77a40267936d58787bc",
+    "currentSha256": "555231fb2da01de7a3609410df38578ea9502eca83eab77a40267936d58787bc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/layam.Tests.fsproj",
+    "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/PROOF.md",
+    "originalSha256": "d78afb7500e79f528159a5466f7b4df314caa401cef7f8a70bac8786452ed538",
+    "currentSha256": "d78afb7500e79f528159a5466f7b4df314caa401cef7f8a70bac8786452ed538",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_batches.md",
+    "originalSha256": "b5a08003f5290e4a50189fb5897ec93583c2ebfebcff4c20926fc7ef2812b91d",
+    "currentSha256": "b5a08003f5290e4a50189fb5897ec93583c2ebfebcff4c20926fc7ef2812b91d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_enrollments.md",
+    "originalSha256": "5ac8d228ef73a6c3c74eb3aa781682d4d8542a410e4628fccacadfd3f9add6d2",
+    "currentSha256": "5ac8d228ef73a6c3c74eb3aa781682d4d8542a410e4628fccacadfd3f9add6d2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_exams.md",
+    "originalSha256": "f103e131aa9ea5ff88d8c4751909a633e37c06a0ae8dcc9d690ec9e72e36f0e6",
+    "currentSha256": "f103e131aa9ea5ff88d8c4751909a633e37c06a0ae8dcc9d690ec9e72e36f0e6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_gurus.md",
+    "originalSha256": "3ca0bb1ca701defc50bde4ce45a7419abe3cb2e06522a492744adbdd00075865",
+    "currentSha256": "3ca0bb1ca701defc50bde4ce45a7419abe3cb2e06522a492744adbdd00075865",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_ledger_transactions.md",
+    "originalSha256": "c669c98dd3156c345d25876c352e94dad925f51926c0ca03747e368bf4d96500",
+    "currentSha256": "c669c98dd3156c345d25876c352e94dad925f51926c0ca03747e368bf4d96500",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_payments.md",
+    "originalSha256": "95ca2dcbcacb31f9d131d700f8f97adad752ecd45d0c255cb84e7b87c8ced2cf",
+    "currentSha256": "95ca2dcbcacb31f9d131d700f8f97adad752ecd45d0c255cb84e7b87c8ced2cf",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_scholarships.md",
+    "originalSha256": "33f6b108872c3e9e6a48cd8c2c44a6e34798d06a20d41375b62010a4fbfa67cd",
+    "currentSha256": "33f6b108872c3e9e6a48cd8c2c44a6e34798d06a20d41375b62010a4fbfa67cd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_students.md",
+    "originalSha256": "4bc77df7fbb0defa87e36a4ed570b30c85617586ae593f3b15177b77794dcbf0",
+    "currentSha256": "4bc77df7fbb0defa87e36a4ed570b30c85617586ae593f3b15177b77794dcbf0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_wallet_balances.md",
+    "originalSha256": "2fccd38a56254b64bf08827343424a15c7237db67ed8ed290600197b30c04034",
+    "currentSha256": "2fccd38a56254b64bf08827343424a15c7237db67ed8ed290600197b30c04034",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/catalog_wallets.md",
+    "originalSha256": "b7e667d188a2bc149e67d015cc2c76e2b917f5cc7b3d62974ca4c045486554fe",
+    "currentSha256": "b7e667d188a2bc149e67d015cc2c76e2b917f5cc7b3d62974ca4c045486554fe",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/batches.json",
+    "originalSha256": "15ce438cb01c9e46c29fb25bc67fbf181763a3b8a45adb7bcb91adb4f9bf85d0",
+    "currentSha256": "15ce438cb01c9e46c29fb25bc67fbf181763a3b8a45adb7bcb91adb4f9bf85d0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/enrollments.json",
+    "originalSha256": "8d3e22ad3d8d9c4b7b50876905dd6f81d477d7835a927967ccc7f69d88b8c6c0",
+    "currentSha256": "8d3e22ad3d8d9c4b7b50876905dd6f81d477d7835a927967ccc7f69d88b8c6c0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/exams.json",
+    "originalSha256": "13cdf265984a734b6195acbbc3ff1660cba0ac9110f9fd8dc2725d41c44f6d20",
+    "currentSha256": "13cdf265984a734b6195acbbc3ff1660cba0ac9110f9fd8dc2725d41c44f6d20",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/gurus.json",
+    "originalSha256": "528f44de3f2ad45c3a56b05dd56fad0350951247a0143a5a28a23bfc5df41d67",
+    "currentSha256": "528f44de3f2ad45c3a56b05dd56fad0350951247a0143a5a28a23bfc5df41d67",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/ledger_transactions.json",
+    "originalSha256": "c8b2774a992e4ae124bdff65e065c84eec53b930a7eed3a9acb526ee89c49c18",
+    "currentSha256": "c8b2774a992e4ae124bdff65e065c84eec53b930a7eed3a9acb526ee89c49c18",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/payments.json",
+    "originalSha256": "86b0a01ca94c9312711b28978c3d0620d6ddf1b08a710586460b9d7ce844fd1f",
+    "currentSha256": "86b0a01ca94c9312711b28978c3d0620d6ddf1b08a710586460b9d7ce844fd1f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/scholarships.json",
+    "originalSha256": "967a2709331c6f28f1f600a8ba25ca6de5f556db6dff0d8d3d6e7b4d67f1e3f1",
+    "currentSha256": "967a2709331c6f28f1f600a8ba25ca6de5f556db6dff0d8d3d6e7b4d67f1e3f1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/students.json",
+    "originalSha256": "7b8ad77e2825c1725065dfac3df92e5d358d9e12ed132abda20c7095e940dc6b",
+    "currentSha256": "7b8ad77e2825c1725065dfac3df92e5d358d9e12ed132abda20c7095e940dc6b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/wallet_balances.json",
+    "originalSha256": "3222458b878056e7ffd73535cbd8142f3e9baa46c550bcf53774f10d30223240",
+    "currentSha256": "3222458b878056e7ffd73535cbd8142f3e9baa46c550bcf53774f10d30223240",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/output/openmetadata/wallets.json",
+    "originalSha256": "a8611e387b6b3781a50916ab4118b6169cda24269d7e7141f4d9e0aacdddaf64",
+    "currentSha256": "a8611e387b6b3781a50916ab4118b6169cda24269d7e7141f4d9e0aacdddaf64",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/layam-academy/runSql.fsx",
+    "originalSha256": "27e2234bf10a13cf01cd5716a3585dee121127132f1050d236b569b87157c9b3",
+    "currentSha256": "27e2234bf10a13cf01cd5716a3585dee121127132f1050d236b569b87157c9b3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/list.md",
+    "originalSha256": "dd2f04f52f96dc60928e07ccc10db803cf8f65d3888c056fd80e2edf15f520dd",
+    "currentSha256": "dd2f04f52f96dc60928e07ccc10db803cf8f65d3888c056fd80e2edf15f520dd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/README.md",
+    "originalSha256": "7777fc8acd5ca85f1f6d3e0b50c29cc957588e596e32296eb31d513a88feba25",
+    "currentSha256": "7777fc8acd5ca85f1f6d3e0b50c29cc957588e596e32296eb31d513a88feba25",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/client/package-lock.json",
+    "originalSha256": "9fa52993733cb007332692e08bf141e8eef7557b538fce27db8bca567c08cfa5",
+    "currentSha256": "9fa52993733cb007332692e08bf141e8eef7557b538fce27db8bca567c08cfa5",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/client/package.json",
+    "originalSha256": "1e7080037c9a9dd01566dd3d3b52ca90b71ee2aa58df02770a431b307a72ce3b",
+    "currentSha256": "1e7080037c9a9dd01566dd3d3b52ca90b71ee2aa58df02770a431b307a72ce3b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/client/src/validators.test.ts",
+    "originalSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "currentSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/client/src/validators.ts",
+    "originalSha256": "f671332586103ad5ee01f99d368003db5b231b63ba9aa505cfc93c84b42b8285",
+    "currentSha256": "f671332586103ad5ee01f99d368003db5b231b63ba9aa505cfc93c84b42b8285",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/db/v1.sql",
+    "originalSha256": "0d0142d3402c9c2dd9a5ab4616d962770c3631d0f7d362baa632cfe922941b2e",
+    "currentSha256": "0d0142d3402c9c2dd9a5ab4616d962770c3631d0f7d362baa632cfe922941b2e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/db/v2.sql",
+    "originalSha256": "398d237f6fbb70d9e6b92b622ec4db742e2f5f7b3cabc670eef462b46d22ea96",
+    "currentSha256": "398d237f6fbb70d9e6b92b622ec4db742e2f5f7b3cabc670eef462b46d22ea96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/PROOF.md",
+    "originalSha256": "b2cad93182a82f34891e6c4830b128ac72dee2ded2d381a6c756fd988ed96791",
+    "currentSha256": "b2cad93182a82f34891e6c4830b128ac72dee2ded2d381a6c756fd988ed96791",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/agent-context.json",
+    "originalSha256": "5106f36c0e5d9f177830b7009929baeac5baef35a49c7a2320f580718d27ede5",
+    "currentSha256": "5106f36c0e5d9f177830b7009929baeac5baef35a49c7a2320f580718d27ede5",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/catalog_orders.md",
+    "originalSha256": "4f9a0a6e7802270ccc2b5e0ca9945ae0f269014468f5cff930a58a543d130e67",
+    "currentSha256": "4f9a0a6e7802270ccc2b5e0ca9945ae0f269014468f5cff930a58a543d130e67",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/catalog_products.md",
+    "originalSha256": "74bd94f528ee9d18275de9dca4ef85d5901f84bef0498c10cb0d009bf33fcb87",
+    "currentSha256": "74bd94f528ee9d18275de9dca4ef85d5901f84bef0498c10cb0d009bf33fcb87",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/catalog_users.md",
+    "originalSha256": "97e01c25a1d2d52b975af6161d56a8ba754a9b4223d695b68389287a6e592105",
+    "currentSha256": "97e01c25a1d2d52b975af6161d56a8ba754a9b4223d695b68389287a6e592105",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/layer-map.md",
+    "originalSha256": "78380b20fbbb85d42b09aaf3d4ff6609f3dc305055cc9e60aa50d68d492bc8d2",
+    "currentSha256": "78380b20fbbb85d42b09aaf3d4ff6609f3dc305055cc9e60aa50d68d492bc8d2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/migrations/20260707150513_migration.sql",
+    "originalSha256": "7c4de48419aa2a5bbe02e9bb07e9c9c221f78d2126bc99ae4a1efc7891f5768f",
+    "currentSha256": "7c4de48419aa2a5bbe02e9bb07e9c9c221f78d2126bc99ae4a1efc7891f5768f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/openmetadata/orders.json",
+    "originalSha256": "0c9cfb32cf09ae7fe4b2ee4f363b883df2360394265e9e1938b4f87d748e0a7b",
+    "currentSha256": "0c9cfb32cf09ae7fe4b2ee4f363b883df2360394265e9e1938b4f87d748e0a7b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/openmetadata/products.json",
+    "originalSha256": "392a83d55b416e1ec5a4d128a4ee6f4cca1f46d0760ab72aa386c20f295b22ea",
+    "currentSha256": "392a83d55b416e1ec5a4d128a4ee6f4cca1f46d0760ab72aa386c20f295b22ea",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/openmetadata/users.json",
+    "originalSha256": "8289ab1c30ce8e71932b35233ca0bc05273326fd459051809fc88a475c305e89",
+    "currentSha256": "8289ab1c30ce8e71932b35233ca0bc05273326fd459051809fc88a475c305e89",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/output/tests/Generators.fs",
+    "originalSha256": "48c45e240165cb4047b3dec046bde82030c67534527682ea6a3dc9b131ce1bd2",
+    "currentSha256": "48c45e240165cb4047b3dec046bde82030c67534527682ea6a3dc9b131ce1bd2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/run_migration.sh",
+    "originalSha256": "87c37b867dd34224630679849605535942a51091e9c801e389525f465495919b",
+    "currentSha256": "87c37b867dd34224630679849605535942a51091e9c801e389525f465495919b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/Generators.fs",
+    "originalSha256": "48c45e240165cb4047b3dec046bde82030c67534527682ea6a3dc9b131ce1bd2",
+    "currentSha256": "48c45e240165cb4047b3dec046bde82030c67534527682ea6a3dc9b131ce1bd2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/Tests.fs",
+    "originalSha256": "555231fb2da01de7a3609410df38578ea9502eca83eab77a40267936d58787bc",
+    "currentSha256": "555231fb2da01de7a3609410df38578ea9502eca83eab77a40267936d58787bc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/migration-demo.Tests.fsproj",
+    "originalSha256": "5b20d1a70a01ac940031fdda125ea7a9ae7f37bc7e15737b7899743541990ed7",
+    "currentSha256": "5b20d1a70a01ac940031fdda125ea7a9ae7f37bc7e15737b7899743541990ed7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/client/.gitignore",
+    "originalSha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+    "currentSha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/client/package.json",
+    "originalSha256": "570cfe6a94af325189ba1305f04257f4abbac34eee417f0d9ddc99958d81e9c7",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/client/src/validators.test.ts",
+    "originalSha256": "91d610978a612d3f46abf14441f1678c0ce7e9ee74e6dd8308295a6ffe78d88f",
+    "currentSha256": "91d610978a612d3f46abf14441f1678c0ce7e9ee74e6dd8308295a6ffe78d88f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/client/src/validators.ts",
+    "originalSha256": "7c33d8f7171dd39603b3fb0e4002e3f6ff736f201b219bb58be4afb7bd836e4b",
+    "currentSha256": "9a6bef377edf50b6a2609928880893eea49257e1820710a875f023e63a640ee3",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/db/init/01-schema.sql",
+    "originalSha256": "347acc74497a2c37874d9c6430ce28ef9769a0e0d732f5e00dfe1e28d48bbad4",
+    "currentSha256": "347acc74497a2c37874d9c6430ce28ef9769a0e0d732f5e00dfe1e28d48bbad4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/docker-compose.yml",
+    "originalSha256": "02fe7ecf6848339d277d2e2f7bf12002f62afa986e588c332d84c35ca6c365fb",
+    "currentSha256": "02fe7ecf6848339d277d2e2f7bf12002f62afa986e588c332d84c35ca6c365fb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/PROOF.md",
+    "originalSha256": "67b00a3d517d18869cd3441147aef3441a21a9f2741309e94c648047a7f25b82",
+    "currentSha256": "67b00a3d517d18869cd3441147aef3441a21a9f2741309e94c648047a7f25b82",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/agent-context.json",
+    "originalSha256": "61ff571446cf8ada38bf70bf55f680ebb9e6d8b8150b8d9ceb972494d7c9d4ed",
+    "currentSha256": "61ff571446cf8ada38bf70bf55f680ebb9e6d8b8150b8d9ceb972494d7c9d4ed",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/catalog_customers.md",
+    "originalSha256": "014f78f3b0a4558eb3e9196b468ec6ed2dddd943f7c23d94550e8a5a36b93ba1",
+    "currentSha256": "014f78f3b0a4558eb3e9196b468ec6ed2dddd943f7c23d94550e8a5a36b93ba1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/catalog_orders.md",
+    "originalSha256": "105a357ea67825a65c0cd8fe76670b83044ce251cc89594d4cd17fec511fc5bd",
+    "currentSha256": "105a357ea67825a65c0cd8fe76670b83044ce251cc89594d4cd17fec511fc5bd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/layer-map.md",
+    "originalSha256": "b1c338f4fa715a5d74e605f254d99c476d165eaa2f94d605142a362a39f43902",
+    "currentSha256": "b1c338f4fa715a5d74e605f254d99c476d165eaa2f94d605142a362a39f43902",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/openmetadata/customers.json",
+    "originalSha256": "e8a2843aaa5500793122388ad567101863f74b558dd9808476a4cb05160cbb2d",
+    "currentSha256": "e8a2843aaa5500793122388ad567101863f74b558dd9808476a4cb05160cbb2d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/openmetadata/orders.json",
+    "originalSha256": "bcb9bde18fa588602427a82e4882ee81250e781faebdec312af489bfca6b2c29",
+    "currentSha256": "bcb9bde18fa588602427a82e4882ee81250e781faebdec312af489bfca6b2c29",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/output/tests/Generators.fs",
+    "originalSha256": "795748be577e983b8c7967539168f43eee0d734c3f4ed89db0cb79ccf9506672",
+    "currentSha256": "795748be577e983b8c7967539168f43eee0d734c3f4ed89db0cb79ccf9506672",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/scripts/dogfood.sh",
+    "originalSha256": "8b9e7c40f8db663c1ca658177ae4cf02ccc2ab88108fafc0131fa37da5fd2426",
+    "currentSha256": "8b9e7c40f8db663c1ca658177ae4cf02ccc2ab88108fafc0131fa37da5fd2426",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/Generators.fs",
+    "originalSha256": "795748be577e983b8c7967539168f43eee0d734c3f4ed89db0cb79ccf9506672",
+    "currentSha256": "795748be577e983b8c7967539168f43eee0d734c3f4ed89db0cb79ccf9506672",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/MockDrill.Tests.fsproj",
+    "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/Tests.fs",
+    "originalSha256": "05f024aa4c8c5190e7ae6cba55ab6f309b1e3a7b3647017e70680f956359c2bc",
+    "currentSha256": "05f024aa4c8c5190e7ae6cba55ab6f309b1e3a7b3647017e70680f956359c2bc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/openmetadata/bookings.json",
+    "originalSha256": "3731cf2108ad1cc11385bfb22d313861411c783552f327aa7ca4c1521d9669d9",
+    "currentSha256": "3731cf2108ad1cc11385bfb22d313861411c783552f327aa7ca4c1521d9669d9",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/openmetadata/ledger_transactions.json",
+    "originalSha256": "57c36e9f3176a435ead55ba32337de432a40df3ded8972c5561f2b1e791f3296",
+    "currentSha256": "57c36e9f3176a435ead55ba32337de432a40df3ded8972c5561f2b1e791f3296",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/openmetadata/resources.json",
+    "originalSha256": "8d284de00aa9238532427aa7ba7417d94fc705b4b7f86a28f39bc9dcdf60467d",
+    "currentSha256": "8d284de00aa9238532427aa7ba7417d94fc705b4b7f86a28f39bc9dcdf60467d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/openmetadata/wallet_balances.json",
+    "originalSha256": "4237069ad48aae54557c996020b9e2000a241c7414c8332069f9df23a9a386f3",
+    "currentSha256": "4237069ad48aae54557c996020b9e2000a241c7414c8332069f9df23a9a386f3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/openmetadata/wallets.json",
+    "originalSha256": "5ec8ba74ed788e38eef01c047ee0b6de012ebef9c4d8c1837b60d4b24b9a609f",
+    "currentSha256": "5ec8ba74ed788e38eef01c047ee0b6de012ebef9c4d8c1837b60d4b24b9a609f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/openmetadata/workspaces.json",
+    "originalSha256": "973bf7a83543c74408bf9426dceb28b750fbb13fbe120bcd94a77c5d3c58ab4d",
+    "currentSha256": "973bf7a83543c74408bf9426dceb28b750fbb13fbe120bcd94a77c5d3c58ab4d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/output/PROOF.md",
+    "originalSha256": "a40c57ae3564e8cfa5b87b7103471b8e5438ab05cfa7eb9efd505be44491254d",
+    "currentSha256": "a40c57ae3564e8cfa5b87b7103471b8e5438ab05cfa7eb9efd505be44491254d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/output/catalog_ledger_transactions.md",
+    "originalSha256": "c669c98dd3156c345d25876c352e94dad925f51926c0ca03747e368bf4d96500",
+    "currentSha256": "c669c98dd3156c345d25876c352e94dad925f51926c0ca03747e368bf4d96500",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/output/catalog_wallet_balances.md",
+    "originalSha256": "2fccd38a56254b64bf08827343424a15c7237db67ed8ed290600197b30c04034",
+    "currentSha256": "2fccd38a56254b64bf08827343424a15c7237db67ed8ed290600197b30c04034",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/output/catalog_wallets.md",
+    "originalSha256": "b7e667d188a2bc149e67d015cc2c76e2b917f5cc7b3d62974ca4c045486554fe",
+    "currentSha256": "b7e667d188a2bc149e67d015cc2c76e2b917f5cc7b3d62974ca4c045486554fe",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/output/openmetadata/ledger_transactions.json",
+    "originalSha256": "c8b2774a992e4ae124bdff65e065c84eec53b930a7eed3a9acb526ee89c49c18",
+    "currentSha256": "c8b2774a992e4ae124bdff65e065c84eec53b930a7eed3a9acb526ee89c49c18",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/output/openmetadata/wallet_balances.json",
+    "originalSha256": "3222458b878056e7ffd73535cbd8142f3e9baa46c550bcf53774f10d30223240",
+    "currentSha256": "3222458b878056e7ffd73535cbd8142f3e9baa46c550bcf53774f10d30223240",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/output/openmetadata/wallets.json",
+    "originalSha256": "a8611e387b6b3781a50916ab4118b6169cda24269d7e7141f4d9e0aacdddaf64",
+    "currentSha256": "a8611e387b6b3781a50916ab4118b6169cda24269d7e7141f4d9e0aacdddaf64",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/run.sh",
+    "originalSha256": "9bdc3e3e3fffc4fa0ff8f157e5d4c9dfb5ed0ad1ffd23cc591c7ac510ee79f81",
+    "currentSha256": "9bdc3e3e3fffc4fa0ff8f157e5d4c9dfb5ed0ad1ffd23cc591c7ac510ee79f81",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sample.report",
+    "originalSha256": "f9bf1b4efcec25006acf96aa19416671817fe2694c24cbec9a81c7b5696dae6a",
+    "currentSha256": "f9bf1b4efcec25006acf96aa19416671817fe2694c24cbec9a81c7b5696dae6a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/client/src/validators.ts",
+    "originalSha256": "9a2cafd105bf84c8eca9f32ffdf57282bf907c620fee181562e48825ea94a992",
+    "currentSha256": "9a2cafd105bf84c8eca9f32ffdf57282bf907c620fee181562e48825ea94a992",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/PROOF.md",
+    "originalSha256": "e82edc299340471ef5bffe35edb9068963ef0e7ab598a56224e96b5de1f8e57a",
+    "currentSha256": "e82edc299340471ef5bffe35edb9068963ef0e7ab598a56224e96b5de1f8e57a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_batches.md",
+    "originalSha256": "b5a08003f5290e4a50189fb5897ec93583c2ebfebcff4c20926fc7ef2812b91d",
+    "currentSha256": "b5a08003f5290e4a50189fb5897ec93583c2ebfebcff4c20926fc7ef2812b91d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_deposits.md",
+    "originalSha256": "6583a225929036863fb5f48432276970cab337a55d83a221a529d66edc2ed4ec",
+    "currentSha256": "6583a225929036863fb5f48432276970cab337a55d83a221a529d66edc2ed4ec",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_enrollments.md",
+    "originalSha256": "5ac8d228ef73a6c3c74eb3aa781682d4d8542a410e4628fccacadfd3f9add6d2",
+    "currentSha256": "5ac8d228ef73a6c3c74eb3aa781682d4d8542a410e4628fccacadfd3f9add6d2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_exams.md",
+    "originalSha256": "f103e131aa9ea5ff88d8c4751909a633e37c06a0ae8dcc9d690ec9e72e36f0e6",
+    "currentSha256": "f103e131aa9ea5ff88d8c4751909a633e37c06a0ae8dcc9d690ec9e72e36f0e6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_guarantees.md",
+    "originalSha256": "7d25a5b137d64e6fdc6082b08be267dcb31e59fd6d98bbf76424d659a087e656",
+    "currentSha256": "7d25a5b137d64e6fdc6082b08be267dcb31e59fd6d98bbf76424d659a087e656",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_gurus.md",
+    "originalSha256": "3ca0bb1ca701defc50bde4ce45a7419abe3cb2e06522a492744adbdd00075865",
+    "currentSha256": "3ca0bb1ca701defc50bde4ce45a7419abe3cb2e06522a492744adbdd00075865",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_ledger.md",
+    "originalSha256": "1574eb93db2f34f2e8e677ff1c0f1bb772abdf015613107ada09d1b0a8c2ed0d",
+    "currentSha256": "1574eb93db2f34f2e8e677ff1c0f1bb772abdf015613107ada09d1b0a8c2ed0d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_ledger_transactions.md",
+    "originalSha256": "c669c98dd3156c345d25876c352e94dad925f51926c0ca03747e368bf4d96500",
+    "currentSha256": "c669c98dd3156c345d25876c352e94dad925f51926c0ca03747e368bf4d96500",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_loans.md",
+    "originalSha256": "4a430003cd841b7ebe70fdc1bfffc4acb8737ec417e9b6d98643db13d8b328f3",
+    "currentSha256": "4a430003cd841b7ebe70fdc1bfffc4acb8737ec417e9b6d98643db13d8b328f3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_members.md",
+    "originalSha256": "448138ac4b35aa5b776cbbdf1df497b2d09f1ec850604260ed0b3e0498394e99",
+    "currentSha256": "448138ac4b35aa5b776cbbdf1df497b2d09f1ec850604260ed0b3e0498394e99",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_payments.md",
+    "originalSha256": "95ca2dcbcacb31f9d131d700f8f97adad752ecd45d0c255cb84e7b87c8ced2cf",
+    "currentSha256": "95ca2dcbcacb31f9d131d700f8f97adad752ecd45d0c255cb84e7b87c8ced2cf",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_scholarships.md",
+    "originalSha256": "33f6b108872c3e9e6a48cd8c2c44a6e34798d06a20d41375b62010a4fbfa67cd",
+    "currentSha256": "33f6b108872c3e9e6a48cd8c2c44a6e34798d06a20d41375b62010a4fbfa67cd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_students.md",
+    "originalSha256": "4bc77df7fbb0defa87e36a4ed570b30c85617586ae593f3b15177b77794dcbf0",
+    "currentSha256": "4bc77df7fbb0defa87e36a4ed570b30c85617586ae593f3b15177b77794dcbf0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_wallet_balances.md",
+    "originalSha256": "2fccd38a56254b64bf08827343424a15c7237db67ed8ed290600197b30c04034",
+    "currentSha256": "2fccd38a56254b64bf08827343424a15c7237db67ed8ed290600197b30c04034",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/catalog_wallets.md",
+    "originalSha256": "b7e667d188a2bc149e67d015cc2c76e2b917f5cc7b3d62974ca4c045486554fe",
+    "currentSha256": "b7e667d188a2bc149e67d015cc2c76e2b917f5cc7b3d62974ca4c045486554fe",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/batches.json",
+    "originalSha256": "15ce438cb01c9e46c29fb25bc67fbf181763a3b8a45adb7bcb91adb4f9bf85d0",
+    "currentSha256": "15ce438cb01c9e46c29fb25bc67fbf181763a3b8a45adb7bcb91adb4f9bf85d0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/deposits.json",
+    "originalSha256": "6382ff16dd01e457a64b3a6a4457a828af6d03911c104b0463d0860956edf21b",
+    "currentSha256": "6382ff16dd01e457a64b3a6a4457a828af6d03911c104b0463d0860956edf21b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/enrollments.json",
+    "originalSha256": "8d3e22ad3d8d9c4b7b50876905dd6f81d477d7835a927967ccc7f69d88b8c6c0",
+    "currentSha256": "8d3e22ad3d8d9c4b7b50876905dd6f81d477d7835a927967ccc7f69d88b8c6c0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/exams.json",
+    "originalSha256": "13cdf265984a734b6195acbbc3ff1660cba0ac9110f9fd8dc2725d41c44f6d20",
+    "currentSha256": "13cdf265984a734b6195acbbc3ff1660cba0ac9110f9fd8dc2725d41c44f6d20",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/guarantees.json",
+    "originalSha256": "a792387a383e3e4c25c0e1fc2472ed71c5b8c8d804995b64cb8228c83f9c4ec2",
+    "currentSha256": "a792387a383e3e4c25c0e1fc2472ed71c5b8c8d804995b64cb8228c83f9c4ec2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/gurus.json",
+    "originalSha256": "528f44de3f2ad45c3a56b05dd56fad0350951247a0143a5a28a23bfc5df41d67",
+    "currentSha256": "528f44de3f2ad45c3a56b05dd56fad0350951247a0143a5a28a23bfc5df41d67",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/ledger.json",
+    "originalSha256": "d875358a2e3e294f5bf4acb5acaed360200ffd08e121242813864c2cec080b50",
+    "currentSha256": "d875358a2e3e294f5bf4acb5acaed360200ffd08e121242813864c2cec080b50",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/ledger_transactions.json",
+    "originalSha256": "c8b2774a992e4ae124bdff65e065c84eec53b930a7eed3a9acb526ee89c49c18",
+    "currentSha256": "c8b2774a992e4ae124bdff65e065c84eec53b930a7eed3a9acb526ee89c49c18",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/loans.json",
+    "originalSha256": "34fe2d1bf3760502aabcadeda5fb35be66a1e0078a847e2b819575746003302d",
+    "currentSha256": "34fe2d1bf3760502aabcadeda5fb35be66a1e0078a847e2b819575746003302d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/members.json",
+    "originalSha256": "7bfe60f8060fa2813cb53c3e5f19bda3d9dce9fe5f84d12ca1f3b5ae77fbc7ac",
+    "currentSha256": "7bfe60f8060fa2813cb53c3e5f19bda3d9dce9fe5f84d12ca1f3b5ae77fbc7ac",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/payments.json",
+    "originalSha256": "86b0a01ca94c9312711b28978c3d0620d6ddf1b08a710586460b9d7ce844fd1f",
+    "currentSha256": "86b0a01ca94c9312711b28978c3d0620d6ddf1b08a710586460b9d7ce844fd1f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/scholarships.json",
+    "originalSha256": "967a2709331c6f28f1f600a8ba25ca6de5f556db6dff0d8d3d6e7b4d67f1e3f1",
+    "currentSha256": "967a2709331c6f28f1f600a8ba25ca6de5f556db6dff0d8d3d6e7b4d67f1e3f1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/students.json",
+    "originalSha256": "7b8ad77e2825c1725065dfac3df92e5d358d9e12ed132abda20c7095e940dc6b",
+    "currentSha256": "7b8ad77e2825c1725065dfac3df92e5d358d9e12ed132abda20c7095e940dc6b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/wallet_balances.json",
+    "originalSha256": "3222458b878056e7ffd73535cbd8142f3e9baa46c550bcf53774f10d30223240",
+    "currentSha256": "3222458b878056e7ffd73535cbd8142f3e9baa46c550bcf53774f10d30223240",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/output/openmetadata/wallets.json",
+    "originalSha256": "a8611e387b6b3781a50916ab4118b6169cda24269d7e7141f4d9e0aacdddaf64",
+    "currentSha256": "a8611e387b6b3781a50916ab4118b6169cda24269d7e7141f4d9e0aacdddaf64",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/runSql.fsx",
+    "originalSha256": "360a7ff79e2a530d46c6ac19c36790f2d4bf5204e4e74ccc068bcb99ae43740b",
+    "currentSha256": "360a7ff79e2a530d46c6ac19c36790f2d4bf5204e4e74ccc068bcb99ae43740b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/README.md",
+    "originalSha256": "cde4b829f3d41e7212e67f031548466c84396b6bc21f8a08911582e87138d4b1",
+    "currentSha256": "cde4b829f3d41e7212e67f031548466c84396b6bc21f8a08911582e87138d4b1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/client/src/validators.test.ts",
+    "originalSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "currentSha256": "172c89dd9cc0f0990832cb63a0ab163998aec558391ed6d50ed736864693e2ba",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/client/src/validators.ts",
+    "originalSha256": "438ca8cf7e4135358c15aa16135848e3e208b4d17085a5ff32a1156f5ac827ea",
+    "currentSha256": "438ca8cf7e4135358c15aa16135848e3e208b4d17085a5ff32a1156f5ac827ea",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/db/init/01-schema.sql",
+    "originalSha256": "d62cba14227a457cf2c26630aa9e83241d1fd0c74acac66ee537e27f7d9aebf1",
+    "currentSha256": "d62cba14227a457cf2c26630aa9e83241d1fd0c74acac66ee537e27f7d9aebf1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/db/init/02-seed.sql",
+    "originalSha256": "2fb0c08a8559390c7f13e5a8e8fff539d653eb82676829eb975c439d7a36c0ac",
+    "currentSha256": "2fb0c08a8559390c7f13e5a8e8fff539d653eb82676829eb975c439d7a36c0ac",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/db/init/03-drift.sql",
+    "originalSha256": "87ceb8fc3d9b669edac127a9b7eb80689ac4c4c107c62783c0109a965ade4ed3",
+    "currentSha256": "87ceb8fc3d9b669edac127a9b7eb80689ac4c4c107c62783c0109a965ade4ed3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/docker-compose.yml",
+    "originalSha256": "a7cfd6a592cee582a6c4995d526842a2f4b24550a8f2285d3c3b4cf3803c4547",
+    "currentSha256": "a7cfd6a592cee582a6c4995d526842a2f4b24550a8f2285d3c3b4cf3803c4547",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/PROOF.md",
+    "originalSha256": "b1c479b2f2d7c890bded3bcd0c0ae91872dd9f0e9154209b3179ba0b5a1876c5",
+    "currentSha256": "b1c479b2f2d7c890bded3bcd0c0ae91872dd9f0e9154209b3179ba0b5a1876c5",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/agent-context.json",
+    "originalSha256": "0b62de33c013f64d141509b7df81e4c1a30fab5b204b982615f4c485f3dfce3b",
+    "currentSha256": "0b62de33c013f64d141509b7df81e4c1a30fab5b204b982615f4c485f3dfce3b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/catalog_deposits.md",
+    "originalSha256": "d943847eac79d3921fef158740159d3ce1c4cdd650b9a0e067418d4ad6b2b461",
+    "currentSha256": "d943847eac79d3921fef158740159d3ce1c4cdd650b9a0e067418d4ad6b2b461",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/catalog_guarantees.md",
+    "originalSha256": "7d25a5b137d64e6fdc6082b08be267dcb31e59fd6d98bbf76424d659a087e656",
+    "currentSha256": "7d25a5b137d64e6fdc6082b08be267dcb31e59fd6d98bbf76424d659a087e656",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/catalog_ledger.md",
+    "originalSha256": "1574eb93db2f34f2e8e677ff1c0f1bb772abdf015613107ada09d1b0a8c2ed0d",
+    "currentSha256": "1574eb93db2f34f2e8e677ff1c0f1bb772abdf015613107ada09d1b0a8c2ed0d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/catalog_loans.md",
+    "originalSha256": "d94f8f8db57f8c51b8458c837cec6c4853fc680bac5a53d852a43ae50e0fba0a",
+    "currentSha256": "d94f8f8db57f8c51b8458c837cec6c4853fc680bac5a53d852a43ae50e0fba0a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/catalog_members.md",
+    "originalSha256": "448138ac4b35aa5b776cbbdf1df497b2d09f1ec850604260ed0b3e0498394e99",
+    "currentSha256": "448138ac4b35aa5b776cbbdf1df497b2d09f1ec850604260ed0b3e0498394e99",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/layer-map.md",
+    "originalSha256": "273e8b477e5662cbbecac71752737bab93faf0b4b1ca056f95565695cba25a5c",
+    "currentSha256": "273e8b477e5662cbbecac71752737bab93faf0b4b1ca056f95565695cba25a5c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/openmetadata/deposits.json",
+    "originalSha256": "2c9c27e53863603d5f4ada1e5ee456b26e2e6aeae52d6544d80d8613034d3f39",
+    "currentSha256": "2c9c27e53863603d5f4ada1e5ee456b26e2e6aeae52d6544d80d8613034d3f39",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/openmetadata/guarantees.json",
+    "originalSha256": "a792387a383e3e4c25c0e1fc2472ed71c5b8c8d804995b64cb8228c83f9c4ec2",
+    "currentSha256": "a792387a383e3e4c25c0e1fc2472ed71c5b8c8d804995b64cb8228c83f9c4ec2",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/openmetadata/ledger.json",
+    "originalSha256": "d875358a2e3e294f5bf4acb5acaed360200ffd08e121242813864c2cec080b50",
+    "currentSha256": "d875358a2e3e294f5bf4acb5acaed360200ffd08e121242813864c2cec080b50",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/openmetadata/loans.json",
+    "originalSha256": "2a430c76e54234c5f3498bc6d79749f372866fe1f17572b92ca7262250305984",
+    "currentSha256": "2a430c76e54234c5f3498bc6d79749f372866fe1f17572b92ca7262250305984",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/openmetadata/members.json",
+    "originalSha256": "7bfe60f8060fa2813cb53c3e5f19bda3d9dce9fe5f84d12ca1f3b5ae77fbc7ac",
+    "currentSha256": "7bfe60f8060fa2813cb53c3e5f19bda3d9dce9fe5f84d12ca1f3b5ae77fbc7ac",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/output/tests/Generators.fs",
+    "originalSha256": "799032faa69b71d8414df0a0fb76e009f57f091ea7ad2441970cd3b069bbb962",
+    "currentSha256": "799032faa69b71d8414df0a0fb76e009f57f091ea7ad2441970cd3b069bbb962",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/scripts/dogfood.sh",
+    "originalSha256": "94073cbaec4b3188f5f16f170c61257c5a3cebb4879b5d6d1cdcc38b3376b2ce",
+    "currentSha256": "94073cbaec4b3188f5f16f170c61257c5a3cebb4879b5d6d1cdcc38b3376b2ce",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/Generators.fs",
+    "originalSha256": "5592dfcaaaa37535c0ba227a05c0fafa761267d0e16354590433af1f43d1a5c1",
+    "currentSha256": "5592dfcaaaa37535c0ba227a05c0fafa761267d0e16354590433af1f43d1a5c1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/Tests.fs",
+    "originalSha256": "555231fb2da01de7a3609410df38578ea9502eca83eab77a40267936d58787bc",
+    "currentSha256": "555231fb2da01de7a3609410df38578ea9502eca83eab77a40267936d58787bc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/sangam.Tests.fsproj",
+    "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/sangam-credit/testDomain.fsx",
+    "originalSha256": "ea39a9edc3b9d52a571fd7201a40c636ce5c049ac94ae89331309d9fa2990ab6",
+    "currentSha256": "ea39a9edc3b9d52a571fd7201a40c636ce5c049ac94ae89331309d9fa2990ab6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/schema.sql",
+    "originalSha256": "313688efab0f43b09d2f5c4a8df780f6f7592aed2b6d8b5a91eb0f0efa2a5099",
+    "currentSha256": "313688efab0f43b09d2f5c4a8df780f6f7592aed2b6d8b5a91eb0f0efa2a5099",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Api/FintechWallet.Api.fsproj",
+    "originalSha256": "258cc3b4d3779321af5202ff80b6fe23b5b1836157797bfb4639a1b2e0e17b5d",
+    "currentSha256": "44987b908216a28c0a53e3fc586e038a093e3dd39198ba0c561dd8863e31d85e",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Api/Program.fs",
+    "originalSha256": "503dd216c53b36a0b4d4a8346bcb08db84b3d0827ae825a91321acf2ea46c262",
+    "currentSha256": "503dd216c53b36a0b4d4a8346bcb08db84b3d0827ae825a91321acf2ea46c262",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Api/Properties/launchSettings.json",
+    "originalSha256": "fa7f0d772fd9235f035e7752228eec3825c56ccb9bed8dd9bb59416c065cb260",
+    "currentSha256": "fa7f0d772fd9235f035e7752228eec3825c56ccb9bed8dd9bb59416c065cb260",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Api/appsettings.Development.json",
+    "originalSha256": "73f95f9e0ceb205fc1c4dc50c07697fcfa29d7087868c2aef1d504cb38c771ec",
+    "currentSha256": "73f95f9e0ceb205fc1c4dc50c07697fcfa29d7087868c2aef1d504cb38c771ec",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Api/appsettings.json",
+    "originalSha256": "200332b434757a0054a3d356c91cde01f2c48712be8aa2bcb0f3e973619f06e3",
+    "currentSha256": "200332b434757a0054a3d356c91cde01f2c48712be8aa2bcb0f3e973619f06e3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Domain/FintechWallet.Domain.fsproj",
+    "originalSha256": "3c9ba885970a7b26b7de88d1efefd43993ea41f428a036cf6295df6ac60786a6",
+    "currentSha256": "3c9ba885970a7b26b7de88d1efefd43993ea41f428a036cf6295df6ac60786a6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Domain/Library.fs",
+    "originalSha256": "5a7b423d838709a97f6dc4fa9ac7c0a44cb91fbb108f0120216dd954424a802e",
+    "currentSha256": "5a7b423d838709a97f6dc4fa9ac7c0a44cb91fbb108f0120216dd954424a802e",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/src/FintechWallet.Domain/Models.fs",
+    "originalSha256": "13141df90983ac880c9794bcb145bd4df4aee5b5c1de648c518d7bc32b335329",
+    "currentSha256": "201936db4ad74bcf503df6097f08c566b39341899cf23b372520e5411140b452",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/test_arangetram.sh",
+    "originalSha256": "5f5a614bb18ab18b9b2e5f9a913d25eda9e0f7c35491dea448591634ced02c14",
+    "currentSha256": "5f5a614bb18ab18b9b2e5f9a913d25eda9e0f7c35491dea448591634ced02c14",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/test_migration.sh",
+    "originalSha256": "537d1a4b74857f20b134f5276e81358065c608987d5fbf87e0a7eda2ce395738",
+    "currentSha256": "537d1a4b74857f20b134f5276e81358065c608987d5fbf87e0a7eda2ce395738",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/test_nested.sh",
+    "originalSha256": "bbeca65970c434f890f26d29956cf805754bfb9116063593fc98d3d31c92d678",
+    "currentSha256": "bbeca65970c434f890f26d29956cf805754bfb9116063593fc98d3d31c92d678",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/test_parser.fsx",
+    "originalSha256": "b64f42e446ad29b4e7997d533fddd5ad1f3735328896424ec321b7ecdeb152ba",
+    "currentSha256": "b64f42e446ad29b4e7997d533fddd5ad1f3735328896424ec321b7ecdeb152ba",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/test_parser_with_r.fsx",
+    "originalSha256": "40b2c9e8c63e59365c697df6b078933fabd1f4df7fab5a468a079101fde7d2b0",
+    "currentSha256": "40b2c9e8c63e59365c697df6b078933fabd1f4df7fab5a468a079101fde7d2b0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/test_sangam.sh",
+    "originalSha256": "30b1a8f844ebaea6403ebfb732c30ac62bc459e78d1ca1f9fa06b71f7b76c5d7",
+    "currentSha256": "30b1a8f844ebaea6403ebfb732c30ac62bc459e78d1ca1f9fa06b71f7b76c5d7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/README.md",
+    "originalSha256": "621c9dfba77d8a8b2600e520c9dc96e959f3efb997dc2b8d8c51d78dc56bb8b7",
+    "currentSha256": "621c9dfba77d8a8b2600e520c9dc96e959f3efb997dc2b8d8c51d78dc56bb8b7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/client/src/validators.test.ts",
+    "originalSha256": "1e94fe134c526157561d9c8e1a8bda2a29c2d3e1ae75c3dd621f45a13f845c12",
+    "currentSha256": "1e94fe134c526157561d9c8e1a8bda2a29c2d3e1ae75c3dd621f45a13f845c12",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/client/src/validators.ts",
+    "originalSha256": "731407f80949a6fd51008511a71f76730328709b02cff36c43544257480ed3cb",
+    "currentSha256": "731407f80949a6fd51008511a71f76730328709b02cff36c43544257480ed3cb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/db/init/01-schema.sql",
+    "originalSha256": "1699e791ba5fc62c52d56947deed901ff1d853a2ffca8f1c5b6e9e0529d86cf3",
+    "currentSha256": "1699e791ba5fc62c52d56947deed901ff1d853a2ffca8f1c5b6e9e0529d86cf3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/docker-compose.yml",
+    "originalSha256": "bbd9cfc0bd299a0c07babeeb7bdd0e07c22cc9b1ea4ebe1eb8c390d6b6f3e270",
+    "currentSha256": "bbd9cfc0bd299a0c07babeeb7bdd0e07c22cc9b1ea4ebe1eb8c390d6b6f3e270",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/PROOF.md",
+    "originalSha256": "1ec3a4ddf2c353e58d65a78340146b404dcfacfa28d0124c63d9236d501bba13",
+    "currentSha256": "1ec3a4ddf2c353e58d65a78340146b404dcfacfa28d0124c63d9236d501bba13",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/agent-context.json",
+    "originalSha256": "6c6a2ecaf23f955ec9e08befc7722a6db5f4201600042ecb7946c7a8d2614ee3",
+    "currentSha256": "6c6a2ecaf23f955ec9e08befc7722a6db5f4201600042ecb7946c7a8d2614ee3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/catalog_account.md",
+    "originalSha256": "1ba25e8e0e7145ef5651860af44a50b5b4c84a2fb27ac97a654ec22822d50816",
+    "currentSha256": "1ba25e8e0e7145ef5651860af44a50b5b4c84a2fb27ac97a654ec22822d50816",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/catalog_position.md",
+    "originalSha256": "ba2d7d9c13445d4ccf3c6cfad984375ef0227cef2ed2035d3e16607d22c00080",
+    "currentSha256": "ba2d7d9c13445d4ccf3c6cfad984375ef0227cef2ed2035d3e16607d22c00080",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/catalog_trade_order.md",
+    "originalSha256": "2d8779b9db3135ecf485f482e0572adf82f57ea578c9072557c9d0b125767ebf",
+    "currentSha256": "2d8779b9db3135ecf485f482e0572adf82f57ea578c9072557c9d0b125767ebf",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/layer-map.md",
+    "originalSha256": "c59f22f3396a03808e26eac4b2a919a1d67f1ba24f810e8c45ae4f917a0ba9eb",
+    "currentSha256": "c59f22f3396a03808e26eac4b2a919a1d67f1ba24f810e8c45ae4f917a0ba9eb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/openmetadata/account.json",
+    "originalSha256": "600cfdd4526eb3936d4bec5d6785b273a5bc8e7edb87924017cbcc9ac621af49",
+    "currentSha256": "600cfdd4526eb3936d4bec5d6785b273a5bc8e7edb87924017cbcc9ac621af49",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/openmetadata/position.json",
+    "originalSha256": "bc5ad59d3f607f350ed838dba2758f15df6f5b77d9f73c4481bb8b3aaffbd0c1",
+    "currentSha256": "bc5ad59d3f607f350ed838dba2758f15df6f5b77d9f73c4481bb8b3aaffbd0c1",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/openmetadata/trade_order.json",
+    "originalSha256": "11ff7b31cc702734391cecbc388157d0463b4bb7a9649729c39d53d1e30cd332",
+    "currentSha256": "11ff7b31cc702734391cecbc388157d0463b4bb7a9649729c39d53d1e30cd332",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/output/tests/Generators.fs",
+    "originalSha256": "ca5abc15e810d2063d00588049f43ee271ddc1bc7f55e2560df4e2c6ca788f88",
+    "currentSha256": "ca5abc15e810d2063d00588049f43ee271ddc1bc7f55e2560df4e2c6ca788f88",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/scripts/dogfood.sh",
+    "originalSha256": "82e5663da1693d7a6b7db020805cf6c06b617cd1bf16299b80413144773012b4",
+    "currentSha256": "82e5663da1693d7a6b7db020805cf6c06b617cd1bf16299b80413144773012b4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/Library.fs",
+    "originalSha256": "9637219e2087983313226300f506f0564e5a1cdce6247758f850e0881b383d2a",
+    "currentSha256": "9637219e2087983313226300f506f0564e5a1cdce6247758f850e0881b383d2a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/TradingCore.Domain.fsproj",
+    "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/Generators.fs",
+    "originalSha256": "ca5abc15e810d2063d00588049f43ee271ddc1bc7f55e2560df4e2c6ca788f88",
+    "currentSha256": "ca5abc15e810d2063d00588049f43ee271ddc1bc7f55e2560df4e2c6ca788f88",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/Tests.fs",
+    "originalSha256": "f2442c1873f0c93932017c9d943b31039b972b13a318af9184826e618ac4e41d",
+    "currentSha256": "f2442c1873f0c93932017c9d943b31039b972b13a318af9184826e618ac4e41d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/trading_core.Tests.fsproj",
+    "originalSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
+    "currentSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/update_list.py",
+    "originalSha256": "1ae7ee87535b701c5dcf6c52116d1bbee1f87003f0d88947374df638c1932747",
+    "currentSha256": "1ae7ee87535b701c5dcf6c52116d1bbee1f87003f0d88947374df638c1932747",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/update_list2.py",
+    "originalSha256": "833f33258a0fba7ff44b7c81b46a196ce2e76fb645ada7af5538fad25436ce34",
+    "currentSha256": "833f33258a0fba7ff44b7c81b46a196ce2e76fb645ada7af5538fad25436ce34",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/update_list3.py",
+    "originalSha256": "f648970c0504853f6bcfdeda3495ad5ee82bb4fdc7db17930c93a5c215514a59",
+    "currentSha256": "f648970c0504853f6bcfdeda3495ad5ee82bb4fdc7db17930c93a5c215514a59",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/update_list_gp.py",
+    "originalSha256": "d74d5730a2346479fb14d38f8598c334caace547b7702b559e6d18b75b99e448",
+    "currentSha256": "d74d5730a2346479fb14d38f8598c334caace547b7702b559e6d18b75b99e448",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/update_list_urbanclub.py",
+    "originalSha256": "166606dfec5630476ef22b9bc0e81a6f8c8a2bb4f817703895a36e8cac4b4809",
+    "currentSha256": "166606dfec5630476ef22b9bc0e81a6f8c8a2bb4f817703895a36e8cac4b4809",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/update_readme.py",
+    "originalSha256": "08230294c7f97252275925f021cc572d5d05f088061ed21550c7450adcde0793",
+    "currentSha256": "08230294c7f97252275925f021cc572d5d05f088061ed21550c7450adcde0793",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/README.md",
+    "originalSha256": "7f1c45f2c1d6af8b530e4d408dd608fae0f7b01bc49d0f66fbb0e19f8c89b549",
+    "currentSha256": "7f1c45f2c1d6af8b530e4d408dd608fae0f7b01bc49d0f66fbb0e19f8c89b549",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/client/src/validators.test.ts",
+    "originalSha256": "74c6ed57b4306b96992047779fc20ca1190ae663c57aee5927cf0ce4bff2fa3d",
+    "currentSha256": "74c6ed57b4306b96992047779fc20ca1190ae663c57aee5927cf0ce4bff2fa3d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/client/src/validators.ts",
+    "originalSha256": "e4c08cbf22ffb9b91ff6e025d01dd23437cad758c8f17694edf9151aa973140a",
+    "currentSha256": "e4c08cbf22ffb9b91ff6e025d01dd23437cad758c8f17694edf9151aa973140a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/db/init/01-schema.sql",
+    "originalSha256": "bcd47fe2efac347b9758b73d5dd6610fd40f616c0cce10df6b4c73c018221d75",
+    "currentSha256": "bcd47fe2efac347b9758b73d5dd6610fd40f616c0cce10df6b4c73c018221d75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/docker-compose.yml",
+    "originalSha256": "c2096886db9d5d01289c8285325f5cbbcaee59a7ae23fde6627f513398b3aee7",
+    "currentSha256": "c2096886db9d5d01289c8285325f5cbbcaee59a7ae23fde6627f513398b3aee7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/PROOF.md",
+    "originalSha256": "27eaaa0d9b71818a4d7fa062450de7918f02c961570d3c57a702031022deba42",
+    "currentSha256": "27eaaa0d9b71818a4d7fa062450de7918f02c961570d3c57a702031022deba42",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/agent-context.json",
+    "originalSha256": "1bc583ac0e4a597d6153230d29a9898a532ecd5f23815f43d6496f4f476e5241",
+    "currentSha256": "1bc583ac0e4a597d6153230d29a9898a532ecd5f23815f43d6496f4f476e5241",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/catalog_bookings.md",
+    "originalSha256": "2109230fedc7cde7e71c192aecffdc216e20211a75c074964f9a1f3fabcdce35",
+    "currentSha256": "2109230fedc7cde7e71c192aecffdc216e20211a75c074964f9a1f3fabcdce35",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/catalog_professional_services.md",
+    "originalSha256": "adc5011965ac9514276e278d66a0e142c2680d85941afa7c3ad10b3e9553e0aa",
+    "currentSha256": "adc5011965ac9514276e278d66a0e142c2680d85941afa7c3ad10b3e9553e0aa",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/catalog_services.md",
+    "originalSha256": "a85892ee4b51b09c958ca1ee006c5ea7d30950d8b74718202f9008da712b38d3",
+    "currentSha256": "a85892ee4b51b09c958ca1ee006c5ea7d30950d8b74718202f9008da712b38d3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/catalog_users.md",
+    "originalSha256": "7ae56115cbe4b1853655fd04871baae5127125aa1de2288039490f34237b88c0",
+    "currentSha256": "7ae56115cbe4b1853655fd04871baae5127125aa1de2288039490f34237b88c0",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/layer-map.md",
+    "originalSha256": "19261c890f664578b687ee31dfa7563f2acb71f07240cbd33a98c3059e1a21b6",
+    "currentSha256": "19261c890f664578b687ee31dfa7563f2acb71f07240cbd33a98c3059e1a21b6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/openmetadata/bookings.json",
+    "originalSha256": "3bfdec3f03c6338679fc60bb89423599996bc607692e35ee3aed7a80ff185eeb",
+    "currentSha256": "3bfdec3f03c6338679fc60bb89423599996bc607692e35ee3aed7a80ff185eeb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/openmetadata/professional_services.json",
+    "originalSha256": "ea060ddb9ffed881b0c9bbfb8ae4860b13051f8acd0f22ca3e186a72415ccb9d",
+    "currentSha256": "ea060ddb9ffed881b0c9bbfb8ae4860b13051f8acd0f22ca3e186a72415ccb9d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/openmetadata/services.json",
+    "originalSha256": "8f0522bca59d160cea645378fd51b2ca593d32795808f26cbaab75a5460d5362",
+    "currentSha256": "8f0522bca59d160cea645378fd51b2ca593d32795808f26cbaab75a5460d5362",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/openmetadata/users.json",
+    "originalSha256": "e4c13a7a0e96f60b09d6b2a1623222abd122b563385bb01df5a448c39e6f9605",
+    "currentSha256": "e4c13a7a0e96f60b09d6b2a1623222abd122b563385bb01df5a448c39e6f9605",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/output/tests/Generators.fs",
+    "originalSha256": "4cc7681dbab12e44c0e5e98b153a8e43eab404702ce81b3e828d3f94cec098dd",
+    "currentSha256": "4cc7681dbab12e44c0e5e98b153a8e43eab404702ce81b3e828d3f94cec098dd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/scripts/dogfood.sh",
+    "originalSha256": "23e430682fc379fedc41bb5b940f5de5ebbc124b01da409f1b05c3779d8cd6dc",
+    "currentSha256": "23e430682fc379fedc41bb5b940f5de5ebbc124b01da409f1b05c3779d8cd6dc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/scripts/test.sh",
+    "originalSha256": "0b282c5b7a2d6a6726d4d3b65e4803ab2c8e7f22df5ae044d6bde34f4d31dcdd",
+    "currentSha256": "0b282c5b7a2d6a6726d4d3b65e4803ab2c8e7f22df5ae044d6bde34f4d31dcdd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/Library.fs",
+    "originalSha256": "01f91a43e72b6e9ec96fb64ac485b62322c05acfceba87f7c621d281c248204a",
+    "currentSha256": "01f91a43e72b6e9ec96fb64ac485b62322c05acfceba87f7c621d281c248204a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/UrbanclubCore.Domain.fsproj",
+    "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/DomainTests.fs",
+    "originalSha256": "5eb4d931f73d7a01cb159b816dbf9132eea252828602338b994b32516484d601",
+    "currentSha256": "5eb4d931f73d7a01cb159b816dbf9132eea252828602338b994b32516484d601",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/Generators.fs",
+    "originalSha256": "4cc7681dbab12e44c0e5e98b153a8e43eab404702ce81b3e828d3f94cec098dd",
+    "currentSha256": "4cc7681dbab12e44c0e5e98b153a8e43eab404702ce81b3e828d3f94cec098dd",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/Tests.fs",
+    "originalSha256": "58cdec67f11f16f91113ed352ac278cb7d084920aa4a2b8303b6dc26a8ad1074",
+    "currentSha256": "58cdec67f11f16f91113ed352ac278cb7d084920aa4a2b8303b6dc26a8ad1074",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/urbanclub.Tests.fsproj",
+    "originalSha256": "e18d889db078a994453b3e73883d3c6b0d0c13a99949ab4496282898b93e2e12",
+    "currentSha256": "e18d889db078a994453b3e73883d3c6b0d0c13a99949ab4496282898b93e2e12",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/README.md",
+    "originalSha256": "537a26d06428f9f35dd931d8a4571035f5ede79c42c5a7092839b68e6537140a",
+    "currentSha256": "537a26d06428f9f35dd931d8a4571035f5ede79c42c5a7092839b68e6537140a",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/client/src/ondc-client.ts",
+    "originalSha256": "d86233d7da40364bbdcf34055d331e1ebe94e7955e61e5c2693721940573a421",
+    "currentSha256": "d86233d7da40364bbdcf34055d331e1ebe94e7955e61e5c2693721940573a421",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/client/src/types.ts",
+    "originalSha256": "98b4e122b9711ee0da4c15ecee60837a06f91cf16e2f850650331cfe538ebc39",
+    "currentSha256": "98b4e122b9711ee0da4c15ecee60837a06f91cf16e2f850650331cfe538ebc39",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/client/src/validators.ts",
+    "originalSha256": "ebc21e5a9d5844b8d97d4cee7ba20b3e1c3e75b04e1390a74d6e6f91d2111811",
+    "currentSha256": "ebc21e5a9d5844b8d97d4cee7ba20b3e1c3e75b04e1390a74d6e6f91d2111811",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/db/init/01-schema.sql",
+    "originalSha256": "1ea02e65c4672e67b31adc2e007d4f01e574a108b5f440bafc031b0db0204ac9",
+    "currentSha256": "f74447bb825fa275cf73e06cad288acd0512a6332d577b49b3408457724f48f5",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/docker-compose.yml",
+    "originalSha256": "978320e94d75d6cf3943214a17e2f6d298b487d78a0ff6a805b76a6d87899a91",
+    "currentSha256": "978320e94d75d6cf3943214a17e2f6d298b487d78a0ff6a805b76a6d87899a91",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/output/PROOF.md",
+    "originalSha256": "d1f83ed513cc9893d78a5ed67fe858e8df69096b8218bc17221b9b0e270fe1bc",
+    "currentSha256": "d1f83ed513cc9893d78a5ed67fe858e8df69096b8218bc17221b9b0e270fe1bc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/output/fsassay-scan.sarif",
+    "originalSha256": "334a7b10cf7a62e2cce82ee51ad62ac1108f620120209cb00c12e7edd46dc7f4",
+    "currentSha256": "334a7b10cf7a62e2cce82ee51ad62ac1108f620120209cb00c12e7edd46dc7f4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/output/ratecard.md",
+    "originalSha256": "3850319c5f42b6621579b4a005d9b2392a92f99b7e13b34cfea62d4280f25c91",
+    "currentSha256": "3850319c5f42b6621579b4a005d9b2392a92f99b7e13b34cfea62d4280f25c91",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/Library.fs",
+    "originalSha256": "88168a59511c03dac260fa93f0d6bdd57677c02a72315243717fd88dbe33d167",
+    "currentSha256": "b05f5aa26097d2cb77c60d0b9b4426985b7a91e4c3ba8f5e498444a50312802b",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/WebuyCore.Domain.fsproj",
+    "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Generators.fs",
+    "originalSha256": "558852c2df8a731ef49e8066288512d3ea80c9063295a6c9db1f325c90accee7",
+    "currentSha256": "558852c2df8a731ef49e8066288512d3ea80c9063295a6c9db1f325c90accee7",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/PropertyTests.fs",
+    "originalSha256": "c31a5fc5c35159281625b6293d22029550a729abee8c66e822964ef858b9feed",
+    "currentSha256": "a01f614bc2a6eb2d42220343565cea656bd4715e9fec3742c31380ef80b3f187",
+    "disposition": "adapted; see docs/scrutiny.md"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/StateMachineTests.fs",
+    "originalSha256": "ab84be099aee5320bdf98e92ccbaf26b3dd257103b45d1769defcbb508d779bb",
+    "currentSha256": "ab84be099aee5320bdf98e92ccbaf26b3dd257103b45d1769defcbb508d779bb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Tests.fs",
+    "originalSha256": "06e24950c985af64ded5b996b22f8a994fabfb1f955bc502fa343b312ea2f5e4",
+    "currentSha256": "06e24950c985af64ded5b996b22f8a994fabfb1f955bc502fa343b312ea2f5e4",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/WebuyCore.Tests.fsproj",
+    "originalSha256": "ed2e37419480d9336cb51a3d79f2204308b361eecc25e5641a21bf2c447bd53b",
+    "currentSha256": "ed2e37419480d9336cb51a3d79f2204308b361eecc25e5641a21bf2c447bd53b",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/README.md",
+    "originalSha256": "9013f1159fb2efd8a8d75beb301ed66a2895800c135d63350291aec284858b98",
+    "currentSha256": "9013f1159fb2efd8a8d75beb301ed66a2895800c135d63350291aec284858b98",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/client/jest.config.js",
+    "originalSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "currentSha256": "1de4e4f9ae83453b542a9b2ac54663bc783f3bc66283b44981cbb3f376e5f829",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/client/package-lock.json",
+    "originalSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "currentSha256": "1a9f1445f1914494c99eef8770a9d557d30809e352dc066f40720319ef094033",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/client/package.json",
+    "originalSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "currentSha256": "e751f53199460c3946c4917ff7d776ebe5c144b81e0b95ff41246860ec2c0f96",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/client/src/validators.test.ts",
+    "originalSha256": "85aa7ad6de9b9404f4949fedd9437603745449cea24b2bac7173ffbe4e72586f",
+    "currentSha256": "85aa7ad6de9b9404f4949fedd9437603745449cea24b2bac7173ffbe4e72586f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/client/src/validators.ts",
+    "originalSha256": "7e740e25a02f8ccc1d5c4dd58441b535f42b82a4890a80b023a8df17b637a793",
+    "currentSha256": "7e740e25a02f8ccc1d5c4dd58441b535f42b82a4890a80b023a8df17b637a793",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/client/tsconfig.json",
+    "originalSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "currentSha256": "a5c4f60c7fd590e0cee5f07cd01ea82c8759d2a49ce2d31f12a91f17a983dc7f",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/db/init/01-schema.sql",
+    "originalSha256": "05bd88fef55ca6f94b12aa11251cb69304480e895f3e5475d98455b16a7a6df9",
+    "currentSha256": "05bd88fef55ca6f94b12aa11251cb69304480e895f3e5475d98455b16a7a6df9",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/docker-compose.yml",
+    "originalSha256": "d661da527a4bfb204a5237e15cf24adec288b1f1f525028e8add39359dc62f1d",
+    "currentSha256": "d661da527a4bfb204a5237e15cf24adec288b1f1f525028e8add39359dc62f1d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/PROOF.md",
+    "originalSha256": "22fdcdfd54497d101476cac32502dd542a4a7e8f9d71d0fc760de3c7625740bc",
+    "currentSha256": "22fdcdfd54497d101476cac32502dd542a4a7e8f9d71d0fc760de3c7625740bc",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/agent-context.json",
+    "originalSha256": "5509434af4b36632b841639caedfc5b146ce7c125a5212c662857cdf44996970",
+    "currentSha256": "5509434af4b36632b841639caedfc5b146ce7c125a5212c662857cdf44996970",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/catalog_group_members.md",
+    "originalSha256": "17bb4cab92f1a844681e22079f99296a9725fc3510a6d28cfde8b0f3f957499d",
+    "currentSha256": "17bb4cab92f1a844681e22079f99296a9725fc3510a6d28cfde8b0f3f957499d",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/catalog_groups.md",
+    "originalSha256": "6f47da4c52e8caa824771d630aa28549bcd874590c8555d884ce727921433ca8",
+    "currentSha256": "6f47da4c52e8caa824771d630aa28549bcd874590c8555d884ce727921433ca8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/catalog_messages.md",
+    "originalSha256": "5c66ab5beac31fd465446fbcd215fb643aefda4d0d333b13cbb96047171e0c72",
+    "currentSha256": "5c66ab5beac31fd465446fbcd215fb643aefda4d0d333b13cbb96047171e0c72",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/catalog_user_profiles.md",
+    "originalSha256": "8d42e82c10af53b65bfdd8770e8f7281dc5f236f740607e3d5841229a7b262b9",
+    "currentSha256": "8d42e82c10af53b65bfdd8770e8f7281dc5f236f740607e3d5841229a7b262b9",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/catalog_users.md",
+    "originalSha256": "8688ef32c6d6ca52c6f0eec1ca6d44557ce8388ae2334d2271a584c26941a6d3",
+    "currentSha256": "8688ef32c6d6ca52c6f0eec1ca6d44557ce8388ae2334d2271a584c26941a6d3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/layer-map.md",
+    "originalSha256": "c5a4bee61fb208000025c5afc2805c650e9798f64db0f00329010288736416f8",
+    "currentSha256": "c5a4bee61fb208000025c5afc2805c650e9798f64db0f00329010288736416f8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/openmetadata/group_members.json",
+    "originalSha256": "a7a6a7e2c7b6936578082efb07960b06d32f6652ac3ee365d0d19f6c0e6b5b22",
+    "currentSha256": "a7a6a7e2c7b6936578082efb07960b06d32f6652ac3ee365d0d19f6c0e6b5b22",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/openmetadata/groups.json",
+    "originalSha256": "98045eabb3bfae21a6b549a9495c8366895b90cb89ef0ee127a89fe122149fdf",
+    "currentSha256": "98045eabb3bfae21a6b549a9495c8366895b90cb89ef0ee127a89fe122149fdf",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/openmetadata/messages.json",
+    "originalSha256": "25bd171d8e8c330fdf8fa41a3158da5cd90fe4d9b93d44fc20059d4a57d659a8",
+    "currentSha256": "25bd171d8e8c330fdf8fa41a3158da5cd90fe4d9b93d44fc20059d4a57d659a8",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/openmetadata/user_profiles.json",
+    "originalSha256": "4598b3ddcc46f2a23e748093c043e8304b1609207eed0f3fcb5c606ede60c8b3",
+    "currentSha256": "4598b3ddcc46f2a23e748093c043e8304b1609207eed0f3fcb5c606ede60c8b3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/openmetadata/users.json",
+    "originalSha256": "2cc9cd865e03660cf2f3803586dd3fc5d64765195d176fc4bbf06096f94e87e3",
+    "currentSha256": "2cc9cd865e03660cf2f3803586dd3fc5d64765195d176fc4bbf06096f94e87e3",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/output/tests/Generators.fs",
+    "originalSha256": "be2a55382fce892b7402ae92ab883653a25d74f4400919d506ecff255b76b086",
+    "currentSha256": "be2a55382fce892b7402ae92ab883653a25d74f4400919d506ecff255b76b086",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/scripts/dogfood.sh",
+    "originalSha256": "8881787b9055072060f206f75f7c606f067ab784413d93f288cb2cc065326744",
+    "currentSha256": "8881787b9055072060f206f75f7c606f067ab784413d93f288cb2cc065326744",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/scripts/test.sh",
+    "originalSha256": "3bdb7382bebb8a71835546d8d876890a100298be72b19913bf3d9152eebd7ac6",
+    "currentSha256": "3bdb7382bebb8a71835546d8d876890a100298be72b19913bf3d9152eebd7ac6",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/Library.fs",
+    "originalSha256": "0ff43cc7ee64218ae8282c0df7678bae532b977aa61feff5e13e7da8fd24bbf5",
+    "currentSha256": "0ff43cc7ee64218ae8282c0df7678bae532b977aa61feff5e13e7da8fd24bbf5",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/WecarCore.Domain.fsproj",
+    "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/DomainTests.fs",
+    "originalSha256": "50e33f782762f189dc4e50144545239b691176c2ec91b7b0374af3dfbeb614cb",
+    "currentSha256": "50e33f782762f189dc4e50144545239b691176c2ec91b7b0374af3dfbeb614cb",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/Generators.fs",
+    "originalSha256": "be2a55382fce892b7402ae92ab883653a25d74f4400919d506ecff255b76b086",
+    "currentSha256": "be2a55382fce892b7402ae92ab883653a25d74f4400919d506ecff255b76b086",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/Tests.fs",
+    "originalSha256": "58cdec67f11f16f91113ed352ac278cb7d084920aa4a2b8303b6dc26a8ad1074",
+    "currentSha256": "58cdec67f11f16f91113ed352ac278cb7d084920aa4a2b8303b6dc26a8ad1074",
+    "disposition": "retained"
+  },
+  {
+    "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/wecar.Tests.fsproj",
+    "originalSha256": "01fe4d832c93e3c2a4b1ef199c29c96a0ef1204d82029480e9e6e4287dbcb4ee",
+    "currentSha256": "01fe4d832c93e3c2a4b1ef199c29c96a0ef1204d82029480e9e6e4287dbcb4ee",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/.fsassayrc",
+    "originalSha256": "3cb47b3c195d7110671b28ddf2b8803611e96fc94c6f7be8ac3d25625d2c13ab",
+    "currentSha256": "3cb47b3c195d7110671b28ddf2b8803611e96fc94c6f7be8ac3d25625d2c13ab",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/.github/workflows/ci.yml",
+    "originalSha256": "f3b97c60df676b86e2998ab5d1e420d1dc4f00525f68824ad8e5da0a6be4503d",
+    "currentSha256": "f3b97c60df676b86e2998ab5d1e420d1dc4f00525f68824ad8e5da0a6be4503d",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/.github/workflows/fsassay.yml",
+    "originalSha256": "53a7c943a3cbed302c7a9a9f410c186629ba23d4acc30f4f88905f3346cda6e6",
+    "currentSha256": "53a7c943a3cbed302c7a9a9f410c186629ba23d4acc30f4f88905f3346cda6e6",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/.gitignore",
+    "originalSha256": "942ad02833aae9e17d21a406c30aba5e0070c9623a9d77779743815d1ef99294",
+    "currentSha256": "942ad02833aae9e17d21a406c30aba5e0070c9623a9d77779743815d1ef99294",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/Cgq.md",
+    "originalSha256": "4cba356f33743df5b072d363060f549ee4503c1949b3882930071d68b4d56f9d",
+    "currentSha256": "4cba356f33743df5b072d363060f549ee4503c1949b3882930071d68b4d56f9d",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/Directory.Build.targets",
+    "originalSha256": "cd663f1cf9dc6a3b1119f13b04bc7dc2a0c158d2e544f6257cf7b591d2393ac4",
+    "currentSha256": "cd663f1cf9dc6a3b1119f13b04bc7dc2a0c158d2e544f6257cf7b591d2393ac4",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/Dockerfile",
+    "originalSha256": "d2d498bef38a957874173e67060e2f0c68d62da6423fba68cc50fd153af92dfe",
+    "currentSha256": "d2d498bef38a957874173e67060e2f0c68d62da6423fba68cc50fd153af92dfe",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/Findings.md",
+    "originalSha256": "291902dea1b2c06738415a576b49ff442b30a2300c0874243e1f05275c3f95fe",
+    "currentSha256": "291902dea1b2c06738415a576b49ff442b30a2300c0874243e1f05275c3f95fe",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/LICENSE",
+    "originalSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "currentSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/README.md",
+    "originalSha256": "c710761a0a4194c820e76ad1bbaf2bb318c89c699a72d78d6e676a4924d4ce42",
+    "currentSha256": "c710761a0a4194c820e76ad1bbaf2bb318c89c699a72d78d6e676a4924d4ce42",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/canonflow.fsx",
+    "originalSha256": "642d7ba7e7634c3c6bb697b88dec1663b56dac732bd227781ed7966573788670",
+    "currentSha256": "642d7ba7e7634c3c6bb697b88dec1663b56dac732bd227781ed7966573788670",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/db/init/01-schema.sql",
+    "originalSha256": "e99f6a3b9a91abf2fb45b9b37cd4730feca40c1c37edf86ec50c06d101336c8a",
+    "currentSha256": "e99f6a3b9a91abf2fb45b9b37cd4730feca40c1c37edf86ec50c06d101336c8a",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/debug.fsx",
+    "originalSha256": "6667f0df10b6efde4fa1905add2b92f3a7aa410912d6c26b6489b770ac8bd679",
+    "currentSha256": "6667f0df10b6efde4fa1905add2b92f3a7aa410912d6c26b6489b770ac8bd679",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/docker-compose.yml",
+    "originalSha256": "ad69a67452f170b6802fad282d00ab21b62ada1c8192a710e2c867cbe86b4450",
+    "currentSha256": "ad69a67452f170b6802fad282d00ab21b62ada1c8192a710e2c867cbe86b4450",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/learnings.md",
+    "originalSha256": "359d0197411b15822dd47c4f75826bd46ac16a0e214492c1883b31d8300a3e9e",
+    "currentSha256": "359d0197411b15822dd47c4f75826bd46ac16a0e214492c1883b31d8300a3e9e",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/output/fsassay-scan.sarif",
+    "originalSha256": "553060d0d1129bf337b1f44c83658c4f1081ed5a2a0de57c04984cd931dc8e24",
+    "currentSha256": "553060d0d1129bf337b1f44c83658c4f1081ed5a2a0de57c04984cd931dc8e24",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/output/ratecard.md",
+    "originalSha256": "17ce5331082bbf64ab01fb0cdce92c60f3cc4b597f5f0ff4a964a0fff6f1469f",
+    "currentSha256": "17ce5331082bbf64ab01fb0cdce92c60f3cc4b597f5f0ff4a964a0fff6f1469f",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/ratecard.md",
+    "originalSha256": "89a26c4efbb6a967bf61604d506446e70a4e72cb5c3ac0faf5f4699331b524c5",
+    "currentSha256": "89a26c4efbb6a967bf61604d506446e70a4e72cb5c3ac0faf5f4699331b524c5",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/ColdProof.App/ColdProof.App.fsproj",
+    "originalSha256": "c21c6f855cff535de3c9078f0d619712cb6b8632d94808d8c794bb9118391d08",
+    "currentSha256": "c21c6f855cff535de3c9078f0d619712cb6b8632d94808d8c794bb9118391d08",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/ColdProof.App/Program.fs",
+    "originalSha256": "41365599ebcca904546deb105f6e8d86e45e4f0c4eae0ca1928c06a56643cf27",
+    "currentSha256": "41365599ebcca904546deb105f6e8d86e45e4f0c4eae0ca1928c06a56643cf27",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/ColdProof.Tests/ColdProof.Tests.fsproj",
+    "originalSha256": "74d5763cf894e3868f2d76ab0a1dfbb68f8d270f91517ec99d5da293b1b88d38",
+    "currentSha256": "74d5763cf894e3868f2d76ab0a1dfbb68f8d270f91517ec99d5da293b1b88d38",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/ColdProof.Tests/Dirty.fs",
+    "originalSha256": "6ca495e7cbbec8ce76d000a248e3800fb1831d6d902871b642147a82803028f4",
+    "currentSha256": "6ca495e7cbbec8ce76d000a248e3800fb1831d6d902871b642147a82803028f4",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/ColdProof.Tests/Domain.fs",
+    "originalSha256": "7ffb6906a17db6cd67779b136dc6b1193a425d7987979be395dc0e8d1b869e9f",
+    "currentSha256": "7ffb6906a17db6cd67779b136dc6b1193a425d7987979be395dc0e8d1b869e9f",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/ColdProof.Tests/Library.fs",
+    "originalSha256": "f4e7ceaebf3497aa9ca30152498512930b7f717649923f8f6e1359824aa6f44c",
+    "currentSha256": "f4e7ceaebf3497aa9ca30152498512930b7f717649923f8f6e1359824aa6f44c",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/ColdProof.slnx",
+    "originalSha256": "cc528a3f54f5c0dbb8dc428d1135d8769bfb98b9c5ea334382e32c1e7362fe57",
+    "currentSha256": "cc528a3f54f5c0dbb8dc428d1135d8769bfb98b9c5ea334382e32c1e7362fe57",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/EVIDENCE.md",
+    "originalSha256": "23e74c4be5e41d4da9369509538e45f01e040fd60cdd54b034661181f2fc6bd3",
+    "currentSha256": "23e74c4be5e41d4da9369509538e45f01e040fd60cdd54b034661181f2fc6bd3",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/db/init.sql",
+    "originalSha256": "902ed9fc479fd7bc284ec5dab61740d998bcc3106af1779d0395c02848f5bb09",
+    "currentSha256": "902ed9fc479fd7bc284ec5dab61740d998bcc3106af1779d0395c02848f5bb09",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/docker-compose.yml",
+    "originalSha256": "c686459731003ed952a20d65135fa20dde462875f5e9d9ec575319ec60b285d3",
+    "currentSha256": "c686459731003ed952a20d65135fa20dde462875f5e9d9ec575319ec60b285d3",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/dotnet-tools.json",
+    "originalSha256": "45bac072475ccb039a65976473ee07f21019c4bc99d254715050c0525ddee008",
+    "currentSha256": "45bac072475ccb039a65976473ee07f21019c4bc99d254715050c0525ddee008",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/samples/ColdProof/test.fsx",
+    "originalSha256": "41e26645b8deb1ce0005c5024cf109d438b3c76e1f0fba4798e87ac2b217f177",
+    "currentSha256": "41e26645b8deb1ce0005c5024cf109d438b3c76e1f0fba4798e87ac2b217f177",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/todo.md",
+    "originalSha256": "9a566bbaea58bc0a81b5af9485a8847ffd974078d14380519ae9e0b7b12626b2",
+    "currentSha256": "9a566bbaea58bc0a81b5af9485a8847ffd974078d14380519ae9e0b7b12626b2",
+    "disposition": "retained"
+  },
+  {
+    "path": "historical/legacy-playground/todo/info.md",
+    "originalSha256": "9f73e25e50bbcd4040318a6c36ca5a8b8c69651fbd8300645e5f7f62a33da6b2",
+    "currentSha256": "9f73e25e50bbcd4040318a6c36ca5a8b8c69651fbd8300645e5f7f62a33da6b2",
+    "disposition": "retained"
+  }
+]

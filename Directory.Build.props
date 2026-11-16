@@ -1,0 +1,1 @@
+<Project><PropertyGroup><RestorePackagesWithLockFile>true</RestorePackagesWithLockFile><FSharpCoreImplicitPackageVersion>10.1.201</FSharpCoreImplicitPackageVersion><Deterministic>true</Deterministic><NuGetAudit>true</NuGetAudit><NuGetAuditMode>all</NuGetAuditMode></PropertyGroup></Project>

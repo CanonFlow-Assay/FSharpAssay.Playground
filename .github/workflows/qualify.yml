@@ -1,0 +1,54 @@
+name: Playground qualification
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  qualify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: '1'
+      TESTINGPLATFORM_TELEMETRY_OPTOUT: '1'
+      MSBUILDDISABLENODEREUSE: '1'
+      FSASSAY_APPROVED_HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.301'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+      - uses: actions/checkout@v4
+        with:
+          repository: CanonFlow-Assay/FSharpAssay
+          ref: eae0114a9e658a63a88dd370bc8a24c6bb8ad909
+          path: .producer
+      - name: Verify import provenance
+        run: python3 eng/provenance.py
+      - name: Prepare isolated packaged consumer
+        run: python3 eng/prepare.py --engine .producer
+      - name: Qualify all active F# projects, DB, HTTP and FsAssay
+        run: python3 eng/qualify.py --output artifacts/qualification
+      - name: Execute all retained Jest client suites
+        run: python3 eng/clients.py --output artifacts/clients
+      - name: Execute isolated mutation probes
+        run: python3 eng/mutations.py --output artifacts/mutations
+      - name: Check final source integrity
+        run: |
+          python3 eng/provenance.py
+          test -z "$(git status --porcelain)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playground-${{ github.sha }}
+          path: artifacts/
+          retention-days: 14
