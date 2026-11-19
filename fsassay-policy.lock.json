@@ -116,7 +116,7 @@
     "test"
   ],
   "requiredTargetFrameworks": [
-    "net10.0"
+    "net11.0"
   ],
   "requiredTests": [
     {
@@ -133,6 +133,11 @@
       "id": "real-wallet",
       "project": "tests/Wallet.Tests/Wallet.Tests.fsproj",
       "minimumPassed": 22
+    },
+    {
+      "id": "decision-assist",
+      "project": "tests/DecisionAssist.Tests/DecisionAssist.Tests.fsproj",
+      "minimumPassed": 17
     }
   ],
   "baseline": {

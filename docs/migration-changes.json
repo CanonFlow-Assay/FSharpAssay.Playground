@@ -254,8 +254,8 @@
   {
     "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/AirlineCore.Domain.fsproj",
     "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "disposition": "retained"
+    "currentSha256": "f9aef3ccc791d1cf079eb7ba09225889671d460c5bc633df9f34915893bacb60",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/airline-core/src/Domain/AirlineCore.Domain/Library.fs",
@@ -278,8 +278,8 @@
   {
     "path": "samples/10-enterprise/airline-core/tests/airline_core.Tests/airline_core.Tests.fsproj",
     "originalSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
-    "currentSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
-    "disposition": "retained"
+    "currentSha256": "9724100dc2226d978e9bd530121bf8062221c38f5a524964dfd90a406e635088",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries.zip",
@@ -350,7 +350,7 @@
   {
     "path": "samples/10-enterprise/arangetram-adversaries/arangetram-adversaries/tests/arangetram.Tests/arangetram.Tests.fsproj",
     "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "currentSha256": "77680c8c9526965e7deec3b809d840f156ba19cb0fcce5d803e8e9d2e4f4e2f7",
+    "currentSha256": "a83e49f7de41523aecd604dcc13699be484eb571ba7e6cbb80f2c52edaa8da8d",
     "disposition": "adapted; see docs/scrutiny.md"
   },
   {
@@ -782,7 +782,7 @@
   {
     "path": "samples/10-enterprise/banking-core/src/Domain/BankingCore.Domain/BankingCore.Domain.fsproj",
     "originalSha256": "5adda1fc1b6f250dc784b1fdd94a0056cafed3dea77e2ca1fc8c07c48f821ff8",
-    "currentSha256": "e826f34fbbd21cdaa943c802427fff92dd0794c64715a7396321cf27be812a91",
+    "currentSha256": "b764fbb9dc52f17c3091a1beded2dc82d2b67bbc6dbdbf33d435ed85dc2e6447",
     "disposition": "adapted; see docs/scrutiny.md"
   },
   {
@@ -794,8 +794,8 @@
   {
     "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/BankingCore.Tests.fsproj",
     "originalSha256": "8710441807fc86756b170d667b9d00715559c3372c120763c52eb56443823d95",
-    "currentSha256": "8710441807fc86756b170d667b9d00715559c3372c120763c52eb56443823d95",
-    "disposition": "retained"
+    "currentSha256": "5079a5dd73719f5f9d38546265aaa8e43d2e3f108228e72319699e1dcbe69e71",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/banking-core/tests/BankingCore.Tests/Generators.fs",
@@ -1124,8 +1124,8 @@
   {
     "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/GatepassCore.Domain.fsproj",
     "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "disposition": "retained"
+    "currentSha256": "f9aef3ccc791d1cf079eb7ba09225889671d460c5bc633df9f34915893bacb60",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/gatepass-core/src/Domain/GatepassCore.Domain/Library.fs",
@@ -1154,8 +1154,8 @@
   {
     "path": "samples/10-enterprise/gatepass-core/tests/gatepass.Tests/gatepass.Tests.fsproj",
     "originalSha256": "e648d392c19bcd315796f1288019a56da4043a9fb6fada891adbd3905c604a78",
-    "currentSha256": "e648d392c19bcd315796f1288019a56da4043a9fb6fada891adbd3905c604a78",
-    "disposition": "retained"
+    "currentSha256": "f875d4b4bebbe39f9a49272d5f772a118e9e0d3dcac74cd77c2cabf9ccdd7e3e",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/hospital-core/README.md",
@@ -1352,8 +1352,8 @@
   {
     "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/HospitalCore.Domain.fsproj",
     "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "disposition": "retained"
+    "currentSha256": "f9aef3ccc791d1cf079eb7ba09225889671d460c5bc633df9f34915893bacb60",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/hospital-core/src/Domain/HospitalCore.Domain/Library.fs",
@@ -1376,8 +1376,8 @@
   {
     "path": "samples/10-enterprise/hospital-core/tests/hospital_core.Tests/hospital_core.Tests.fsproj",
     "originalSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
-    "currentSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
-    "disposition": "retained"
+    "currentSha256": "9724100dc2226d978e9bd530121bf8062221c38f5a524964dfd90a406e635088",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/kutcheri-season/README.md",
@@ -1538,8 +1538,8 @@
   {
     "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Kutcheri.Tests.fsproj",
     "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "disposition": "retained"
+    "currentSha256": "34c9fd4629b5447cee692727d171744d05340dc9f63438bdbfb79aeaa5a00650",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/kutcheri-season/kutcheri/tests/Kutcheri.Tests/Tests.fs",
@@ -1754,8 +1754,8 @@
   {
     "path": "samples/10-enterprise/layam-academy/layam/tests/layam.Tests/layam.Tests.fsproj",
     "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "disposition": "retained"
+    "currentSha256": "34c9fd4629b5447cee692727d171744d05340dc9f63438bdbfb79aeaa5a00650",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/layam-academy/output/PROOF.md",
@@ -2036,8 +2036,8 @@
   {
     "path": "samples/10-enterprise/migration-demo/tests/migration-demo.Tests/migration-demo.Tests.fsproj",
     "originalSha256": "5b20d1a70a01ac940031fdda125ea7a9ae7f37bc7e15737b7899743541990ed7",
-    "currentSha256": "5b20d1a70a01ac940031fdda125ea7a9ae7f37bc7e15737b7899743541990ed7",
-    "disposition": "retained"
+    "currentSha256": "aa509169a200da294b3b28ad48815cdc3f79abbf3a074585f8715c9e11a8a16d",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/mock-drill/client/.gitignore",
@@ -2150,8 +2150,8 @@
   {
     "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/MockDrill.Tests.fsproj",
     "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "disposition": "retained"
+    "currentSha256": "34c9fd4629b5447cee692727d171744d05340dc9f63438bdbfb79aeaa5a00650",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/mock-drill/tests/MockDrill.Tests/Tests.fs",
@@ -2618,8 +2618,8 @@
   {
     "path": "samples/10-enterprise/sangam-credit/sangam/tests/sangam.Tests/sangam.Tests.fsproj",
     "originalSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "currentSha256": "5d00912f320c035ed81acfb1f65a24cca3529a478d143f2cfe0eddd2bd8c198a",
-    "disposition": "retained"
+    "currentSha256": "34c9fd4629b5447cee692727d171744d05340dc9f63438bdbfb79aeaa5a00650",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/sangam-credit/testDomain.fsx",
@@ -2636,7 +2636,7 @@
   {
     "path": "samples/10-enterprise/src/FintechWallet.Api/FintechWallet.Api.fsproj",
     "originalSha256": "258cc3b4d3779321af5202ff80b6fe23b5b1836157797bfb4639a1b2e0e17b5d",
-    "currentSha256": "44987b908216a28c0a53e3fc586e038a093e3dd39198ba0c561dd8863e31d85e",
+    "currentSha256": "0b11a6cc7e8ac18dbd748633782d6f0743988bcb0cc3788b6f839657f581c59a",
     "disposition": "adapted; see docs/scrutiny.md"
   },
   {
@@ -2666,8 +2666,8 @@
   {
     "path": "samples/10-enterprise/src/FintechWallet.Domain/FintechWallet.Domain.fsproj",
     "originalSha256": "3c9ba885970a7b26b7de88d1efefd43993ea41f428a036cf6295df6ac60786a6",
-    "currentSha256": "3c9ba885970a7b26b7de88d1efefd43993ea41f428a036cf6295df6ac60786a6",
-    "disposition": "retained"
+    "currentSha256": "df9b1d1df35f5205b860a00d973ea6c5c502a255ba8b393498f689ab7af1e1a8",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/src/FintechWallet.Domain/Library.fs",
@@ -2846,8 +2846,8 @@
   {
     "path": "samples/10-enterprise/trading-core/src/Domain/TradingCore.Domain/TradingCore.Domain.fsproj",
     "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "disposition": "retained"
+    "currentSha256": "f9aef3ccc791d1cf079eb7ba09225889671d460c5bc633df9f34915893bacb60",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/Generators.fs",
@@ -2864,8 +2864,8 @@
   {
     "path": "samples/10-enterprise/trading-core/tests/trading_core.Tests/trading_core.Tests.fsproj",
     "originalSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
-    "currentSha256": "dd7dc162628e348383745145c9ed01446ca3250cec8fed0d845d29f47cb6e97c",
-    "disposition": "retained"
+    "currentSha256": "9724100dc2226d978e9bd530121bf8062221c38f5a524964dfd90a406e635088",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/update_list.py",
@@ -3050,8 +3050,8 @@
   {
     "path": "samples/10-enterprise/urbanclub-core/src/Domain/UrbanclubCore.Domain/UrbanclubCore.Domain.fsproj",
     "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "disposition": "retained"
+    "currentSha256": "f9aef3ccc791d1cf079eb7ba09225889671d460c5bc633df9f34915893bacb60",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/DomainTests.fs",
@@ -3074,8 +3074,8 @@
   {
     "path": "samples/10-enterprise/urbanclub-core/tests/urbanclub.Tests/urbanclub.Tests.fsproj",
     "originalSha256": "e18d889db078a994453b3e73883d3c6b0d0c13a99949ab4496282898b93e2e12",
-    "currentSha256": "e18d889db078a994453b3e73883d3c6b0d0c13a99949ab4496282898b93e2e12",
-    "disposition": "retained"
+    "currentSha256": "dde0242d3daa62129b0e2d44bcbf2f4113a678b5297558f5ad73dd1d44f69a26",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/webuy-core/README.md",
@@ -3140,8 +3140,8 @@
   {
     "path": "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/WebuyCore.Domain.fsproj",
     "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "disposition": "retained"
+    "currentSha256": "f9aef3ccc791d1cf079eb7ba09225889671d460c5bc633df9f34915893bacb60",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/Generators.fs",
@@ -3170,8 +3170,8 @@
   {
     "path": "samples/10-enterprise/webuy-core/tests/WebuyCore.Tests/WebuyCore.Tests.fsproj",
     "originalSha256": "ed2e37419480d9336cb51a3d79f2204308b361eecc25e5641a21bf2c447bd53b",
-    "currentSha256": "ed2e37419480d9336cb51a3d79f2204308b361eecc25e5641a21bf2c447bd53b",
-    "disposition": "retained"
+    "currentSha256": "7d22a6f6ab82b0db39cf5d07697c1d724aad7d3bb29e67b5eccf0c8403b930ea",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/wecar-core/README.md",
@@ -3332,8 +3332,8 @@
   {
     "path": "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/WecarCore.Domain.fsproj",
     "originalSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "currentSha256": "bfb064c2f083907c8caf69c8e70568cab86cce4bb7032b057ccbf10c0f4bbc75",
-    "disposition": "retained"
+    "currentSha256": "f9aef3ccc791d1cf079eb7ba09225889671d460c5bc633df9f34915893bacb60",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/DomainTests.fs",
@@ -3356,8 +3356,8 @@
   {
     "path": "samples/10-enterprise/wecar-core/tests/wecar.Tests/wecar.Tests.fsproj",
     "originalSha256": "01fe4d832c93e3c2a4b1ef199c29c96a0ef1204d82029480e9e6e4287dbcb4ee",
-    "currentSha256": "01fe4d832c93e3c2a4b1ef199c29c96a0ef1204d82029480e9e6e4287dbcb4ee",
-    "disposition": "retained"
+    "currentSha256": "07345a98b0cd447de6e2ec9d561008a15ce3a6d44ca2532f457255cb7962632c",
+    "disposition": "adapted; see docs/scrutiny.md"
   },
   {
     "path": "historical/legacy-playground/.fsassayrc",

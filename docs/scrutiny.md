@@ -50,14 +50,14 @@ general proof of all possible concurrent schedules or a complete data lifecycle.
 
 | Capability | F# implementation |
 |---|---|
-| Broad sample inventory | All imported F# projects plus eight new projects: 32 active projects in one checked solution. |
+| Broad sample inventory | All imported F# projects plus eleven added projects. All 35 active projects target .NET 11, with a separate inventory for loose files. |
 | Functional design and pattern guidance | Private smart constructors, DUs, accumulated validation, function capabilities, audit as data, units of measure, recursive data, event folds and active patterns. See `samples/20-functional-patterns`. |
 | Bounded effects and resilience | Bounded channel, fixed worker count, ordered outputs, linked cancellation and observed worker failure. Four async acceptance cases; final result storage still grows with output size. |
 | Real PostgreSQL/HTTP workflow | New wallet sample with domain validation, parameterized SQL, atomic debits, replay intent checks, transactional outbox, loopback HTTP, authorization and bounded input. 22 executed acceptance cases. |
 | Requirements change and mutation evidence | Frozen red acceptance results, retained legacy tests, isolated limit/amount/replay/wire mutations, disclosed survivor and invalid mutation. See `eng/mutations.py`. |
 | Independent package consumer | Build the pinned FsAssay checkout, install its archive into isolated cache/tool paths, record archive SHA and producer revision. No engine ProjectReference. |
 | Receipts and readable evidence | Canonical receipt, native assessment, SARIF, Markdown, HTML and per-required-suite TRX from the actual packaged tool. |
-| C# libraries and provider benchmarks | No forced C# syntax/library translation. No AI provider benchmark, external AI calls, registry publication or full GoF implementation claimed. |
+| Decision Assist and providers | Typed offline F# advice over actual wallet mutation results. Jev remains a separate opt-in adapter in the C# playground. |
 
 ## Remaining gaps
 

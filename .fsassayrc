@@ -16,7 +16,8 @@
     "samples/10-enterprise/webuy-core/src/Domain/WebuyCore.Domain/WebuyCore.Domain.fsproj",
     "samples/10-enterprise/wecar-core/src/Domain/WecarCore.Domain/WecarCore.Domain.fsproj",
     "samples/20-functional-patterns/Patterns.Domain/Patterns.Domain.fsproj",
-    "samples/40-wallet/Wallet.Domain/Wallet.Domain.fsproj"
+    "samples/40-wallet/Wallet.Domain/Wallet.Domain.fsproj",
+    "samples/50-decision-assist/DecisionAssist.Domain/DecisionAssist.Domain.fsproj"
   ],
   "shellProjects": [
     "samples/10-enterprise/airline-core/tests/airline_core.Tests/airline_core.Tests.fsproj",
@@ -37,6 +38,8 @@
     "samples/20-functional-patterns/Patterns.Shell/Patterns.Shell.fsproj",
     "samples/40-wallet/Wallet.Adapter/Wallet.Adapter.fsproj",
     "samples/40-wallet/Wallet.Api/Wallet.Api.fsproj",
+    "samples/50-decision-assist/DecisionAssist.Cli/DecisionAssist.Cli.fsproj",
+    "tests/DecisionAssist.Tests/DecisionAssist.Tests.fsproj",
     "tests/Patterns.Tests/Patterns.Tests.fsproj",
     "tests/Playground.Acceptance/Playground.Acceptance.fsproj",
     "tests/Wallet.Tests/Wallet.Tests.fsproj"

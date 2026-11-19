@@ -1,7 +1,7 @@
 {
   "version": 1,
   "dependencies": {
-    "net10.0": {
+    "net11.0": {
       "Expecto": {
         "type": "Direct",
         "requested": "[9.0.4, )",
@@ -43,42 +43,25 @@
       },
       "FSharp.Core": {
         "type": "Direct",
-        "requested": "[10.1.201, )",
-        "resolved": "10.1.201",
-        "contentHash": "s5w9LWYurZ9yZdIppoIaYLkRadyT5s3u0wbQCb0J4bQd3ubIlIWQ3Nd5+ll1y3pv5OnTS373dP8T1S/BP46QXg=="
-      },
-      "Microsoft.NETCore.Platforms": {
-        "type": "Transitive",
-        "resolved": "1.0.1",
-        "contentHash": "2G6OjjJzwBfNOO8myRV/nFrbTw5iA+DEm0N+qUqhrOmaVtn4pC77h38I1jsXGw5VH55+dPfQsqHD0We9sCl9FQ=="
+        "requested": "[11.0.101, )",
+        "resolved": "11.0.101",
+        "contentHash": "/Us61HrXUuswvfVj2vj6RPa123Lnvj3nF9RHT5dFQdPmPhBxGAjlwIKyUYg2TACsr0iHCZFqvZcMNmBf9A8h4g=="
       },
       "Mono.Cecil": {
         "type": "Transitive",
         "resolved": "0.11.3",
         "contentHash": "DNYE+io5XfEE8+E+5padThTPHJARJHbz1mhbhMPNrrWGKVKKqj/KEeLvbawAmbIcT73NuxLV7itHZaYCZcVWGg=="
       },
-      "NETStandard.Library": {
-        "type": "Transitive",
-        "resolved": "1.6.0",
-        "contentHash": "ypsCvIdCZ4IoYASJHt6tF2fMo7N30NLgV1EbmC+snO490OMl9FvVxmumw14rhReWU3j3g7BYudG6YCrchwHJlA==",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1"
-        }
-      },
       "xunit.abstractions": {
         "type": "Transitive",
         "resolved": "2.0.1",
-        "contentHash": "bDm/zdG5rnRDsobKuKwrvL4HccBdC0uvT12be6fG12P3d1U7u9Wkvfoq/PM2GeyIeb0Dtcmm/7k2oaawiqQ2Dg==",
-        "dependencies": {
-          "NETStandard.Library": "1.6.0"
-        }
+        "contentHash": "bDm/zdG5rnRDsobKuKwrvL4HccBdC0uvT12be6fG12P3d1U7u9Wkvfoq/PM2GeyIeb0Dtcmm/7k2oaawiqQ2Dg=="
       },
       "xunit.extensibility.core": {
         "type": "Transitive",
         "resolved": "2.2.0",
         "contentHash": "2bT3sG8obWbRm45NewcV+Sr2K1whj88LnjQT7szJx1DcydgKR86ggV5rIZ5NccCWo2ctZMRb0QMYttVrhrG9Gw==",
         "dependencies": {
-          "NETStandard.Library": "1.6.0",
           "xunit.abstractions": "2.0.1"
         }
       },
@@ -87,14 +70,13 @@
         "resolved": "2.2.0",
         "contentHash": "4gjTrSUd/F6/pdsMsf+a1f1tcaUQnr59JvZQulmF8VwQbCh34ifie3iqriYyKyLmTQDUEJ/ZTPeZEDh0pxpTLA==",
         "dependencies": {
-          "NETStandard.Library": "1.6.0",
           "xunit.extensibility.core": "[2.2.0]"
         }
       },
       "bankingcore.domain": {
         "type": "Project",
         "dependencies": {
-          "FSharp.Core": "[10.1.201, )"
+          "FSharp.Core": "[11.0.101, )"
         }
       }
     }

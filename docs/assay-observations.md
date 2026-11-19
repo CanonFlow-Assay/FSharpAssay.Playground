@@ -1,5 +1,9 @@
 # First complete packaged FsAssay run
 
+These observations describe the initial .NET 10 import at `5c8bb45`. The current
+qualification runs the .NET 11 solution and records a separate standalone receipt
+for files outside its project graph. See [qualification](qualification.md).
+
 The clean-candidate run loaded all **32 projects** and analyzed all **52 eligible
 F# files**. No project was skipped or unsupported; no compiler-incomplete file,
 missing evidence or tool failure remained. Registered tests executed **31 + 14 + 22**

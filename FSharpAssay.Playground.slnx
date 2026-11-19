@@ -28,6 +28,9 @@
   <Project Path="samples/40-wallet/Wallet.Adapter/Wallet.Adapter.fsproj" />
   <Project Path="samples/40-wallet/Wallet.Api/Wallet.Api.fsproj" />
   <Project Path="samples/40-wallet/Wallet.Domain/Wallet.Domain.fsproj" />
+  <Project Path="samples/50-decision-assist/DecisionAssist.Cli/DecisionAssist.Cli.fsproj" />
+  <Project Path="samples/50-decision-assist/DecisionAssist.Domain/DecisionAssist.Domain.fsproj" />
+  <Project Path="tests/DecisionAssist.Tests/DecisionAssist.Tests.fsproj" />
   <Project Path="tests/Patterns.Tests/Patterns.Tests.fsproj" />
   <Project Path="tests/Playground.Acceptance/Playground.Acceptance.fsproj" />
   <Project Path="tests/Wallet.Tests/Wallet.Tests.fsproj" />

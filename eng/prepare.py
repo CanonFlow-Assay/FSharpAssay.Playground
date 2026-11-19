@@ -3,6 +3,7 @@ import argparse
 import os
 from pathlib import Path
 import shutil
+import tempfile
 from common import ROOT, capture, digest, run, write
 import json
 
@@ -13,8 +14,8 @@ def main():
     args = parser.parse_args()
     engine = args.engine.resolve()
     pin = json.loads((ROOT / "workflows/assay.json").read_text())
-    if capture(["dotnet", "--version"]).stdout.strip() != pin["sdk"]:
-        raise RuntimeError("Use the exact SDK from global.json")
+    if capture(["dotnet", "--version"], engine).stdout.strip() != pin["sdk"]:
+        raise RuntimeError("Use the exact producer SDK from workflows/assay.json")
     if capture(["git", "rev-parse", "HEAD"], engine).stdout.strip() != pin["revision"]:
         raise RuntimeError("Engine checkout does not match workflows/assay.json")
     if capture(["git", "status", "--porcelain"], engine).stdout.strip():
@@ -24,9 +25,12 @@ def main():
     logs = ROOT / "artifacts/package"
     logs.mkdir(parents=True, exist_ok=True)
     run(["dotnet", "restore", "FsAssay.Stable.slnx", "--locked-mode", "-m:1"], logs / "restore.log", engine)
-    run(["dotnet", "pack", "FsAssay.Runner/FsAssay.Runner.fsproj", "-c", "Release", "--no-restore",
-         "-m:1", "--output", str(packages)], logs / "pack.log", engine)
     archive = packages / f"{pin['package']}.{pin['version']}.nupkg"
+    # Packing into a fresh directory prevents MSBuild from reusing a same-version archive.
+    with tempfile.TemporaryDirectory(dir=packages, prefix="producer-") as staging:
+        run(["dotnet", "pack", "FsAssay.Runner/FsAssay.Runner.fsproj", "-c", "Release", "--no-restore",
+             "-m:1", "--output", staging], logs / "pack.log", engine)
+        (Path(staging) / archive.name).replace(archive)
     # A source revision may reuse the same package version: never reuse the global cache.
     cache = packages / ("cache-" + digest(archive)[:16])
     config = packages / "NuGet.Config"

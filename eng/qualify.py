@@ -6,6 +6,46 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 from common import ROOT, capture, digest, postgres, run, schema_replay, write
 
+SOLUTION = "FSharpAssay.Playground.slnx"
+
+
+def account_for_sources(output, tool, env):
+    project_receipt = output / "verify/receipt.json"
+    scanned = json.loads(project_receipt.read_text())
+    project_files = {item["path"] for item in scanned["sources"] if item["disposition"] == "analyzed"}
+    tracked = capture(["git", "ls-files", "-z"])
+    if tracked.returncode:
+        raise RuntimeError("Could not inventory tracked sources")
+    files = sorted(path for path in tracked.stdout.split("\0") if Path(path).suffix in (".fs", ".fsi", ".fsx"))
+    loose = [path for path in files if path not in project_files]
+    standalone_receipt = output / "standalone.json"
+    dispositions = {}
+    if loose:
+        if any("," in path for path in loose):
+            raise RuntimeError("The pinned --files parser cannot address a comma in a path")
+        attempt = run([tool, "check", "--files", ",".join(loose), "--out-json", str(standalone_receipt), SOLUTION],
+                      output / "standalone.log", env=env, expected=(2, 3))
+        raw = json.loads(standalone_receipt.read_text())
+        if {item["path"] for item in raw["sources"]} != set(loose):
+            raise RuntimeError("Standalone receipt does not account for every requested path")
+        dispositions = {item["path"]: item["disposition"] for item in raw["sources"]}
+        standalone = {"outcome": raw["outcome"], "sha256": digest(standalone_receipt), "exitCode": attempt["exitCode"]}
+    else:
+        standalone = None
+    rows = []
+    for path in files:
+        if path in project_files:
+            lane, disposition = "project", "analyzed"
+        elif Path(path).suffix != ".fs" and dispositions[path] == "compiler-incomplete":
+            lane, disposition = "standalone", "unsupported-extension"
+        else:
+            lane, disposition = "standalone", dispositions[path]
+        rows.append({"path": path, "sha256": digest(ROOT / path), "lane": lane, "disposition": disposition,
+                     "receiptDisposition": dispositions.get(path, "analyzed")})
+    write(output / "source-coverage.json", {"candidate": scanned["candidate"], "projectReceiptSha256": digest(project_receipt),
+                                           "standalone": standalone, "files": rows})
+    print(f"Source inventory: {len(files)} tracked F# paths, {sum(p['disposition'] == 'analyzed' for p in rows)} analyzed", flush=True)
+
 
 def trx(path):
     root = ET.parse(path).getroot()
@@ -33,9 +73,12 @@ def main():
         raise RuntimeError("Exact global.json SDK required")
     projects = sorted(str(p.relative_to(ROOT)) for folder in ("samples", "tests")
                       for p in (ROOT / folder).rglob("*.fsproj") if not {"bin", "obj", "node_modules"}.intersection(p.parts))
-    declared = sorted(p.attrib["Path"] for p in ET.parse(ROOT / "FSharpAssay.Playground.slnx").getroot())
+    declared = sorted(p.attrib["Path"] for p in ET.parse(ROOT / SOLUTION).getroot())
     if declared != projects:
         raise RuntimeError("Solution must inventory every active F# project")
+    if any([element.text for element in ET.parse(ROOT / project).iter()
+            if element.tag in {"TargetFramework", "TargetFrameworks"}] != ["net11.0"] for project in projects):
+        raise RuntimeError("Every active project must explicitly target net11.0")
     run(["dotnet", "restore", "FSharpAssay.Playground.slnx", "--locked-mode", "-m:1"], output / "restore.log", env=env)
     run(["dotnet", "build", "FSharpAssay.Playground.slnx", "--no-restore", "-c", "Release", "-m:1"], output / "build.log", env=env)
     run(["dotnet", "list", "FSharpAssay.Playground.slnx", "package", "--vulnerable", "--include-transitive", "--format", "json"], output / "dependency-audit.json", env=env)
@@ -64,7 +107,7 @@ def main():
     with postgres() as (container, fixture_env):
         fixture_env.update({key: env[key] for key in ("DOTNET_CLI_TELEMETRY_OPTOUT", "TESTINGPLATFORM_TELEMETRY_OPTOUT", "MSBUILDDISABLENODEREUSE")})
         schema_replay(container, output)
-        for name in ("Playground.Acceptance", "Patterns.Tests", "Wallet.Tests"):
+        for name in ("Playground.Acceptance", "Patterns.Tests", "Wallet.Tests", "DecisionAssist.Tests"):
             project = f"tests/{name}/{name}.fsproj"
             results = output / name
             run(["dotnet", "run", "--project", project, "--no-build", "-c", "Release", "--", "--report-trx",
@@ -80,6 +123,9 @@ def main():
             if digest(ROOT / ".packages/FsAssay.Cli.1.0.4.nupkg") != producer["archiveSha256"]:
                 raise RuntimeError("Producer archive changed")
             tool = str(ROOT / ".tools/fsassay")
+            assay_env = dict(fixture_env)
+            assay_env.pop("DOTNET_ROLL_FORWARD", None)
+            write(output / "assay-environment.json", {"DOTNET_ROLL_FORWARD": None})
             for mode, expected_exit in (("verify", 0), ("check", 2)):
                 destination = output / mode
                 destination.mkdir()
@@ -90,9 +136,13 @@ def main():
                            "--material-html", str(destination / "report.html")]
                 if mode == "verify":
                     command += ["--test-artifacts", str(destination / "tests")]
-                command += ["FSharpAssay.Playground.slnx"]
-                run(command, output / (mode + ".log"), env=fixture_env, expected=(expected_exit,), timeout=900)
+                command += [SOLUTION]
+                run(command, output / (mode + ".log"), env=assay_env, expected=(expected_exit,), timeout=900)
+                receipt = json.loads((destination / "receipt.json").read_text())
+                if not receipt["toolchain"]["runtimeVersion"].startswith("11."):
+                    raise RuntimeError("FsAssay must use the .NET 11 runtime for this workspace")
             write(output / "producer.json", producer)
+            account_for_sources(output, tool, assay_env)
     summary = {"candidate": capture(["git", "rev-parse", "HEAD"]).stdout.strip(),
                "sdk": expected, "projects": len(projects), "tests": counts,
                "authorityRequested": not args.development,

@@ -7,7 +7,8 @@ It consumes an independently packaged, pinned
 [FsAssay](https://github.com/CanonFlow-Assay/FSharpAssay) tool.
 
 The import retains **560 authored sample files and all 24 original F# projects**.
-Eight added projects bring the checked solution to **32 projects**. The previous
+Eleven added projects bring the checked solution to **35 projects**, all targeting
+`net11.0`. The previous
 Foundation playground's 32 files remain under `historical/legacy-playground`.
 Dependency and build payloads were omitted; both upstream checkouts were preserved.
 
@@ -18,7 +19,8 @@ Dependency and build payloads were omitted; both upstream checkouts were preserv
 | `samples/10-enterprise` | Airline, banking, hospital, trading, gatepass, clubs, messaging, commerce and wallet domains; SQL constraints, transitions, generated validators and adversarial inputs. |
 | `samples/20-functional-patterns` | Smart constructors, DUs, validation accumulation, function capabilities, audit data, units of measure, recursive data, event folds, active patterns and bounded task orchestration. |
 | `samples/40-wallet` | Typed debit validation, parameterized PostgreSQL transactions, concurrent balance protection, replay intent checks, transactional outbox and bounded loopback HTTP. |
-| `tests` | 31 enterprise regressions, 14 pattern cases and 22 real wallet cases. All 14 imported .NET suites remain runnable. |
+| `samples/50-decision-assist` | Typed offline advice driven by the six executed wallet mutations. |
+| `tests` | 31 enterprise regressions, 14 pattern cases, 22 real wallet cases and 17 decision-routing cases. All 14 imported .NET suites remain runnable. |
 | `eng` | Reproducible import checks, isolated package consumption, disposable database qualification, Jest execution and six isolated mutation probes. |
 | `docs/evidence` | Actual red TRX, initial build/schema failures, the FsAssay alias ToolFailure, and disclosed mutation outcomes. |
 
@@ -29,7 +31,9 @@ commands, evidence scope and CI behavior.
 
 ## Run
 
-Use exact .NET SDK **10.0.301**, Python 3.12+, Node 26/npm and a running Docker daemon.
+Use exact .NET SDK **11.0.100** for this playground and its packaged FsAssay
+producer. The remaining prerequisites are Python 3.12+, Node 26/npm and a
+running Docker daemon.
 The engine checkout must match `workflows/assay.json`.
 
 ```sh
@@ -62,6 +66,10 @@ executes the registered acceptance suites and emits a four-state receipt, native
 assessment, SARIF, Markdown and HTML. `check` leaves required tests unexecuted and
 must remain Inconclusive. Experimental findings are observations, not a purity,
 security or business certificate.
+
+Qualification also records a separate standalone scan and a disposition for each
+tracked F# file in `source-coverage.json`. Loose files that require missing project
+context and scripts the producer cannot analyze appear as gaps in that inventory.
 
 Exact original revisions and file hashes are in [the import manifest](docs/import-manifest.json).
 Reviewed adaptations are in [the migration ledger](docs/migration-changes.json).
